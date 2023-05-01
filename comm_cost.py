@@ -10,8 +10,8 @@
 #   partition1: partition of the first layer, containing [nb, nf1, nf2, nh]
 #   partition2: partition of the second layer, containing [nb, nh1, nh2, nf]
 
-B = 100
-F = 100
+B = 2**15
+F = 1024
 H = 4 * F
 
 def calc_comm_cost_layer(dims, partition, verbose=False):
