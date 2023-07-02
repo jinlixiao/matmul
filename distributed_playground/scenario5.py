@@ -1,4 +1,5 @@
 import os
+import time
 import torch
 import torch.distributed as dist
 import torch.multiprocessing as mp
@@ -21,6 +22,7 @@ Note:
    more information: https://amsword.medium.com/gradient-backpropagation-with-torch-distributed-all-gather-9f3941a381f8
 """
 
+
 def process(rank, world_size, data, labels, weights):
     dist.init_process_group("gloo", rank=rank, world_size=world_size)
     group = dist.new_group([0, 1])
@@ -37,18 +39,19 @@ def process(rank, world_size, data, labels, weights):
     output_local = model(data.to(rank))
     output_list = [torch.empty_like(output_local) for _ in range(dist.get_world_size())]
     dist.all_gather(output_list, output_local, group=group)
-    output_list[rank] = output_local # override since all_gather doesn't preserve gradient
+    output_list[rank] = output_local  # override since all_gather doesn't preserve gradient
     outputs = torch.cat(output_list, 1)
 
     # backward pass
     labels = labels.to(rank)
-    loss = world_size * loss_fn(outputs, labels) # after override, we need to scale the gradient back
+    loss = world_size * loss_fn(outputs, labels)  # after override, we need to scale the gradient back
     loss.backward()
 
     # update parameters
     optimizer.step()
     torch.set_printoptions(sci_mode=False, precision=4)
-    print(f"rank{rank}: model now has weights\n{model.weight.data}\n")
+    # print(f"rank{rank}: model now has weights\n{model.weight.data}\n")
+
 
 if __name__ == "__main__":
     os.environ["MASTER_ADDR"] = "localhost"
@@ -58,4 +61,6 @@ if __name__ == "__main__":
     data = torch.randn(10, 10)
     labels = torch.randn(10, 10)
     weights = torch.randn(10, 10)
+    start_time = time.time()
     mp.spawn(process, args=(world_size, data, labels, weights), nprocs=world_size, join=True)
+    print(f"total time: {time.time() - start_time:.3f} seconds")

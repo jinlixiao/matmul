@@ -1,4 +1,5 @@
 import os
+import time
 import torch
 import torch.distributed as dist
 import torch.multiprocessing as mp
@@ -18,6 +19,7 @@ The output data is 10 x 10, partitioned among two GPUs, so 5 x 10 each.
 Note: this is the same as scenario 4, but without using the DDP wrapper and its
       associated optimization.
 """
+
 
 def process(rank, world_size, data, labels, weights):
     dist.init_process_group("gloo", rank=rank, world_size=world_size)
@@ -44,7 +46,8 @@ def process(rank, world_size, data, labels, weights):
     # update parameters
     optimizer.step()
     torch.set_printoptions(sci_mode=False, precision=4)
-    print(f"rank{rank}: model now has weights\n{model.weight.data}\n")
+    # print(f"rank{rank}: model now has weights\n{model.weight.data}\n")
+
 
 if __name__ == "__main__":
     os.environ["MASTER_ADDR"] = "localhost"
@@ -54,4 +57,6 @@ if __name__ == "__main__":
     data = torch.randn(10, 10)
     labels = torch.randn(10, 10)
     weights = torch.randn(10, 10)
+    start_time = time.time()
     mp.spawn(process, args=(world_size, data, labels, weights), nprocs=world_size, join=True)
+    print(f"total time: {time.time() - start_time:.3f} seconds")
