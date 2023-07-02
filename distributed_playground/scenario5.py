@@ -21,15 +21,17 @@ Note:
    more information: https://amsword.medium.com/gradient-backpropagation-with-torch-distributed-all-gather-9f3941a381f8
 """
 
-def process(rank, world_size, data, labels):
+def process(rank, world_size, data, labels, weights):
     dist.init_process_group("gloo", rank=rank, world_size=world_size)
     group = dist.new_group([0, 1])
 
     # model setup
-    model = nn.Linear(10, 5).to(rank)
+    data_size = data.size(0) // world_size
+    model = nn.Linear(10, 5, bias=False)
+    model.weight.data = weights[:, rank * data_size : (rank + 1) * data_size].t()
+    model = model.to(rank)
     loss_fn = nn.MSELoss()
     optimizer = optim.SGD(model.parameters(), lr=0.001)
-    print(f"rank{rank}: model has weights\n{model.weight.data}\n")
 
     # forward pass
     output_local = model(data.to(rank))
@@ -37,7 +39,6 @@ def process(rank, world_size, data, labels):
     dist.all_gather(output_list, output_local, group=group)
     output_list[rank] = output_local # override since all_gather doesn't preserve gradient
     outputs = torch.cat(output_list, 1)
-    print(f"rank{rank}: output is {outputs}\n")
 
     # backward pass
     labels = labels.to(rank)
@@ -46,12 +47,15 @@ def process(rank, world_size, data, labels):
 
     # update parameters
     optimizer.step()
+    torch.set_printoptions(sci_mode=False, precision=4)
     print(f"rank{rank}: model now has weights\n{model.weight.data}\n")
 
 if __name__ == "__main__":
     os.environ["MASTER_ADDR"] = "localhost"
     os.environ["MASTER_PORT"] = "29500"
     world_size = 2
+    torch.manual_seed(0)
     data = torch.randn(10, 10)
     labels = torch.randn(10, 10)
-    mp.spawn(process, args=(world_size, data, labels), nprocs=world_size, join=True)
+    weights = torch.randn(10, 10)
+    mp.spawn(process, args=(world_size, data, labels, weights), nprocs=world_size, join=True)
