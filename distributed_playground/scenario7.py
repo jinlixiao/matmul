@@ -49,10 +49,10 @@ class LinearSplitInBatchFunction(torch.autograd.Function):
         return grad_input, grad_weight, None
 
 
-class LinearModel(nn.Module):
+class LinearDistributedModel(nn.Module):
 
     def __init__(self, weights, group):
-        super(LinearModel, self).__init__()
+        super(LinearDistributedModel, self).__init__()
         self.weights = nn.Parameter(torch.empty_like(weights))
         self.weights.data = weights.t().to(dist.get_rank())
         self.group = group
@@ -67,7 +67,7 @@ def process(rank, world_size, data, labels, weights):
     torch.set_printoptions(sci_mode=False, precision=4)
 
     # model setup
-    model = LinearModel(weights, group)
+    model = LinearDistributedModel(weights, group)
     model = model.to(rank)
     loss_fn = nn.MSELoss()
     optimizer = optim.SGD(model.parameters(), lr=0.001)

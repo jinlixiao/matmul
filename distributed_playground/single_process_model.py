@@ -26,7 +26,6 @@ class LinearModel(nn.Module):
 
 
 def process(data, labels, weights):
-    torch.set_printoptions(sci_mode=False, precision=4)
 
     # model setup
     model = LinearModel(weights)
@@ -43,6 +42,8 @@ def process(data, labels, weights):
 
     # update parameters
     optimizer.step()
+
+    torch.set_printoptions(sci_mode=False, precision=4)
     print(f"model now has weights\n{model.weights.data}\n")
 
 
