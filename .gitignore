@@ -1,3 +1,5 @@
 .vscode
 
 playground/data
+
+**/__pycache__/
