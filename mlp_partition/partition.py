@@ -1,3 +1,4 @@
+import torch
 from random import Random
 
 """ Dataset partitioning helper """
@@ -33,3 +34,11 @@ class DataPartitioner(object):
 
     def use(self, partition):
         return Partition(self.data, self.partitions[partition])
+
+def partition_tensor(tensor, group_size, group_index, dim=0):
+    """
+    Return the group_index-th portion of partitioning tensor along dim
+    """
+    assert tensor.size(dim) % group_size == 0, "tensor size must be divisible by group size"
+    assert group_index < group_size, "group index must be smaller than group size"
+    return torch.chunk(tensor, group_size, dim=dim)[group_index]

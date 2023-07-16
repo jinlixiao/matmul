@@ -5,6 +5,7 @@ import torch.distributed as dist
 import torch.multiprocessing as mp
 
 from layers import DataParallelLinearModel
+from partition import partition_tensor
 
 """
 One Layer MLP Data Parallel
@@ -14,18 +15,16 @@ def process(rank, world_size, data, labels, weights):
     dist.init_process_group("gloo", rank=rank, world_size=world_size)
     group = dist.new_group([0, 1])
 
-    # todo: rewrite data spliting in a more general way
-    data_size = data.size(0) // dist.get_world_size()
-    data = data[rank * data_size : (rank + 1) * data_size].to(rank)
-    labels = labels[rank * data_size : (rank + 1) * data_size]
-
+    # setup model
+    data = partition_tensor(data, world_size, rank, dim=0)
+    labels = partition_tensor(labels, world_size, rank, dim=0)
     model = DataParallelLinearModel(weights, group)
     model = model.to(rank)
     loss_fn = torch.nn.MSELoss()
     optimizer = torch.optim.SGD(model.parameters(), lr=0.001)
 
     # forward pass
-    outputs = model(data)
+    outputs = model(data.to(rank))
     
     # backward pass
     labels = labels.to(rank)

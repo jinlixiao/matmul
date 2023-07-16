@@ -34,7 +34,8 @@ class DataParallelLinearModel(nn.Module):
         self.group = group
 
     def forward(self, input):
-        return self.linear(input)
+        output = self.linear(input)
+        return output
 
     def _all_reduce_hook(self, grad_weight):
         dist.all_reduce(grad_weight, op=dist.ReduceOp.SUM, group=self.group)

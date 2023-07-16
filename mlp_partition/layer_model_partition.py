@@ -7,6 +7,7 @@ import torch.nn as nn
 import torch.optim as optim
 
 from layers import ModelParallelLinearModel
+from partition import partition_tensor
 
 """
 One Layer MLP Model Parallel
@@ -16,11 +17,8 @@ def process(rank, world_size, data, labels, weights):
     dist.init_process_group("gloo", rank=rank, world_size=world_size)
     group = dist.new_group([0, 1])
 
-    # todo: rewrite data spliting in a more general way
-    data_size = data.size(1) // dist.get_world_size()
-    weights = weights[:, rank * data_size : (rank + 1) * data_size]
-
     # model setup
+    weights = partition_tensor(weights, world_size, rank, dim=1)
     model = ModelParallelLinearModel(weights, group)
     model = model.to(rank)
     loss_fn = nn.MSELoss()
