@@ -4,12 +4,18 @@ import torch
 import torch.distributed as dist
 import torch.multiprocessing as mp
 
-from layers import DataParallelLinearModel
+from layers import DataParallelLinearLayer
 from partition import partition_tensor
 
 """
 One Layer MLP Data Parallel
 """
+
+SEED = 0
+INPUT_SIZE = 4
+BATCH_SIZE = 4
+OUTPUT_SIZE = 4
+HIDDEN_SIZE = 4
 
 def process(rank, world_size, data, labels, weights):
     dist.init_process_group("gloo", rank=rank, world_size=world_size)
@@ -18,7 +24,7 @@ def process(rank, world_size, data, labels, weights):
     # setup model
     data = partition_tensor(data, world_size, rank, dim=0)
     labels = partition_tensor(labels, world_size, rank, dim=0)
-    model = DataParallelLinearModel(weights, group)
+    model = DataParallelLinearLayer(weights, group)
     model = model.to(rank)
     loss_fn = torch.nn.MSELoss()
     optimizer = torch.optim.SGD(model.parameters(), lr=0.001)
@@ -43,10 +49,10 @@ if __name__ == "__main__":
 
     # model configurations
     world_size = 2
-    torch.manual_seed(0)
-    data = torch.randn(4, 4)
-    labels = torch.randn(4, 4)
-    weights = torch.randn(4, 4)
+    torch.manual_seed(SEED)
+    data = torch.randn(BATCH_SIZE, INPUT_SIZE)
+    labels = torch.randn(BATCH_SIZE, OUTPUT_SIZE)
+    weights = torch.randn(INPUT_SIZE, OUTPUT_SIZE)
     
     # run
     start_time = time.time()

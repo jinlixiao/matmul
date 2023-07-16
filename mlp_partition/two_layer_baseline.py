@@ -3,22 +3,16 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-from layers import LinearLayer
+from layers import LinearModel
 
 """
-Single Process Model: one CPU
+Single Process 2-layer MLP
 """
-
-SEED = 0
-INPUT_SIZE = 4
-BATCH_SIZE = 4
-OUTPUT_SIZE = 4
-HIDDEN_SIZE = 4
 
 def process(data, labels, weights):
 
     # model setup
-    model = LinearLayer(weights)
+    model = LinearModel(weights)
     loss_fn = nn.MSELoss()
     optimizer = optim.SGD(model.parameters(), lr=0.001)
     optimizer.zero_grad()
@@ -38,10 +32,10 @@ def process(data, labels, weights):
 
 
 if __name__ == "__main__":
-    torch.manual_seed(SEED)
-    data = torch.randn(BATCH_SIZE, INPUT_SIZE)
-    labels = torch.randn(BATCH_SIZE, OUTPUT_SIZE)
-    weights = torch.randn(INPUT_SIZE, OUTPUT_SIZE)
+    torch.manual_seed(0)
+    data = torch.randn(4, 4)
+    labels = torch.randn(4, 4)
+    weights = torch.randn(4, 4)
     start_time = time.time()
     process(data, labels, weights)
     print(f"total time: {time.time() - start_time:.3f} seconds")

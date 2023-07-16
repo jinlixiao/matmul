@@ -7,10 +7,10 @@ import torch.nn as nn
 # No Parallel
 ###############
 
-class LinearModel(nn.Module):
+class LinearLayer(nn.Module):
 
     def __init__(self, weights):
-        super(LinearModel, self).__init__()
+        super(LinearLayer, self).__init__()
         self.linear = nn.Linear(*weights.t().shape, bias=False)
         self.linear.weight.data = weights.t().clone()
 
@@ -21,13 +21,13 @@ class LinearModel(nn.Module):
 # Data Parallel
 ###############
 
-class DataParallelLinearModel(nn.Module):
+class DataParallelLinearLayer(nn.Module):
     """
     Data parallel linear model
     """
 
     def __init__(self, weights, group):
-        super(DataParallelLinearModel, self).__init__()
+        super(DataParallelLinearLayer, self).__init__()
         self.linear = nn.Linear(*weights.t().shape, bias=False)
         self.linear.weight.data = weights.t().clone()
         self.linear.weight.register_hook(self._all_reduce_hook)
@@ -45,10 +45,10 @@ class DataParallelLinearModel(nn.Module):
 # Model Parallel
 ################
 
-class ModelParallelLinearModel(nn.Module):
+class ModelParallelLinearLayer(nn.Module):
 
     def __init__(self, weights, group):
-        super(ModelParallelLinearModel, self).__init__()
+        super(ModelParallelLinearLayer, self).__init__()
         self.linear = nn.Linear(*weights.t().shape, bias=False)
         self.linear.weight.data = weights.t().clone()
         self.group = group

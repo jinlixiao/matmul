@@ -8,12 +8,12 @@ import os
 import torch
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from layer_baseline import LinearModel
-from layer_data_partition import DataParallelLinearModel
-from layer_model_partition import ModelParallelLinearModel
+from layer_baseline import LinearLayer
+from layer_data_partition import DataParallelLinearLayer
+from layer_model_partition import ModelParallelLinearLayer
 from partition import partition_tensor
 
-class TestModels(unittest.TestCase):
+class TestLayers(unittest.TestCase):
 
     def test_data_parallel_model(self):
         self._test_model(_run_data_parallel_model)
@@ -21,13 +21,13 @@ class TestModels(unittest.TestCase):
     def test_model_parallel_model(self):
         self._test_model(_run_model_parallel_model)
 
-    def _test_model(self, proc_func, world_size=2, input_size=4, output_size=4, hidden_size=4, batch_size=4):
+    def _test_model(self, proc_func, world_size=2, input_size=10, output_size=10, batch_size=10):
         os.environ["MASTER_ADDR"] = "localhost"
-        os.environ["MASTER_PORT"] = "29500"
+        os.environ["MASTER_PORT"] = "64758"
         torch.manual_seed(0)
-        data = torch.randn(4, 4)
-        labels = torch.randn(4, 4)
-        weights = torch.randn(4, 4)
+        data = torch.randn(batch_size, input_size)
+        labels = torch.randn(batch_size, output_size)
+        weights = torch.randn(input_size, output_size)
 
         # expected result
         weights_clone = weights.detach().clone()
@@ -41,7 +41,7 @@ def _run_linear_model_one_pass(data, label, weights):
     """
     Run one pass of linear model, return the updated weights
     """
-    model = LinearModel(weights)
+    model = LinearLayer(weights)
     loss_fn = nn.MSELoss()
     optimizer = optim.SGD(model.parameters(), lr=0.001)
     optimizer.zero_grad()
@@ -62,7 +62,7 @@ def _run_data_parallel_model(rank, world_size, data, label, weights, expected_we
     # setup model
     data = partition_tensor(data, world_size, rank, dim=0)
     label = partition_tensor(label, world_size, rank, dim=0)
-    model = DataParallelLinearModel(weights, group)
+    model = DataParallelLinearLayer(weights, group)
     model = model.to(rank)
     loss_fn = torch.nn.MSELoss()
     optimizer = torch.optim.SGD(model.parameters(), lr=0.001)
@@ -90,7 +90,7 @@ def _run_model_parallel_model(rank, world_size, data, label, weights, expected_w
 
     # model setup
     weights = partition_tensor(weights, world_size, rank, dim=1)
-    model = ModelParallelLinearModel(weights, group)
+    model = ModelParallelLinearLayer(weights, group)
     model = model.to(rank)
     loss_fn = nn.MSELoss()
     optimizer = optim.SGD(model.parameters(), lr=0.001)
