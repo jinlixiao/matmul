@@ -8,9 +8,7 @@ import os
 import torch
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from layer_no_partition import LinearLayer
-from layer_data_partition import DataParallelLinearLayer
-from layer_model_partition import ModelParallelLinearLayer
+from layers import LinearLayer, DataParallelLinearLayer, ModelParallelLinearLayer
 from partition import partition_tensor
 
 class TestLayers(unittest.TestCase):
