@@ -6,7 +6,7 @@ import torch.multiprocessing as mp
 import torch.nn as nn
 import torch.optim as optim
 
-from layers import ModelParallelLinearLayer
+from models import OneLayerModelPartitionModel
 from partition import partition_tensor
 
 """
@@ -17,15 +17,13 @@ SEED = 0
 INPUT_SIZE = 4
 BATCH_SIZE = 4
 OUTPUT_SIZE = 4
-HIDDEN_SIZE = 4
 
 def process(rank, world_size, data, labels, weights):
     dist.init_process_group("gloo", rank=rank, world_size=world_size)
     group = dist.new_group([0, 1])
 
     # model setup
-    weights = partition_tensor(weights, world_size, rank, dim=1)
-    model = ModelParallelLinearLayer(weights, group)
+    model = OneLayerModelPartitionModel(weights, group)
     model = model.to(rank)
     loss_fn = nn.MSELoss()
     optimizer = optim.SGD(model.parameters(), lr=0.001)
@@ -42,7 +40,7 @@ def process(rank, world_size, data, labels, weights):
     # update parameters
     optimizer.step()
     torch.set_printoptions(sci_mode=False, precision=4)
-    print(f"rank{rank}: model now has weights\n{model.linear.weight.data}\n")
+    print(f"rank{rank}: model now has weights\n{model.layer.linear.weight.data}\n")
 
 
 if __name__ == "__main__":

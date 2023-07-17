@@ -7,8 +7,8 @@ import torch.nn as nn
 # No Parallel
 ###############
 
-class LinearLayer(nn.Module):
 
+class LinearLayer(nn.Module):
     def __init__(self, weights):
         super(LinearLayer, self).__init__()
         self.linear = nn.Linear(*weights.t().shape, bias=False)
@@ -17,9 +17,11 @@ class LinearLayer(nn.Module):
     def forward(self, input):
         return self.linear(input)
 
+
 ###############
 # Data Parallel
 ###############
+
 
 class DataParallelLinearLayer(nn.Module):
     """
@@ -41,12 +43,13 @@ class DataParallelLinearLayer(nn.Module):
         dist.all_reduce(grad_weight, op=dist.ReduceOp.SUM, group=self.group)
         return grad_weight / dist.get_world_size()
 
+
 ################
 # Model Parallel
 ################
 
-class ModelParallelLinearLayer(nn.Module):
 
+class ModelParallelLinearLayer(nn.Module):
     def __init__(self, weights, group):
         super(ModelParallelLinearLayer, self).__init__()
         self.linear = nn.Linear(*weights.t().shape, bias=False)
@@ -55,8 +58,10 @@ class ModelParallelLinearLayer(nn.Module):
 
     def forward(self, input):
         output_local = self.linear(input)
-        output_list = [torch.empty_like(output_local) for _ in range(dist.get_world_size())]
+        output_list = [
+            torch.empty_like(output_local) for _ in range(dist.get_world_size())
+        ]
         dist.all_gather(output_list, output_local, group=self.group)
-        output_list[dist.get_rank()] = output_local
+        output_list[dist.get_rank(self.group)] = output_local
         output = torch.cat(output_list, dim=1).contiguous()
         return output

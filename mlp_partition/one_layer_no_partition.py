@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-from layers import LinearLayer
+from models import OneLayerNoPartitionModel
 
 """
 Single Process Model: one CPU
@@ -13,12 +13,11 @@ SEED = 0
 INPUT_SIZE = 4
 BATCH_SIZE = 4
 OUTPUT_SIZE = 4
-HIDDEN_SIZE = 4
 
 def process(data, labels, weights):
 
     # model setup
-    model = LinearLayer(weights)
+    model = OneLayerNoPartitionModel(weights)
     loss_fn = nn.MSELoss()
     optimizer = optim.SGD(model.parameters(), lr=0.001)
     optimizer.zero_grad()
@@ -34,7 +33,7 @@ def process(data, labels, weights):
     optimizer.step()
 
     torch.set_printoptions(sci_mode=False, precision=4)
-    print(f"model now has weights\n{model.linear.weight.data}\n")
+    print(f"model now has weights\n{model.layer.linear.weight.data}\n")
 
 
 if __name__ == "__main__":

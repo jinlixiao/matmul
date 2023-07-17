@@ -18,13 +18,13 @@ HIDDEN_SIZE = 4
 class Model(nn.Module):
     def __init__(self, weights1, weights2):
         super(Model, self).__init__()
-        self.linear1 = LinearLayer(weights1)
-        self.linear2 = LinearLayer(weights2)
+        self.layer1 = LinearLayer(weights1)
+        self.layer2 = LinearLayer(weights2)
 
     def forward(self, x):
-        x = self.linear1(x)
+        x = self.layer1(x)
         x = torch.relu(x)
-        x = self.linear2(x)
+        x = self.layer2(x)
         return x
 
 def process(data, labels, weights1, weights2):
@@ -46,8 +46,8 @@ def process(data, labels, weights1, weights2):
     optimizer.step()
 
     torch.set_printoptions(sci_mode=False, precision=4)
-    print(f"model now has weights1\n{model.linear1.linear.weight.data}\n")
-    print(f"model now has weights2\n{model.linear2.linear.weight.data}\n")
+    print(f"model now has weights1\n{model.layer1.linear.weight.data}\n")
+    print(f"model now has weights2\n{model.layer2.linear.weight.data}\n")
 
 
 if __name__ == "__main__":
