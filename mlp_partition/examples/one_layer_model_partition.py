@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 import torch
 import torch.distributed as dist
@@ -6,6 +7,7 @@ import torch.multiprocessing as mp
 import torch.nn as nn
 import torch.optim as optim
 
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from models import OneLayerModelPartitionModel
 from partition import partition_tensor
 
