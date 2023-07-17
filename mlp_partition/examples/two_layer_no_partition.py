@@ -6,7 +6,7 @@ import torch.nn as nn
 import torch.optim as optim
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from layers import LinearLayer
+from models import TwoLayerNoPartitionModel
 
 """
 Single Process 2-layer MLP
@@ -18,22 +18,10 @@ BATCH_SIZE = 4
 OUTPUT_SIZE = 4
 HIDDEN_SIZE = 4
 
-class Model(nn.Module):
-    def __init__(self, weights1, weights2):
-        super(Model, self).__init__()
-        self.layer1 = LinearLayer(weights1)
-        self.layer2 = LinearLayer(weights2)
-
-    def forward(self, x):
-        x = self.layer1(x)
-        x = torch.relu(x)
-        x = self.layer2(x)
-        return x
-
 def process(data, labels, weights1, weights2):
 
     # model setup
-    model = Model(weights1, weights2)
+    model = TwoLayerNoPartitionModel(weights1, weights2)
     loss_fn = nn.MSELoss()
     optimizer = optim.SGD(model.parameters(), lr=0.001)
     optimizer.zero_grad()

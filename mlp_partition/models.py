@@ -45,6 +45,19 @@ class OneLayerModelPartitionModel(nn.Module):
 ###############
 
 
+class TwoLayerNoPartitionModel(nn.Module):
+    def __init__(self, weights1, weights2):
+        super(TwoLayerNoPartitionModel, self).__init__()
+        self.layer1 = layers.LinearLayer(weights1)
+        self.layer2 = layers.LinearLayer(weights2)
+
+    def forward(self, x):
+        x = self.layer1(x)
+        x = torch.relu(x)
+        x = self.layer2(x)
+        return x
+
+
 class TwoLayerDataPartitionModel(nn.Module):
     def __init__(self, weights1, weights2, group):
         super(TwoLayerDataPartitionModel, self).__init__()
