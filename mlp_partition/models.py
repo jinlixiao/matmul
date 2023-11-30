@@ -69,3 +69,19 @@ class TwoLayerDataPartitionModel(nn.Module):
         output = torch.relu(output)
         output = self.layer2(output)
         return output
+
+
+class TwoLayerModelDataPartitionModel(nn.Module):
+    def __init__(self, weights1, weights2, group):
+        super(TwoLayerModelDataPartitionModel, self).__init__()
+        weights1 = partition_tensor(
+            weights1, dist.get_world_size(), dist.get_rank(group), dim=1
+        )
+        self.layer1 = layers.ModelParallelLinearLayer(weights1, group)
+        self.layer2 = layers.DataParallelLinearLayer(weights2, group)
+
+    def forward(self, input):
+        output = self.layer1(input)
+        output = torch.relu(output)
+        output = self.layer2(output)
+        return output
