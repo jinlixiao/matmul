@@ -14,11 +14,14 @@ B, L, H = 24, 1024, 2560   # Batch size, sequence length, hidden size
 
 parser = argparse.ArgumentParser(description='Tiled Matrix Multiplication')
 parser.add_argument('--num_tiles', type=int, default=1, help='Number of tiles to split the input into')
+parser.add_argument('--num_iterations', type=int, default=10, help='Number of iterations to run')
 args = parser.parse_args()
 
 NUM_TILES = args.num_tiles
+NUM_ITER = args.num_iterations
 
 _MODEL_PARALLEL_GROUP = None
+_GLOBAL_START_TIME = None
 
 def parallel_init(rank, world_size):
     if not RUN_WITH_CPU:
@@ -64,20 +67,28 @@ class TwoLayerMLP(nn.Module):
         # Launch non-blocking all-reduce operations
         for i, input_part in enumerate(input_splits):
             output_part = self.single_forward(input_part)
+            all_reduce_start_time = get_timestamp()  # Relative start time
             handle = dist.all_reduce(output_part, op=dist.ReduceOp.SUM, group=_MODEL_PARALLEL_GROUP, async_op=True)
+            print_rank_0(f"Rank {dist.get_rank()}: all_reduce {i} start timestamp: {all_reduce_start_time:.04f}")
             handles.append((handle, output_part, i))
 
         # Wait for all operations to complete and gather results
         for handle, output_part, i in handles:
-            handle.wait()  # Wait for the all-reduce to complete
+            handle.wait()
+            all_reduce_end_time = get_timestamp()  # Relative time after wait
+            print_rank_0(f"Rank {dist.get_rank()}: all_reduce {i} end timestamp: {all_reduce_end_time:.04f}")
             output_[i * output_part.shape[0]:(i + 1) * output_part.shape[0], :] = output_part
 
         return output_
 
     def single_forward(self, x):
+        start_time = get_timestamp()  # Relative start time
         x = torch.matmul(x, self.fc1_weight.t()) + self.fc1_bias
         x = F.relu(x)
         x = torch.matmul(x, self.fc2_weight.t()) + self.fc2_bias
+        end_time = get_timestamp()  # Relative end time
+        print_rank_0(f"Rank {dist.get_rank()}: single_forward start timestamp: {start_time:.04f}")
+        print_rank_0(f"Rank {dist.get_rank()}: single_forward end timestamp: {end_time:.04f}")
         return x
 
 def run(rank, world_size):
@@ -92,11 +103,33 @@ def run(rank, world_size):
         mlp = TwoLayerMLP(H, 4 * H // MODEL_PARALLEL_SIZE).cuda(rank)
         input_ = torch.randn(B, L, H).cuda(rank)
 
-    start_tiled_time = time.time()
-    output_ = mlp(input_, num_tiles=NUM_TILES)
-    end_tiled_time = time.time()
-    print(f"Rank {rank}: Time for tiled matrix multiplication: {end_tiled_time - start_tiled_time:.04f} seconds")
+    # Run the model
+    running_time = []
+    with torch.no_grad():
+        for i in range(NUM_ITER):
+            print_rank_0(f"********** Iteration {i} **********")
+            start_tiled_time = get_timestamp(clear=True)
+            input_ = mlp(input_, num_tiles=NUM_TILES)
+            end_tiled_time = get_timestamp()
+            running_time.append(end_tiled_time - start_tiled_time)
+            print_rank_0(f"Rank {rank}: Time for tiled matrix multiplication: {running_time[-1]:.04f} seconds")
 
+    # Print statistics
+    print_rank_0(f"\n********** Statistics **********")
+    print_rank_0(f"Average time for tiled matrix multiplication: {sum(running_time) / len(running_time):.04f} seconds")
+    print_rank_0(f"Median time for tiled matrix multiplication: {sorted(running_time)[len(running_time) // 2]:.04f} seconds")
+
+def print_rank_0(*args, **kwargs):
+    if dist.get_rank() == 0:
+        print(*args, **kwargs)
+
+def get_timestamp(clear=False):
+    global _GLOBAL_START_TIME
+    if clear or _GLOBAL_START_TIME is None:
+        _GLOBAL_START_TIME = time.time()
+        return 0
+    else:
+        return time.time() - _GLOBAL_START_TIME
 
 if __name__ == "__main__":
     print(f"Running on {MODEL_PARALLEL_SIZE} GPUs per node, tile size {NUM_TILES}")
