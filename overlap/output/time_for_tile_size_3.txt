@@ -1,0 +1,3405 @@
+Running on 2 GPUs per node, tile size 9
+********** Iteration 0 **********
+Rank 0: single_forward start timestamp: 0.0008
+Rank 0: single_forward end timestamp: 1.5644
+Rank 0: all_reduce 0 start timestamp: 1.5645
+Rank 0: single_forward start timestamp: 2.4088
+Rank 0: single_forward end timestamp: 2.4095
+Rank 0: all_reduce 1 start timestamp: 2.4095
+Rank 0: single_forward start timestamp: 2.4096
+Rank 0: single_forward end timestamp: 2.4100
+Rank 0: all_reduce 2 start timestamp: 2.4100
+Rank 0: single_forward start timestamp: 2.4101
+Rank 0: single_forward end timestamp: 2.4102
+Rank 0: all_reduce 3 start timestamp: 2.4102
+Rank 0: single_forward start timestamp: 2.4102
+Rank 0: single_forward end timestamp: 2.4106
+Rank 0: all_reduce 4 start timestamp: 2.4106
+Rank 0: single_forward start timestamp: 2.4107
+Rank 0: single_forward end timestamp: 2.4108
+Rank 0: all_reduce 5 start timestamp: 2.4108
+Rank 0: single_forward start timestamp: 2.4108
+Rank 0: single_forward end timestamp: 2.4112
+Rank 0: all_reduce 6 start timestamp: 2.4112
+Rank 0: single_forward start timestamp: 2.4112
+Rank 0: single_forward end timestamp: 2.4114
+Rank 0: all_reduce 7 start timestamp: 2.4114
+Rank 0: all_reduce 0 end timestamp: 2.4115
+Rank 0: all_reduce 1 end timestamp: 2.4118
+Rank 0: all_reduce 2 end timestamp: 2.4118
+Rank 0: all_reduce 3 end timestamp: 2.4119
+Rank 0: all_reduce 4 end timestamp: 2.4119
+Rank 0: all_reduce 5 end timestamp: 2.4119
+Rank 0: all_reduce 6 end timestamp: 2.4119
+Rank 0: all_reduce 7 end timestamp: 2.4120
+Rank 0: Time for tiled matrix multiplication: 2.4121 seconds
+********** Iteration 1 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0005
+Rank 0: all_reduce 0 start timestamp: 0.0005
+Rank 0: single_forward start timestamp: 0.0006
+Rank 0: single_forward end timestamp: 0.0007
+Rank 0: all_reduce 1 start timestamp: 0.0007
+Rank 0: single_forward start timestamp: 0.0007
+Rank 0: single_forward end timestamp: 0.0011
+Rank 0: all_reduce 2 start timestamp: 0.0011
+Rank 0: single_forward start timestamp: 0.0012
+Rank 0: single_forward end timestamp: 0.0013
+Rank 0: all_reduce 3 start timestamp: 0.0013
+Rank 0: single_forward start timestamp: 0.0013
+Rank 0: single_forward end timestamp: 0.0017
+Rank 0: all_reduce 4 start timestamp: 0.0017
+Rank 0: single_forward start timestamp: 0.0018
+Rank 0: single_forward end timestamp: 0.0019
+Rank 0: all_reduce 5 start timestamp: 0.0019
+Rank 0: single_forward start timestamp: 0.0019
+Rank 0: single_forward end timestamp: 0.0023
+Rank 0: all_reduce 6 start timestamp: 0.0023
+Rank 0: single_forward start timestamp: 0.0023
+Rank 0: single_forward end timestamp: 0.0025
+Rank 0: all_reduce 7 start timestamp: 0.0025
+Rank 0: all_reduce 0 end timestamp: 0.0025
+Rank 0: all_reduce 1 end timestamp: 0.0026
+Rank 0: all_reduce 2 end timestamp: 0.0026
+Rank 0: all_reduce 3 end timestamp: 0.0026
+Rank 0: all_reduce 4 end timestamp: 0.0026
+Rank 0: all_reduce 5 end timestamp: 0.0027
+Rank 0: all_reduce 6 end timestamp: 0.0027
+Rank 0: all_reduce 7 end timestamp: 0.0027
+Rank 0: Time for tiled matrix multiplication: 0.0028 seconds
+********** Iteration 2 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0004
+Rank 0: all_reduce 0 start timestamp: 0.0004
+Rank 0: single_forward start timestamp: 0.0005
+Rank 0: single_forward end timestamp: 0.0006
+Rank 0: all_reduce 1 start timestamp: 0.0006
+Rank 0: single_forward start timestamp: 0.0006
+Rank 0: single_forward end timestamp: 0.0010
+Rank 0: all_reduce 2 start timestamp: 0.0010
+Rank 0: single_forward start timestamp: 0.0010
+Rank 0: single_forward end timestamp: 0.0012
+Rank 0: all_reduce 3 start timestamp: 0.0012
+Rank 0: single_forward start timestamp: 0.0012
+Rank 0: single_forward end timestamp: 0.0016
+Rank 0: all_reduce 4 start timestamp: 0.0016
+Rank 0: single_forward start timestamp: 0.0016
+Rank 0: single_forward end timestamp: 0.0017
+Rank 0: all_reduce 5 start timestamp: 0.0017
+Rank 0: single_forward start timestamp: 0.0018
+Rank 0: single_forward end timestamp: 0.0021
+Rank 0: all_reduce 6 start timestamp: 0.0021
+Rank 0: single_forward start timestamp: 0.0022
+Rank 0: single_forward end timestamp: 0.0023
+Rank 0: all_reduce 7 start timestamp: 0.0023
+Rank 0: all_reduce 0 end timestamp: 0.0024
+Rank 0: all_reduce 1 end timestamp: 0.0024
+Rank 0: all_reduce 2 end timestamp: 0.0024
+Rank 0: all_reduce 3 end timestamp: 0.0025
+Rank 0: all_reduce 4 end timestamp: 0.0025
+Rank 0: all_reduce 5 end timestamp: 0.0025
+Rank 0: all_reduce 6 end timestamp: 0.0025
+Rank 0: all_reduce 7 end timestamp: 0.0026
+Rank 0: Time for tiled matrix multiplication: 0.0026 seconds
+********** Iteration 3 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0004
+Rank 0: all_reduce 0 start timestamp: 0.0004
+Rank 0: single_forward start timestamp: 0.0004
+Rank 0: single_forward end timestamp: 0.0006
+Rank 0: all_reduce 1 start timestamp: 0.0006
+Rank 0: single_forward start timestamp: 0.0006
+Rank 0: single_forward end timestamp: 0.0009
+Rank 0: all_reduce 2 start timestamp: 0.0010
+Rank 0: single_forward start timestamp: 0.0010
+Rank 0: single_forward end timestamp: 0.0011
+Rank 0: all_reduce 3 start timestamp: 0.0011
+Rank 0: single_forward start timestamp: 0.0012
+Rank 0: single_forward end timestamp: 0.0015
+Rank 0: all_reduce 4 start timestamp: 0.0015
+Rank 0: single_forward start timestamp: 0.0016
+Rank 0: single_forward end timestamp: 0.0018
+Rank 0: all_reduce 5 start timestamp: 0.0018
+Rank 0: single_forward start timestamp: 0.0019
+Rank 0: single_forward end timestamp: 0.0022
+Rank 0: all_reduce 6 start timestamp: 0.0023
+Rank 0: single_forward start timestamp: 0.0023
+Rank 0: single_forward end timestamp: 0.0024
+Rank 0: all_reduce 7 start timestamp: 0.0024
+Rank 0: all_reduce 0 end timestamp: 0.0025
+Rank 0: all_reduce 1 end timestamp: 0.0025
+Rank 0: all_reduce 2 end timestamp: 0.0026
+Rank 0: all_reduce 3 end timestamp: 0.0026
+Rank 0: all_reduce 4 end timestamp: 0.0026
+Rank 0: all_reduce 5 end timestamp: 0.0026
+Rank 0: all_reduce 6 end timestamp: 0.0027
+Rank 0: all_reduce 7 end timestamp: 0.0027
+Rank 0: Time for tiled matrix multiplication: 0.0027 seconds
+********** Iteration 4 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0004
+Rank 0: all_reduce 0 start timestamp: 0.0004
+Rank 0: single_forward start timestamp: 0.0005
+Rank 0: single_forward end timestamp: 0.0006
+Rank 0: all_reduce 1 start timestamp: 0.0006
+Rank 0: single_forward start timestamp: 0.0006
+Rank 0: single_forward end timestamp: 0.0010
+Rank 0: all_reduce 2 start timestamp: 0.0010
+Rank 0: single_forward start timestamp: 0.0010
+Rank 0: single_forward end timestamp: 0.0011
+Rank 0: all_reduce 3 start timestamp: 0.0011
+Rank 0: single_forward start timestamp: 0.0012
+Rank 0: single_forward end timestamp: 0.0015
+Rank 0: all_reduce 4 start timestamp: 0.0015
+Rank 0: single_forward start timestamp: 0.0016
+Rank 0: single_forward end timestamp: 0.0017
+Rank 0: all_reduce 5 start timestamp: 0.0017
+Rank 0: single_forward start timestamp: 0.0018
+Rank 0: single_forward end timestamp: 0.0021
+Rank 0: all_reduce 6 start timestamp: 0.0021
+Rank 0: single_forward start timestamp: 0.0022
+Rank 0: single_forward end timestamp: 0.0023
+Rank 0: all_reduce 7 start timestamp: 0.0023
+Rank 0: all_reduce 0 end timestamp: 0.0023
+Rank 0: all_reduce 1 end timestamp: 0.0024
+Rank 0: all_reduce 2 end timestamp: 0.0024
+Rank 0: all_reduce 3 end timestamp: 0.0024
+Rank 0: all_reduce 4 end timestamp: 0.0024
+Rank 0: all_reduce 5 end timestamp: 0.0025
+Rank 0: all_reduce 6 end timestamp: 0.0025
+Rank 0: all_reduce 7 end timestamp: 0.0025
+Rank 0: Time for tiled matrix multiplication: 0.0025 seconds
+********** Iteration 5 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0004
+Rank 0: all_reduce 0 start timestamp: 0.0004
+Rank 0: single_forward start timestamp: 0.0004
+Rank 0: single_forward end timestamp: 0.0005
+Rank 0: all_reduce 1 start timestamp: 0.0006
+Rank 0: single_forward start timestamp: 0.0006
+Rank 0: single_forward end timestamp: 0.0009
+Rank 0: all_reduce 2 start timestamp: 0.0009
+Rank 0: single_forward start timestamp: 0.0010
+Rank 0: single_forward end timestamp: 0.0011
+Rank 0: all_reduce 3 start timestamp: 0.0011
+Rank 0: single_forward start timestamp: 0.0012
+Rank 0: single_forward end timestamp: 0.0015
+Rank 0: all_reduce 4 start timestamp: 0.0015
+Rank 0: single_forward start timestamp: 0.0016
+Rank 0: single_forward end timestamp: 0.0017
+Rank 0: all_reduce 5 start timestamp: 0.0017
+Rank 0: single_forward start timestamp: 0.0017
+Rank 0: single_forward end timestamp: 0.0021
+Rank 0: all_reduce 6 start timestamp: 0.0021
+Rank 0: single_forward start timestamp: 0.0021
+Rank 0: single_forward end timestamp: 0.0022
+Rank 0: all_reduce 7 start timestamp: 0.0022
+Rank 0: all_reduce 0 end timestamp: 0.0023
+Rank 0: all_reduce 1 end timestamp: 0.0023
+Rank 0: all_reduce 2 end timestamp: 0.0024
+Rank 0: all_reduce 3 end timestamp: 0.0024
+Rank 0: all_reduce 4 end timestamp: 0.0024
+Rank 0: all_reduce 5 end timestamp: 0.0024
+Rank 0: all_reduce 6 end timestamp: 0.0024
+Rank 0: all_reduce 7 end timestamp: 0.0025
+Rank 0: Time for tiled matrix multiplication: 0.0025 seconds
+********** Iteration 6 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0004
+Rank 0: all_reduce 0 start timestamp: 0.0004
+Rank 0: single_forward start timestamp: 0.0005
+Rank 0: single_forward end timestamp: 0.0006
+Rank 0: all_reduce 1 start timestamp: 0.0006
+Rank 0: single_forward start timestamp: 0.0006
+Rank 0: single_forward end timestamp: 0.0010
+Rank 0: all_reduce 2 start timestamp: 0.0010
+Rank 0: single_forward start timestamp: 0.0011
+Rank 0: single_forward end timestamp: 0.0012
+Rank 0: all_reduce 3 start timestamp: 0.0012
+Rank 0: single_forward start timestamp: 0.0012
+Rank 0: single_forward end timestamp: 0.0016
+Rank 0: all_reduce 4 start timestamp: 0.0016
+Rank 0: single_forward start timestamp: 0.0017
+Rank 0: single_forward end timestamp: 0.0018
+Rank 0: all_reduce 5 start timestamp: 0.0018
+Rank 0: single_forward start timestamp: 0.0019
+Rank 0: single_forward end timestamp: 0.0022
+Rank 0: all_reduce 6 start timestamp: 0.0022
+Rank 0: single_forward start timestamp: 0.0023
+Rank 0: single_forward end timestamp: 0.0024
+Rank 0: all_reduce 7 start timestamp: 0.0024
+Rank 0: all_reduce 0 end timestamp: 0.0025
+Rank 0: all_reduce 1 end timestamp: 0.0025
+Rank 0: all_reduce 2 end timestamp: 0.0025
+Rank 0: all_reduce 3 end timestamp: 0.0026
+Rank 0: all_reduce 4 end timestamp: 0.0026
+Rank 0: all_reduce 5 end timestamp: 0.0026
+Rank 0: all_reduce 6 end timestamp: 0.0026
+Rank 0: all_reduce 7 end timestamp: 0.0026
+Rank 0: Time for tiled matrix multiplication: 0.0027 seconds
+********** Iteration 7 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0004
+Rank 0: all_reduce 0 start timestamp: 0.0004
+Rank 0: single_forward start timestamp: 0.0005
+Rank 0: single_forward end timestamp: 0.0006
+Rank 0: all_reduce 1 start timestamp: 0.0006
+Rank 0: single_forward start timestamp: 0.0007
+Rank 0: single_forward end timestamp: 0.0010
+Rank 0: all_reduce 2 start timestamp: 0.0011
+Rank 0: single_forward start timestamp: 0.0011
+Rank 0: single_forward end timestamp: 0.0012
+Rank 0: all_reduce 3 start timestamp: 0.0013
+Rank 0: single_forward start timestamp: 0.0013
+Rank 0: single_forward end timestamp: 0.0017
+Rank 0: all_reduce 4 start timestamp: 0.0017
+Rank 0: single_forward start timestamp: 0.0018
+Rank 0: single_forward end timestamp: 0.0019
+Rank 0: all_reduce 5 start timestamp: 0.0019
+Rank 0: single_forward start timestamp: 0.0019
+Rank 0: single_forward end timestamp: 0.0023
+Rank 0: all_reduce 6 start timestamp: 0.0023
+Rank 0: single_forward start timestamp: 0.0024
+Rank 0: single_forward end timestamp: 0.0025
+Rank 0: all_reduce 7 start timestamp: 0.0025
+Rank 0: all_reduce 0 end timestamp: 0.0026
+Rank 0: all_reduce 1 end timestamp: 0.0027
+Rank 0: all_reduce 2 end timestamp: 0.0027
+Rank 0: all_reduce 3 end timestamp: 0.0027
+Rank 0: all_reduce 4 end timestamp: 0.0027
+Rank 0: all_reduce 5 end timestamp: 0.0027
+Rank 0: all_reduce 6 end timestamp: 0.0028
+Rank 0: all_reduce 7 end timestamp: 0.0028
+Rank 0: Time for tiled matrix multiplication: 0.0028 seconds
+********** Iteration 8 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0004
+Rank 0: all_reduce 0 start timestamp: 0.0004
+Rank 0: single_forward start timestamp: 0.0005
+Rank 0: single_forward end timestamp: 0.0006
+Rank 0: all_reduce 1 start timestamp: 0.0006
+Rank 0: single_forward start timestamp: 0.0007
+Rank 0: single_forward end timestamp: 0.0012
+Rank 0: all_reduce 2 start timestamp: 0.0012
+Rank 0: single_forward start timestamp: 0.0013
+Rank 0: single_forward end timestamp: 0.0014
+Rank 0: all_reduce 3 start timestamp: 0.0014
+Rank 0: single_forward start timestamp: 0.0014
+Rank 0: single_forward end timestamp: 0.0018
+Rank 0: all_reduce 4 start timestamp: 0.0018
+Rank 0: single_forward start timestamp: 0.0019
+Rank 0: single_forward end timestamp: 0.0020
+Rank 0: all_reduce 5 start timestamp: 0.0020
+Rank 0: single_forward start timestamp: 0.0021
+Rank 0: single_forward end timestamp: 0.0024
+Rank 0: all_reduce 6 start timestamp: 0.0024
+Rank 0: single_forward start timestamp: 0.0025
+Rank 0: single_forward end timestamp: 0.0026
+Rank 0: all_reduce 7 start timestamp: 0.0026
+Rank 0: all_reduce 0 end timestamp: 0.0026
+Rank 0: all_reduce 1 end timestamp: 0.0027
+Rank 0: all_reduce 2 end timestamp: 0.0027
+Rank 0: all_reduce 3 end timestamp: 0.0027
+Rank 0: all_reduce 4 end timestamp: 0.0027
+Rank 0: all_reduce 5 end timestamp: 0.0028
+Rank 0: all_reduce 6 end timestamp: 0.0028
+Rank 0: all_reduce 7 end timestamp: 0.0028
+Rank 0: Time for tiled matrix multiplication: 0.0029 seconds
+********** Iteration 9 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0004
+Rank 0: all_reduce 0 start timestamp: 0.0004
+Rank 0: single_forward start timestamp: 0.0005
+Rank 0: single_forward end timestamp: 0.0006
+Rank 0: all_reduce 1 start timestamp: 0.0006
+Rank 0: single_forward start timestamp: 0.0007
+Rank 0: single_forward end timestamp: 0.0011
+Rank 0: all_reduce 2 start timestamp: 0.0011
+Rank 0: single_forward start timestamp: 0.0012
+Rank 0: single_forward end timestamp: 0.0013
+Rank 0: all_reduce 3 start timestamp: 0.0013
+Rank 0: single_forward start timestamp: 0.0013
+Rank 0: single_forward end timestamp: 0.0018
+Rank 0: all_reduce 4 start timestamp: 0.0018
+Rank 0: single_forward start timestamp: 0.0019
+Rank 0: single_forward end timestamp: 0.0020
+Rank 0: all_reduce 5 start timestamp: 0.0020
+Rank 0: single_forward start timestamp: 0.0020
+Rank 0: single_forward end timestamp: 0.0024
+Rank 0: all_reduce 6 start timestamp: 0.0024
+Rank 0: single_forward start timestamp: 0.0024
+Rank 0: single_forward end timestamp: 0.0025
+Rank 0: all_reduce 7 start timestamp: 0.0026
+Rank 0: all_reduce 0 end timestamp: 0.0026
+Rank 0: all_reduce 1 end timestamp: 0.0027
+Rank 0: all_reduce 2 end timestamp: 0.0027
+Rank 0: all_reduce 3 end timestamp: 0.0027
+Rank 0: all_reduce 4 end timestamp: 0.0027
+Rank 0: all_reduce 5 end timestamp: 0.0028
+Rank 0: all_reduce 6 end timestamp: 0.0028
+Rank 0: all_reduce 7 end timestamp: 0.0028
+Rank 0: Time for tiled matrix multiplication: 0.0028 seconds
+********** Iteration 10 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0004
+Rank 0: all_reduce 0 start timestamp: 0.0004
+Rank 0: single_forward start timestamp: 0.0005
+Rank 0: single_forward end timestamp: 0.0006
+Rank 0: all_reduce 1 start timestamp: 0.0006
+Rank 0: single_forward start timestamp: 0.0007
+Rank 0: single_forward end timestamp: 0.0011
+Rank 0: all_reduce 2 start timestamp: 0.0011
+Rank 0: single_forward start timestamp: 0.0012
+Rank 0: single_forward end timestamp: 0.0013
+Rank 0: all_reduce 3 start timestamp: 0.0013
+Rank 0: single_forward start timestamp: 0.0013
+Rank 0: single_forward end timestamp: 0.0017
+Rank 0: all_reduce 4 start timestamp: 0.0018
+Rank 0: single_forward start timestamp: 0.0018
+Rank 0: single_forward end timestamp: 0.0019
+Rank 0: all_reduce 5 start timestamp: 0.0020
+Rank 0: single_forward start timestamp: 0.0020
+Rank 0: single_forward end timestamp: 0.0023
+Rank 0: all_reduce 6 start timestamp: 0.0023
+Rank 0: single_forward start timestamp: 0.0024
+Rank 0: single_forward end timestamp: 0.0025
+Rank 0: all_reduce 7 start timestamp: 0.0025
+Rank 0: all_reduce 0 end timestamp: 0.0026
+Rank 0: all_reduce 1 end timestamp: 0.0026
+Rank 0: all_reduce 2 end timestamp: 0.0027
+Rank 0: all_reduce 3 end timestamp: 0.0027
+Rank 0: all_reduce 4 end timestamp: 0.0027
+Rank 0: all_reduce 5 end timestamp: 0.0027
+Rank 0: all_reduce 6 end timestamp: 0.0027
+Rank 0: all_reduce 7 end timestamp: 0.0028
+Rank 0: Time for tiled matrix multiplication: 0.0028 seconds
+********** Iteration 11 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0004
+Rank 0: all_reduce 0 start timestamp: 0.0005
+Rank 0: single_forward start timestamp: 0.0005
+Rank 0: single_forward end timestamp: 0.0006
+Rank 0: all_reduce 1 start timestamp: 0.0006
+Rank 0: single_forward start timestamp: 0.0007
+Rank 0: single_forward end timestamp: 0.0011
+Rank 0: all_reduce 2 start timestamp: 0.0011
+Rank 0: single_forward start timestamp: 0.0012
+Rank 0: single_forward end timestamp: 0.0013
+Rank 0: all_reduce 3 start timestamp: 0.0013
+Rank 0: single_forward start timestamp: 0.0013
+Rank 0: single_forward end timestamp: 0.0018
+Rank 0: all_reduce 4 start timestamp: 0.0018
+Rank 0: single_forward start timestamp: 0.0018
+Rank 0: single_forward end timestamp: 0.0020
+Rank 0: all_reduce 5 start timestamp: 0.0020
+Rank 0: single_forward start timestamp: 0.0020
+Rank 0: single_forward end timestamp: 0.0023
+Rank 0: all_reduce 6 start timestamp: 0.0024
+Rank 0: single_forward start timestamp: 0.0024
+Rank 0: single_forward end timestamp: 0.0025
+Rank 0: all_reduce 7 start timestamp: 0.0026
+Rank 0: all_reduce 0 end timestamp: 0.0026
+Rank 0: all_reduce 1 end timestamp: 0.0026
+Rank 0: all_reduce 2 end timestamp: 0.0027
+Rank 0: all_reduce 3 end timestamp: 0.0027
+Rank 0: all_reduce 4 end timestamp: 0.0027
+Rank 0: all_reduce 5 end timestamp: 0.0027
+Rank 0: all_reduce 6 end timestamp: 0.0028
+Rank 0: all_reduce 7 end timestamp: 0.0028
+Rank 0: Time for tiled matrix multiplication: 0.0028 seconds
+********** Iteration 12 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0005
+Rank 0: all_reduce 0 start timestamp: 0.0005
+Rank 0: single_forward start timestamp: 0.0005
+Rank 0: single_forward end timestamp: 0.0006
+Rank 0: all_reduce 1 start timestamp: 0.0007
+Rank 0: single_forward start timestamp: 0.0007
+Rank 0: single_forward end timestamp: 0.0011
+Rank 0: all_reduce 2 start timestamp: 0.0012
+Rank 0: single_forward start timestamp: 0.0012
+Rank 0: single_forward end timestamp: 0.0013
+Rank 0: all_reduce 3 start timestamp: 0.0013
+Rank 0: single_forward start timestamp: 0.0014
+Rank 0: single_forward end timestamp: 0.0018
+Rank 0: all_reduce 4 start timestamp: 0.0018
+Rank 0: single_forward start timestamp: 0.0019
+Rank 0: single_forward end timestamp: 0.0020
+Rank 0: all_reduce 5 start timestamp: 0.0020
+Rank 0: single_forward start timestamp: 0.0021
+Rank 0: single_forward end timestamp: 0.0024
+Rank 0: all_reduce 6 start timestamp: 0.0025
+Rank 0: single_forward start timestamp: 0.0025
+Rank 0: single_forward end timestamp: 0.0026
+Rank 0: all_reduce 7 start timestamp: 0.0026
+Rank 0: all_reduce 0 end timestamp: 0.0027
+Rank 0: all_reduce 1 end timestamp: 0.0027
+Rank 0: all_reduce 2 end timestamp: 0.0028
+Rank 0: all_reduce 3 end timestamp: 0.0028
+Rank 0: all_reduce 4 end timestamp: 0.0029
+Rank 0: all_reduce 5 end timestamp: 0.0029
+Rank 0: all_reduce 6 end timestamp: 0.0030
+Rank 0: all_reduce 7 end timestamp: 0.0030
+Rank 0: Time for tiled matrix multiplication: 0.0030 seconds
+********** Iteration 13 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0004
+Rank 0: all_reduce 0 start timestamp: 0.0005
+Rank 0: single_forward start timestamp: 0.0005
+Rank 0: single_forward end timestamp: 0.0006
+Rank 0: all_reduce 1 start timestamp: 0.0007
+Rank 0: single_forward start timestamp: 0.0007
+Rank 0: single_forward end timestamp: 0.0012
+Rank 0: all_reduce 2 start timestamp: 0.0012
+Rank 0: single_forward start timestamp: 0.0013
+Rank 0: single_forward end timestamp: 0.0014
+Rank 0: all_reduce 3 start timestamp: 0.0014
+Rank 0: single_forward start timestamp: 0.0015
+Rank 0: single_forward end timestamp: 0.0027
+Rank 0: all_reduce 4 start timestamp: 0.0027
+Rank 0: single_forward start timestamp: 0.0028
+Rank 0: single_forward end timestamp: 0.0029
+Rank 0: all_reduce 5 start timestamp: 0.0029
+Rank 0: single_forward start timestamp: 0.0030
+Rank 0: single_forward end timestamp: 0.0034
+Rank 0: all_reduce 6 start timestamp: 0.0034
+Rank 0: single_forward start timestamp: 0.0034
+Rank 0: single_forward end timestamp: 0.0036
+Rank 0: all_reduce 7 start timestamp: 0.0036
+Rank 0: all_reduce 0 end timestamp: 0.0036
+Rank 0: all_reduce 1 end timestamp: 0.0037
+Rank 0: all_reduce 2 end timestamp: 0.0037
+Rank 0: all_reduce 3 end timestamp: 0.0037
+Rank 0: all_reduce 4 end timestamp: 0.0037
+Rank 0: all_reduce 5 end timestamp: 0.0037
+Rank 0: all_reduce 6 end timestamp: 0.0038
+Rank 0: all_reduce 7 end timestamp: 0.0038
+Rank 0: Time for tiled matrix multiplication: 0.0038 seconds
+********** Iteration 14 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0005
+Rank 0: all_reduce 0 start timestamp: 0.0005
+Rank 0: single_forward start timestamp: 0.0006
+Rank 0: single_forward end timestamp: 0.0007
+Rank 0: all_reduce 1 start timestamp: 0.0007
+Rank 0: single_forward start timestamp: 0.0008
+Rank 0: single_forward end timestamp: 0.0012
+Rank 0: all_reduce 2 start timestamp: 0.0012
+Rank 0: single_forward start timestamp: 0.0013
+Rank 0: single_forward end timestamp: 0.0014
+Rank 0: all_reduce 3 start timestamp: 0.0014
+Rank 0: single_forward start timestamp: 0.0015
+Rank 0: single_forward end timestamp: 0.0019
+Rank 0: all_reduce 4 start timestamp: 0.0019
+Rank 0: single_forward start timestamp: 0.0020
+Rank 0: single_forward end timestamp: 0.0021
+Rank 0: all_reduce 5 start timestamp: 0.0021
+Rank 0: single_forward start timestamp: 0.0021
+Rank 0: single_forward end timestamp: 0.0025
+Rank 0: all_reduce 6 start timestamp: 0.0025
+Rank 0: single_forward start timestamp: 0.0025
+Rank 0: single_forward end timestamp: 0.0027
+Rank 0: all_reduce 7 start timestamp: 0.0027
+Rank 0: all_reduce 0 end timestamp: 0.0027
+Rank 0: all_reduce 1 end timestamp: 0.0028
+Rank 0: all_reduce 2 end timestamp: 0.0028
+Rank 0: all_reduce 3 end timestamp: 0.0028
+Rank 0: all_reduce 4 end timestamp: 0.0028
+Rank 0: all_reduce 5 end timestamp: 0.0029
+Rank 0: all_reduce 6 end timestamp: 0.0029
+Rank 0: all_reduce 7 end timestamp: 0.0029
+Rank 0: Time for tiled matrix multiplication: 0.0029 seconds
+********** Iteration 15 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0004
+Rank 0: all_reduce 0 start timestamp: 0.0005
+Rank 0: single_forward start timestamp: 0.0005
+Rank 0: single_forward end timestamp: 0.0006
+Rank 0: all_reduce 1 start timestamp: 0.0006
+Rank 0: single_forward start timestamp: 0.0007
+Rank 0: single_forward end timestamp: 0.0011
+Rank 0: all_reduce 2 start timestamp: 0.0011
+Rank 0: single_forward start timestamp: 0.0012
+Rank 0: single_forward end timestamp: 0.0013
+Rank 0: all_reduce 3 start timestamp: 0.0013
+Rank 0: single_forward start timestamp: 0.0014
+Rank 0: single_forward end timestamp: 0.0018
+Rank 0: all_reduce 4 start timestamp: 0.0018
+Rank 0: single_forward start timestamp: 0.0019
+Rank 0: single_forward end timestamp: 0.0020
+Rank 0: all_reduce 5 start timestamp: 0.0020
+Rank 0: single_forward start timestamp: 0.0020
+Rank 0: single_forward end timestamp: 0.0024
+Rank 0: all_reduce 6 start timestamp: 0.0024
+Rank 0: single_forward start timestamp: 0.0025
+Rank 0: single_forward end timestamp: 0.0026
+Rank 0: all_reduce 7 start timestamp: 0.0026
+Rank 0: all_reduce 0 end timestamp: 0.0026
+Rank 0: all_reduce 1 end timestamp: 0.0027
+Rank 0: all_reduce 2 end timestamp: 0.0027
+Rank 0: all_reduce 3 end timestamp: 0.0027
+Rank 0: all_reduce 4 end timestamp: 0.0027
+Rank 0: all_reduce 5 end timestamp: 0.0028
+Rank 0: all_reduce 6 end timestamp: 0.0028
+Rank 0: all_reduce 7 end timestamp: 0.0028
+Rank 0: Time for tiled matrix multiplication: 0.0029 seconds
+********** Iteration 16 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0004
+Rank 0: all_reduce 0 start timestamp: 0.0005
+Rank 0: single_forward start timestamp: 0.0005
+Rank 0: single_forward end timestamp: 0.0006
+Rank 0: all_reduce 1 start timestamp: 0.0006
+Rank 0: single_forward start timestamp: 0.0007
+Rank 0: single_forward end timestamp: 0.0011
+Rank 0: all_reduce 2 start timestamp: 0.0011
+Rank 0: single_forward start timestamp: 0.0012
+Rank 0: single_forward end timestamp: 0.0013
+Rank 0: all_reduce 3 start timestamp: 0.0013
+Rank 0: single_forward start timestamp: 0.0013
+Rank 0: single_forward end timestamp: 0.0018
+Rank 0: all_reduce 4 start timestamp: 0.0018
+Rank 0: single_forward start timestamp: 0.0019
+Rank 0: single_forward end timestamp: 0.0020
+Rank 0: all_reduce 5 start timestamp: 0.0020
+Rank 0: single_forward start timestamp: 0.0020
+Rank 0: single_forward end timestamp: 0.0024
+Rank 0: all_reduce 6 start timestamp: 0.0024
+Rank 0: single_forward start timestamp: 0.0024
+Rank 0: single_forward end timestamp: 0.0026
+Rank 0: all_reduce 7 start timestamp: 0.0026
+Rank 0: all_reduce 0 end timestamp: 0.0026
+Rank 0: all_reduce 1 end timestamp: 0.0027
+Rank 0: all_reduce 2 end timestamp: 0.0027
+Rank 0: all_reduce 3 end timestamp: 0.0027
+Rank 0: all_reduce 4 end timestamp: 0.0027
+Rank 0: all_reduce 5 end timestamp: 0.0027
+Rank 0: all_reduce 6 end timestamp: 0.0028
+Rank 0: all_reduce 7 end timestamp: 0.0028
+Rank 0: Time for tiled matrix multiplication: 0.0028 seconds
+********** Iteration 17 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0005
+Rank 0: all_reduce 0 start timestamp: 0.0005
+Rank 0: single_forward start timestamp: 0.0006
+Rank 0: single_forward end timestamp: 0.0007
+Rank 0: all_reduce 1 start timestamp: 0.0007
+Rank 0: single_forward start timestamp: 0.0007
+Rank 0: single_forward end timestamp: 0.0012
+Rank 0: all_reduce 2 start timestamp: 0.0012
+Rank 0: single_forward start timestamp: 0.0014
+Rank 0: single_forward end timestamp: 0.0015
+Rank 0: all_reduce 3 start timestamp: 0.0015
+Rank 0: single_forward start timestamp: 0.0016
+Rank 0: single_forward end timestamp: 0.0020
+Rank 0: all_reduce 4 start timestamp: 0.0020
+Rank 0: single_forward start timestamp: 0.0020
+Rank 0: single_forward end timestamp: 0.0022
+Rank 0: all_reduce 5 start timestamp: 0.0022
+Rank 0: single_forward start timestamp: 0.0022
+Rank 0: single_forward end timestamp: 0.0028
+Rank 0: all_reduce 6 start timestamp: 0.0028
+Rank 0: single_forward start timestamp: 0.0029
+Rank 0: single_forward end timestamp: 0.0030
+Rank 0: all_reduce 7 start timestamp: 0.0030
+Rank 0: all_reduce 0 end timestamp: 0.0030
+Rank 0: all_reduce 1 end timestamp: 0.0031
+Rank 0: all_reduce 2 end timestamp: 0.0031
+Rank 0: all_reduce 3 end timestamp: 0.0031
+Rank 0: all_reduce 4 end timestamp: 0.0031
+Rank 0: all_reduce 5 end timestamp: 0.0032
+Rank 0: all_reduce 6 end timestamp: 0.0032
+Rank 0: all_reduce 7 end timestamp: 0.0032
+Rank 0: Time for tiled matrix multiplication: 0.0033 seconds
+********** Iteration 18 **********
+Rank 0: single_forward start timestamp: 0.0000
+Rank 0: single_forward end timestamp: 0.0004
+Rank 0: all_reduce 0 start timestamp: 0.0004
+Rank 0: single_forward start timestamp: 0.0005
+Rank 0: single_forward end timestamp: 0.0006
+Rank 0: all_reduce 1 start timestamp: 0.0006
+Rank 0: single_forward start timestamp: 0.0007
+Rank 0: single_forward end timestamp: 0.0010
+Rank 0: all_reduce 2 start timestamp: 0.0011
+Rank 0: single_forward start timestamp: 0.0011
+Rank 0: single_forward end timestamp: 0.0012
+Rank 0: all_reduce 3 start timestamp: 0.0012
+Rank 0: single_forward start timestamp: 0.0013
+Rank 0: single_forward end timestamp: 0.0101
+Rank 0: all_reduce 4 start timestamp: 0.0101
+Rank 0: single_forward start timestamp: 0.0101
+Rank 0: single_forward end timestamp: 0.0246
+Rank 0: all_reduce 5 start timestamp: 0.0247
+Rank 0: single_forward start timestamp: 0.0247
+Rank 0: single_forward end timestamp: 0.0383
+Rank 0: all_reduce 6 start timestamp: 0.0383
+Rank 0: single_forward start timestamp: 0.0384
+Rank 0: single_forward end timestamp: 0.0453
+Rank 0: all_reduce 7 start timestamp: 0.0453
+Rank 0: all_reduce 0 end timestamp: 0.0454
+Rank 0: all_reduce 1 end timestamp: 0.0454
+Rank 0: all_reduce 2 end timestamp: 0.0551
+Rank 0: all_reduce 3 end timestamp: 0.0616
+Rank 0: all_reduce 4 end timestamp: 0.0617
+Rank 0: all_reduce 5 end timestamp: 0.0620
+Rank 0: all_reduce 6 end timestamp: 0.0678
+Rank 0: all_reduce 7 end timestamp: 0.0680
+Rank 0: Time for tiled matrix multiplication: 0.0682 seconds
+********** Iteration 19 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0131
+Rank 0: all_reduce 0 start timestamp: 0.0131
+Rank 0: single_forward start timestamp: 0.0132
+Rank 0: single_forward end timestamp: 0.0253
+Rank 0: all_reduce 1 start timestamp: 0.0253
+Rank 0: single_forward start timestamp: 0.0254
+Rank 0: single_forward end timestamp: 0.0384
+Rank 0: all_reduce 2 start timestamp: 0.0385
+Rank 0: single_forward start timestamp: 0.0385
+Rank 0: single_forward end timestamp: 0.0523
+Rank 0: all_reduce 3 start timestamp: 0.0523
+Rank 0: single_forward start timestamp: 0.0524
+Rank 0: single_forward end timestamp: 0.0653
+Rank 0: all_reduce 4 start timestamp: 0.0653
+Rank 0: single_forward start timestamp: 0.0654
+Rank 0: single_forward end timestamp: 0.0790
+Rank 0: all_reduce 5 start timestamp: 0.0790
+Rank 0: single_forward start timestamp: 0.0791
+Rank 0: single_forward end timestamp: 0.0912
+Rank 0: all_reduce 6 start timestamp: 0.0912
+Rank 0: single_forward start timestamp: 0.0913
+Rank 0: single_forward end timestamp: 0.0984
+Rank 0: all_reduce 7 start timestamp: 0.0984
+Rank 0: all_reduce 0 end timestamp: 0.0985
+Rank 0: all_reduce 1 end timestamp: 0.0985
+Rank 0: all_reduce 2 end timestamp: 0.0986
+Rank 0: all_reduce 3 end timestamp: 0.1031
+Rank 0: all_reduce 4 end timestamp: 0.1032
+Rank 0: all_reduce 5 end timestamp: 0.1035
+Rank 0: all_reduce 6 end timestamp: 0.1093
+Rank 0: all_reduce 7 end timestamp: 0.1095
+Rank 0: Time for tiled matrix multiplication: 0.1097 seconds
+********** Iteration 20 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0121
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0252
+Rank 0: all_reduce 1 start timestamp: 0.0252
+Rank 0: single_forward start timestamp: 0.0253
+Rank 0: single_forward end timestamp: 0.0383
+Rank 0: all_reduce 2 start timestamp: 0.0383
+Rank 0: single_forward start timestamp: 0.0383
+Rank 0: single_forward end timestamp: 0.0523
+Rank 0: all_reduce 3 start timestamp: 0.0523
+Rank 0: single_forward start timestamp: 0.0524
+Rank 0: single_forward end timestamp: 0.0652
+Rank 0: all_reduce 4 start timestamp: 0.0652
+Rank 0: single_forward start timestamp: 0.0653
+Rank 0: single_forward end timestamp: 0.0785
+Rank 0: all_reduce 5 start timestamp: 0.0785
+Rank 0: single_forward start timestamp: 0.0785
+Rank 0: single_forward end timestamp: 0.0917
+Rank 0: all_reduce 6 start timestamp: 0.0917
+Rank 0: single_forward start timestamp: 0.0918
+Rank 0: single_forward end timestamp: 0.0989
+Rank 0: all_reduce 7 start timestamp: 0.0990
+Rank 0: all_reduce 0 end timestamp: 0.0990
+Rank 0: all_reduce 1 end timestamp: 0.0991
+Rank 0: all_reduce 2 end timestamp: 0.0991
+Rank 0: all_reduce 3 end timestamp: 0.1038
+Rank 0: all_reduce 4 end timestamp: 0.1039
+Rank 0: all_reduce 5 end timestamp: 0.1042
+Rank 0: all_reduce 6 end timestamp: 0.1100
+Rank 0: all_reduce 7 end timestamp: 0.1102
+Rank 0: Time for tiled matrix multiplication: 0.1104 seconds
+********** Iteration 21 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0121
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0253
+Rank 0: all_reduce 1 start timestamp: 0.0254
+Rank 0: single_forward start timestamp: 0.0254
+Rank 0: single_forward end timestamp: 0.0385
+Rank 0: all_reduce 2 start timestamp: 0.0386
+Rank 0: single_forward start timestamp: 0.0386
+Rank 0: single_forward end timestamp: 0.0529
+Rank 0: all_reduce 3 start timestamp: 0.0529
+Rank 0: single_forward start timestamp: 0.0530
+Rank 0: single_forward end timestamp: 0.0658
+Rank 0: all_reduce 4 start timestamp: 0.0658
+Rank 0: single_forward start timestamp: 0.0659
+Rank 0: single_forward end timestamp: 0.0789
+Rank 0: all_reduce 5 start timestamp: 0.0789
+Rank 0: single_forward start timestamp: 0.0789
+Rank 0: single_forward end timestamp: 0.0927
+Rank 0: all_reduce 6 start timestamp: 0.0927
+Rank 0: single_forward start timestamp: 0.0928
+Rank 0: single_forward end timestamp: 0.0991
+Rank 0: all_reduce 7 start timestamp: 0.0991
+Rank 0: all_reduce 0 end timestamp: 0.0992
+Rank 0: all_reduce 1 end timestamp: 0.0992
+Rank 0: all_reduce 2 end timestamp: 0.0993
+Rank 0: all_reduce 3 end timestamp: 0.1045
+Rank 0: all_reduce 4 end timestamp: 0.1046
+Rank 0: all_reduce 5 end timestamp: 0.1049
+Rank 0: all_reduce 6 end timestamp: 0.1107
+Rank 0: all_reduce 7 end timestamp: 0.1109
+Rank 0: Time for tiled matrix multiplication: 0.1111 seconds
+********** Iteration 22 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0129
+Rank 0: all_reduce 0 start timestamp: 0.0130
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0258
+Rank 0: all_reduce 1 start timestamp: 0.0258
+Rank 0: single_forward start timestamp: 0.0259
+Rank 0: single_forward end timestamp: 0.0388
+Rank 0: all_reduce 2 start timestamp: 0.0388
+Rank 0: single_forward start timestamp: 0.0389
+Rank 0: single_forward end timestamp: 0.0518
+Rank 0: all_reduce 3 start timestamp: 0.0518
+Rank 0: single_forward start timestamp: 0.0518
+Rank 0: single_forward end timestamp: 0.0648
+Rank 0: all_reduce 4 start timestamp: 0.0648
+Rank 0: single_forward start timestamp: 0.0648
+Rank 0: single_forward end timestamp: 0.0784
+Rank 0: all_reduce 5 start timestamp: 0.0784
+Rank 0: single_forward start timestamp: 0.0785
+Rank 0: single_forward end timestamp: 0.0924
+Rank 0: all_reduce 6 start timestamp: 0.0924
+Rank 0: single_forward start timestamp: 0.0925
+Rank 0: single_forward end timestamp: 0.0995
+Rank 0: all_reduce 7 start timestamp: 0.0995
+Rank 0: all_reduce 0 end timestamp: 0.0996
+Rank 0: all_reduce 1 end timestamp: 0.0997
+Rank 0: all_reduce 2 end timestamp: 0.0997
+Rank 0: all_reduce 3 end timestamp: 0.1052
+Rank 0: all_reduce 4 end timestamp: 0.1053
+Rank 0: all_reduce 5 end timestamp: 0.1056
+Rank 0: all_reduce 6 end timestamp: 0.1114
+Rank 0: all_reduce 7 end timestamp: 0.1116
+Rank 0: Time for tiled matrix multiplication: 0.1118 seconds
+********** Iteration 23 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0121
+Rank 0: all_reduce 0 start timestamp: 0.0121
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0262
+Rank 0: all_reduce 1 start timestamp: 0.0262
+Rank 0: single_forward start timestamp: 0.0263
+Rank 0: single_forward end timestamp: 0.0384
+Rank 0: all_reduce 2 start timestamp: 0.0384
+Rank 0: single_forward start timestamp: 0.0385
+Rank 0: single_forward end timestamp: 0.0513
+Rank 0: all_reduce 3 start timestamp: 0.0514
+Rank 0: single_forward start timestamp: 0.0514
+Rank 0: single_forward end timestamp: 0.0645
+Rank 0: all_reduce 4 start timestamp: 0.0646
+Rank 0: single_forward start timestamp: 0.0646
+Rank 0: single_forward end timestamp: 0.0783
+Rank 0: all_reduce 5 start timestamp: 0.0784
+Rank 0: single_forward start timestamp: 0.0784
+Rank 0: single_forward end timestamp: 0.0921
+Rank 0: all_reduce 6 start timestamp: 0.0921
+Rank 0: single_forward start timestamp: 0.0921
+Rank 0: single_forward end timestamp: 0.0994
+Rank 0: all_reduce 7 start timestamp: 0.0994
+Rank 0: all_reduce 0 end timestamp: 0.0995
+Rank 0: all_reduce 1 end timestamp: 0.0995
+Rank 0: all_reduce 2 end timestamp: 0.0996
+Rank 0: all_reduce 3 end timestamp: 0.1035
+Rank 0: all_reduce 4 end timestamp: 0.1036
+Rank 0: all_reduce 5 end timestamp: 0.1039
+Rank 0: all_reduce 6 end timestamp: 0.1097
+Rank 0: all_reduce 7 end timestamp: 0.1099
+Rank 0: Time for tiled matrix multiplication: 0.1101 seconds
+********** Iteration 24 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0129
+Rank 0: all_reduce 0 start timestamp: 0.0129
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0262
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0401
+Rank 0: all_reduce 2 start timestamp: 0.0401
+Rank 0: single_forward start timestamp: 0.0402
+Rank 0: single_forward end timestamp: 0.0533
+Rank 0: all_reduce 3 start timestamp: 0.0533
+Rank 0: single_forward start timestamp: 0.0534
+Rank 0: single_forward end timestamp: 0.0664
+Rank 0: all_reduce 4 start timestamp: 0.0664
+Rank 0: single_forward start timestamp: 0.0664
+Rank 0: single_forward end timestamp: 0.0794
+Rank 0: all_reduce 5 start timestamp: 0.0794
+Rank 0: single_forward start timestamp: 0.0794
+Rank 0: single_forward end timestamp: 0.0931
+Rank 0: all_reduce 6 start timestamp: 0.0931
+Rank 0: single_forward start timestamp: 0.0931
+Rank 0: single_forward end timestamp: 0.1002
+Rank 0: all_reduce 7 start timestamp: 0.1003
+Rank 0: all_reduce 0 end timestamp: 0.1003
+Rank 0: all_reduce 1 end timestamp: 0.1004
+Rank 0: all_reduce 2 end timestamp: 0.1004
+Rank 0: all_reduce 3 end timestamp: 0.1053
+Rank 0: all_reduce 4 end timestamp: 0.1054
+Rank 0: all_reduce 5 end timestamp: 0.1057
+Rank 0: all_reduce 6 end timestamp: 0.1115
+Rank 0: all_reduce 7 end timestamp: 0.1117
+Rank 0: Time for tiled matrix multiplication: 0.1119 seconds
+********** Iteration 25 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0129
+Rank 0: all_reduce 0 start timestamp: 0.0129
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0271
+Rank 0: all_reduce 1 start timestamp: 0.0271
+Rank 0: single_forward start timestamp: 0.0272
+Rank 0: single_forward end timestamp: 0.0403
+Rank 0: all_reduce 2 start timestamp: 0.0403
+Rank 0: single_forward start timestamp: 0.0403
+Rank 0: single_forward end timestamp: 0.0530
+Rank 0: all_reduce 3 start timestamp: 0.0530
+Rank 0: single_forward start timestamp: 0.0531
+Rank 0: single_forward end timestamp: 0.0672
+Rank 0: all_reduce 4 start timestamp: 0.0672
+Rank 0: single_forward start timestamp: 0.0673
+Rank 0: single_forward end timestamp: 0.0804
+Rank 0: all_reduce 5 start timestamp: 0.0805
+Rank 0: single_forward start timestamp: 0.0805
+Rank 0: single_forward end timestamp: 0.0935
+Rank 0: all_reduce 6 start timestamp: 0.0935
+Rank 0: single_forward start timestamp: 0.0936
+Rank 0: single_forward end timestamp: 0.1005
+Rank 0: all_reduce 7 start timestamp: 0.1006
+Rank 0: all_reduce 0 end timestamp: 0.1006
+Rank 0: all_reduce 1 end timestamp: 0.1007
+Rank 0: all_reduce 2 end timestamp: 0.1007
+Rank 0: all_reduce 3 end timestamp: 0.1047
+Rank 0: all_reduce 4 end timestamp: 0.1048
+Rank 0: all_reduce 5 end timestamp: 0.1051
+Rank 0: all_reduce 6 end timestamp: 0.1109
+Rank 0: all_reduce 7 end timestamp: 0.1111
+Rank 0: Time for tiled matrix multiplication: 0.1113 seconds
+********** Iteration 26 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0131
+Rank 0: all_reduce 0 start timestamp: 0.0131
+Rank 0: single_forward start timestamp: 0.0132
+Rank 0: single_forward end timestamp: 0.0264
+Rank 0: all_reduce 1 start timestamp: 0.0264
+Rank 0: single_forward start timestamp: 0.0265
+Rank 0: single_forward end timestamp: 0.0386
+Rank 0: all_reduce 2 start timestamp: 0.0386
+Rank 0: single_forward start timestamp: 0.0387
+Rank 0: single_forward end timestamp: 0.0525
+Rank 0: all_reduce 3 start timestamp: 0.0526
+Rank 0: single_forward start timestamp: 0.0526
+Rank 0: single_forward end timestamp: 0.0647
+Rank 0: all_reduce 4 start timestamp: 0.0647
+Rank 0: single_forward start timestamp: 0.0648
+Rank 0: single_forward end timestamp: 0.0779
+Rank 0: all_reduce 5 start timestamp: 0.0779
+Rank 0: single_forward start timestamp: 0.0779
+Rank 0: single_forward end timestamp: 0.0918
+Rank 0: all_reduce 6 start timestamp: 0.0918
+Rank 0: single_forward start timestamp: 0.0919
+Rank 0: single_forward end timestamp: 0.0991
+Rank 0: all_reduce 7 start timestamp: 0.0991
+Rank 0: all_reduce 0 end timestamp: 0.0992
+Rank 0: all_reduce 1 end timestamp: 0.0993
+Rank 0: all_reduce 2 end timestamp: 0.0993
+Rank 0: all_reduce 3 end timestamp: 0.1049
+Rank 0: all_reduce 4 end timestamp: 0.1049
+Rank 0: all_reduce 5 end timestamp: 0.1052
+Rank 0: all_reduce 6 end timestamp: 0.1111
+Rank 0: all_reduce 7 end timestamp: 0.1112
+Rank 0: Time for tiled matrix multiplication: 0.1114 seconds
+********** Iteration 27 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0132
+Rank 0: all_reduce 0 start timestamp: 0.0133
+Rank 0: single_forward start timestamp: 0.0133
+Rank 0: single_forward end timestamp: 0.0265
+Rank 0: all_reduce 1 start timestamp: 0.0265
+Rank 0: single_forward start timestamp: 0.0266
+Rank 0: single_forward end timestamp: 0.0394
+Rank 0: all_reduce 2 start timestamp: 0.0394
+Rank 0: single_forward start timestamp: 0.0395
+Rank 0: single_forward end timestamp: 0.0516
+Rank 0: all_reduce 3 start timestamp: 0.0516
+Rank 0: single_forward start timestamp: 0.0517
+Rank 0: single_forward end timestamp: 0.0645
+Rank 0: all_reduce 4 start timestamp: 0.0646
+Rank 0: single_forward start timestamp: 0.0646
+Rank 0: single_forward end timestamp: 0.0775
+Rank 0: all_reduce 5 start timestamp: 0.0775
+Rank 0: single_forward start timestamp: 0.0776
+Rank 0: single_forward end timestamp: 0.0907
+Rank 0: all_reduce 6 start timestamp: 0.0907
+Rank 0: single_forward start timestamp: 0.0907
+Rank 0: single_forward end timestamp: 0.0978
+Rank 0: all_reduce 7 start timestamp: 0.0978
+Rank 0: all_reduce 0 end timestamp: 0.0979
+Rank 0: all_reduce 1 end timestamp: 0.0979
+Rank 0: all_reduce 2 end timestamp: 0.0980
+Rank 0: all_reduce 3 end timestamp: 0.1050
+Rank 0: all_reduce 4 end timestamp: 0.1051
+Rank 0: all_reduce 5 end timestamp: 0.1054
+Rank 0: all_reduce 6 end timestamp: 0.1112
+Rank 0: all_reduce 7 end timestamp: 0.1113
+Rank 0: Time for tiled matrix multiplication: 0.1115 seconds
+********** Iteration 28 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0260
+Rank 0: all_reduce 1 start timestamp: 0.0260
+Rank 0: single_forward start timestamp: 0.0261
+Rank 0: single_forward end timestamp: 0.0390
+Rank 0: all_reduce 2 start timestamp: 0.0390
+Rank 0: single_forward start timestamp: 0.0390
+Rank 0: single_forward end timestamp: 0.0528
+Rank 0: all_reduce 3 start timestamp: 0.0528
+Rank 0: single_forward start timestamp: 0.0529
+Rank 0: single_forward end timestamp: 0.0660
+Rank 0: all_reduce 4 start timestamp: 0.0660
+Rank 0: single_forward start timestamp: 0.0661
+Rank 0: single_forward end timestamp: 0.0789
+Rank 0: all_reduce 5 start timestamp: 0.0789
+Rank 0: single_forward start timestamp: 0.0790
+Rank 0: single_forward end timestamp: 0.0928
+Rank 0: all_reduce 6 start timestamp: 0.0929
+Rank 0: single_forward start timestamp: 0.0929
+Rank 0: single_forward end timestamp: 0.1001
+Rank 0: all_reduce 7 start timestamp: 0.1001
+Rank 0: all_reduce 0 end timestamp: 0.1001
+Rank 0: all_reduce 1 end timestamp: 0.1002
+Rank 0: all_reduce 2 end timestamp: 0.1002
+Rank 0: all_reduce 3 end timestamp: 0.1058
+Rank 0: all_reduce 4 end timestamp: 0.1059
+Rank 0: all_reduce 5 end timestamp: 0.1062
+Rank 0: all_reduce 6 end timestamp: 0.1120
+Rank 0: all_reduce 7 end timestamp: 0.1122
+Rank 0: Time for tiled matrix multiplication: 0.1124 seconds
+********** Iteration 29 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0132
+Rank 0: all_reduce 0 start timestamp: 0.0132
+Rank 0: single_forward start timestamp: 0.0133
+Rank 0: single_forward end timestamp: 0.0254
+Rank 0: all_reduce 1 start timestamp: 0.0254
+Rank 0: single_forward start timestamp: 0.0255
+Rank 0: single_forward end timestamp: 0.0384
+Rank 0: all_reduce 2 start timestamp: 0.0385
+Rank 0: single_forward start timestamp: 0.0385
+Rank 0: single_forward end timestamp: 0.0516
+Rank 0: all_reduce 3 start timestamp: 0.0516
+Rank 0: single_forward start timestamp: 0.0516
+Rank 0: single_forward end timestamp: 0.0660
+Rank 0: all_reduce 4 start timestamp: 0.0660
+Rank 0: single_forward start timestamp: 0.0660
+Rank 0: single_forward end timestamp: 0.0784
+Rank 0: all_reduce 5 start timestamp: 0.0784
+Rank 0: single_forward start timestamp: 0.0785
+Rank 0: single_forward end timestamp: 0.0922
+Rank 0: all_reduce 6 start timestamp: 0.0922
+Rank 0: single_forward start timestamp: 0.0923
+Rank 0: single_forward end timestamp: 0.0995
+Rank 0: all_reduce 7 start timestamp: 0.0995
+Rank 0: all_reduce 0 end timestamp: 0.0995
+Rank 0: all_reduce 1 end timestamp: 0.0996
+Rank 0: all_reduce 2 end timestamp: 0.0997
+Rank 0: all_reduce 3 end timestamp: 0.1048
+Rank 0: all_reduce 4 end timestamp: 0.1049
+Rank 0: all_reduce 5 end timestamp: 0.1052
+Rank 0: all_reduce 6 end timestamp: 0.1110
+Rank 0: all_reduce 7 end timestamp: 0.1112
+Rank 0: Time for tiled matrix multiplication: 0.1114 seconds
+********** Iteration 30 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0121
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0258
+Rank 0: all_reduce 1 start timestamp: 0.0258
+Rank 0: single_forward start timestamp: 0.0259
+Rank 0: single_forward end timestamp: 0.0390
+Rank 0: all_reduce 2 start timestamp: 0.0390
+Rank 0: single_forward start timestamp: 0.0391
+Rank 0: single_forward end timestamp: 0.0521
+Rank 0: all_reduce 3 start timestamp: 0.0521
+Rank 0: single_forward start timestamp: 0.0522
+Rank 0: single_forward end timestamp: 0.0661
+Rank 0: all_reduce 4 start timestamp: 0.0661
+Rank 0: single_forward start timestamp: 0.0662
+Rank 0: single_forward end timestamp: 0.0792
+Rank 0: all_reduce 5 start timestamp: 0.0792
+Rank 0: single_forward start timestamp: 0.0793
+Rank 0: single_forward end timestamp: 0.0929
+Rank 0: all_reduce 6 start timestamp: 0.0929
+Rank 0: single_forward start timestamp: 0.0930
+Rank 0: single_forward end timestamp: 0.1001
+Rank 0: all_reduce 7 start timestamp: 0.1002
+Rank 0: all_reduce 0 end timestamp: 0.1002
+Rank 0: all_reduce 1 end timestamp: 0.1003
+Rank 0: all_reduce 2 end timestamp: 0.1004
+Rank 0: all_reduce 3 end timestamp: 0.1042
+Rank 0: all_reduce 4 end timestamp: 0.1043
+Rank 0: all_reduce 5 end timestamp: 0.1046
+Rank 0: all_reduce 6 end timestamp: 0.1104
+Rank 0: all_reduce 7 end timestamp: 0.1106
+Rank 0: Time for tiled matrix multiplication: 0.1108 seconds
+********** Iteration 31 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0263
+Rank 0: all_reduce 1 start timestamp: 0.0263
+Rank 0: single_forward start timestamp: 0.0263
+Rank 0: single_forward end timestamp: 0.0385
+Rank 0: all_reduce 2 start timestamp: 0.0385
+Rank 0: single_forward start timestamp: 0.0385
+Rank 0: single_forward end timestamp: 0.0514
+Rank 0: all_reduce 3 start timestamp: 0.0514
+Rank 0: single_forward start timestamp: 0.0515
+Rank 0: single_forward end timestamp: 0.0652
+Rank 0: all_reduce 4 start timestamp: 0.0653
+Rank 0: single_forward start timestamp: 0.0653
+Rank 0: single_forward end timestamp: 0.0782
+Rank 0: all_reduce 5 start timestamp: 0.0782
+Rank 0: single_forward start timestamp: 0.0782
+Rank 0: single_forward end timestamp: 0.0914
+Rank 0: all_reduce 6 start timestamp: 0.0914
+Rank 0: single_forward start timestamp: 0.0915
+Rank 0: single_forward end timestamp: 0.0984
+Rank 0: all_reduce 7 start timestamp: 0.0984
+Rank 0: all_reduce 0 end timestamp: 0.0985
+Rank 0: all_reduce 1 end timestamp: 0.0985
+Rank 0: all_reduce 2 end timestamp: 0.0986
+Rank 0: all_reduce 3 end timestamp: 0.1049
+Rank 0: all_reduce 4 end timestamp: 0.1050
+Rank 0: all_reduce 5 end timestamp: 0.1053
+Rank 0: all_reduce 6 end timestamp: 0.1111
+Rank 0: all_reduce 7 end timestamp: 0.1113
+Rank 0: Time for tiled matrix multiplication: 0.1115 seconds
+********** Iteration 32 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0258
+Rank 0: all_reduce 1 start timestamp: 0.0259
+Rank 0: single_forward start timestamp: 0.0259
+Rank 0: single_forward end timestamp: 0.0398
+Rank 0: all_reduce 2 start timestamp: 0.0398
+Rank 0: single_forward start timestamp: 0.0399
+Rank 0: single_forward end timestamp: 0.0530
+Rank 0: all_reduce 3 start timestamp: 0.0530
+Rank 0: single_forward start timestamp: 0.0530
+Rank 0: single_forward end timestamp: 0.0652
+Rank 0: all_reduce 4 start timestamp: 0.0652
+Rank 0: single_forward start timestamp: 0.0653
+Rank 0: single_forward end timestamp: 0.0792
+Rank 0: all_reduce 5 start timestamp: 0.0792
+Rank 0: single_forward start timestamp: 0.0793
+Rank 0: single_forward end timestamp: 0.0915
+Rank 0: all_reduce 6 start timestamp: 0.0915
+Rank 0: single_forward start timestamp: 0.0915
+Rank 0: single_forward end timestamp: 0.0988
+Rank 0: all_reduce 7 start timestamp: 0.0988
+Rank 0: all_reduce 0 end timestamp: 0.0988
+Rank 0: all_reduce 1 end timestamp: 0.0989
+Rank 0: all_reduce 2 end timestamp: 0.0990
+Rank 0: all_reduce 3 end timestamp: 0.1051
+Rank 0: all_reduce 4 end timestamp: 0.1051
+Rank 0: all_reduce 5 end timestamp: 0.1054
+Rank 0: all_reduce 6 end timestamp: 0.1113
+Rank 0: all_reduce 7 end timestamp: 0.1114
+Rank 0: Time for tiled matrix multiplication: 0.1116 seconds
+********** Iteration 33 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0250
+Rank 0: all_reduce 1 start timestamp: 0.0251
+Rank 0: single_forward start timestamp: 0.0251
+Rank 0: single_forward end timestamp: 0.0390
+Rank 0: all_reduce 2 start timestamp: 0.0390
+Rank 0: single_forward start timestamp: 0.0390
+Rank 0: single_forward end timestamp: 0.0519
+Rank 0: all_reduce 3 start timestamp: 0.0520
+Rank 0: single_forward start timestamp: 0.0520
+Rank 0: single_forward end timestamp: 0.0649
+Rank 0: all_reduce 4 start timestamp: 0.0649
+Rank 0: single_forward start timestamp: 0.0650
+Rank 0: single_forward end timestamp: 0.0781
+Rank 0: all_reduce 5 start timestamp: 0.0781
+Rank 0: single_forward start timestamp: 0.0782
+Rank 0: single_forward end timestamp: 0.0913
+Rank 0: all_reduce 6 start timestamp: 0.0914
+Rank 0: single_forward start timestamp: 0.0914
+Rank 0: single_forward end timestamp: 0.0985
+Rank 0: all_reduce 7 start timestamp: 0.0985
+Rank 0: all_reduce 0 end timestamp: 0.0986
+Rank 0: all_reduce 1 end timestamp: 0.0986
+Rank 0: all_reduce 2 end timestamp: 0.0987
+Rank 0: all_reduce 3 end timestamp: 0.1046
+Rank 0: all_reduce 4 end timestamp: 0.1047
+Rank 0: all_reduce 5 end timestamp: 0.1050
+Rank 0: all_reduce 6 end timestamp: 0.1108
+Rank 0: all_reduce 7 end timestamp: 0.1110
+Rank 0: Time for tiled matrix multiplication: 0.1112 seconds
+********** Iteration 34 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0123
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0254
+Rank 0: all_reduce 1 start timestamp: 0.0254
+Rank 0: single_forward start timestamp: 0.0255
+Rank 0: single_forward end timestamp: 0.0384
+Rank 0: all_reduce 2 start timestamp: 0.0384
+Rank 0: single_forward start timestamp: 0.0385
+Rank 0: single_forward end timestamp: 0.0523
+Rank 0: all_reduce 3 start timestamp: 0.0523
+Rank 0: single_forward start timestamp: 0.0524
+Rank 0: single_forward end timestamp: 0.0654
+Rank 0: all_reduce 4 start timestamp: 0.0654
+Rank 0: single_forward start timestamp: 0.0654
+Rank 0: single_forward end timestamp: 0.0789
+Rank 0: all_reduce 5 start timestamp: 0.0789
+Rank 0: single_forward start timestamp: 0.0790
+Rank 0: single_forward end timestamp: 0.0920
+Rank 0: all_reduce 6 start timestamp: 0.0920
+Rank 0: single_forward start timestamp: 0.0921
+Rank 0: single_forward end timestamp: 0.0995
+Rank 0: all_reduce 7 start timestamp: 0.0995
+Rank 0: all_reduce 0 end timestamp: 0.0996
+Rank 0: all_reduce 1 end timestamp: 0.0996
+Rank 0: all_reduce 2 end timestamp: 0.0997
+Rank 0: all_reduce 3 end timestamp: 0.1050
+Rank 0: all_reduce 4 end timestamp: 0.1051
+Rank 0: all_reduce 5 end timestamp: 0.1054
+Rank 0: all_reduce 6 end timestamp: 0.1112
+Rank 0: all_reduce 7 end timestamp: 0.1114
+Rank 0: Time for tiled matrix multiplication: 0.1116 seconds
+********** Iteration 35 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0127
+Rank 0: all_reduce 0 start timestamp: 0.0127
+Rank 0: single_forward start timestamp: 0.0128
+Rank 0: single_forward end timestamp: 0.0258
+Rank 0: all_reduce 1 start timestamp: 0.0258
+Rank 0: single_forward start timestamp: 0.0259
+Rank 0: single_forward end timestamp: 0.0390
+Rank 0: all_reduce 2 start timestamp: 0.0390
+Rank 0: single_forward start timestamp: 0.0390
+Rank 0: single_forward end timestamp: 0.0529
+Rank 0: all_reduce 3 start timestamp: 0.0529
+Rank 0: single_forward start timestamp: 0.0529
+Rank 0: single_forward end timestamp: 0.0667
+Rank 0: all_reduce 4 start timestamp: 0.0667
+Rank 0: single_forward start timestamp: 0.0668
+Rank 0: single_forward end timestamp: 0.0810
+Rank 0: all_reduce 5 start timestamp: 0.0810
+Rank 0: single_forward start timestamp: 0.0811
+Rank 0: single_forward end timestamp: 0.0954
+Rank 0: all_reduce 6 start timestamp: 0.0954
+Rank 0: single_forward start timestamp: 0.0955
+Rank 0: single_forward end timestamp: 0.1025
+Rank 0: all_reduce 7 start timestamp: 0.1025
+Rank 0: all_reduce 0 end timestamp: 0.1025
+Rank 0: all_reduce 1 end timestamp: 0.1026
+Rank 0: all_reduce 2 end timestamp: 0.1027
+Rank 0: all_reduce 3 end timestamp: 0.1066
+Rank 0: all_reduce 4 end timestamp: 0.1067
+Rank 0: all_reduce 5 end timestamp: 0.1070
+Rank 0: all_reduce 6 end timestamp: 0.1128
+Rank 0: all_reduce 7 end timestamp: 0.1130
+Rank 0: Time for tiled matrix multiplication: 0.1132 seconds
+********** Iteration 36 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0131
+Rank 0: all_reduce 0 start timestamp: 0.0131
+Rank 0: single_forward start timestamp: 0.0132
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0261
+Rank 0: single_forward start timestamp: 0.0261
+Rank 0: single_forward end timestamp: 0.0402
+Rank 0: all_reduce 2 start timestamp: 0.0402
+Rank 0: single_forward start timestamp: 0.0403
+Rank 0: single_forward end timestamp: 0.0524
+Rank 0: all_reduce 3 start timestamp: 0.0525
+Rank 0: single_forward start timestamp: 0.0525
+Rank 0: single_forward end timestamp: 0.0657
+Rank 0: all_reduce 4 start timestamp: 0.0657
+Rank 0: single_forward start timestamp: 0.0657
+Rank 0: single_forward end timestamp: 0.0789
+Rank 0: all_reduce 5 start timestamp: 0.0789
+Rank 0: single_forward start timestamp: 0.0790
+Rank 0: single_forward end timestamp: 0.0931
+Rank 0: all_reduce 6 start timestamp: 0.0931
+Rank 0: single_forward start timestamp: 0.0932
+Rank 0: single_forward end timestamp: 0.0995
+Rank 0: all_reduce 7 start timestamp: 0.0995
+Rank 0: all_reduce 0 end timestamp: 0.0995
+Rank 0: all_reduce 1 end timestamp: 0.0996
+Rank 0: all_reduce 2 end timestamp: 0.0997
+Rank 0: all_reduce 3 end timestamp: 0.1036
+Rank 0: all_reduce 4 end timestamp: 0.1037
+Rank 0: all_reduce 5 end timestamp: 0.1040
+Rank 0: all_reduce 6 end timestamp: 0.1098
+Rank 0: all_reduce 7 end timestamp: 0.1100
+Rank 0: Time for tiled matrix multiplication: 0.1102 seconds
+********** Iteration 37 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0261
+Rank 0: single_forward start timestamp: 0.0261
+Rank 0: single_forward end timestamp: 0.0398
+Rank 0: all_reduce 2 start timestamp: 0.0398
+Rank 0: single_forward start timestamp: 0.0399
+Rank 0: single_forward end timestamp: 0.0529
+Rank 0: all_reduce 3 start timestamp: 0.0529
+Rank 0: single_forward start timestamp: 0.0530
+Rank 0: single_forward end timestamp: 0.0651
+Rank 0: all_reduce 4 start timestamp: 0.0652
+Rank 0: single_forward start timestamp: 0.0652
+Rank 0: single_forward end timestamp: 0.0791
+Rank 0: all_reduce 5 start timestamp: 0.0791
+Rank 0: single_forward start timestamp: 0.0791
+Rank 0: single_forward end timestamp: 0.0930
+Rank 0: all_reduce 6 start timestamp: 0.0930
+Rank 0: single_forward start timestamp: 0.0930
+Rank 0: single_forward end timestamp: 0.1003
+Rank 0: all_reduce 7 start timestamp: 0.1003
+Rank 0: all_reduce 0 end timestamp: 0.1004
+Rank 0: all_reduce 1 end timestamp: 0.1004
+Rank 0: all_reduce 2 end timestamp: 0.1005
+Rank 0: all_reduce 3 end timestamp: 0.1044
+Rank 0: all_reduce 4 end timestamp: 0.1045
+Rank 0: all_reduce 5 end timestamp: 0.1048
+Rank 0: all_reduce 6 end timestamp: 0.1106
+Rank 0: all_reduce 7 end timestamp: 0.1108
+Rank 0: Time for tiled matrix multiplication: 0.1110 seconds
+********** Iteration 38 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0129
+Rank 0: all_reduce 0 start timestamp: 0.0130
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0261
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0402
+Rank 0: all_reduce 2 start timestamp: 0.0402
+Rank 0: single_forward start timestamp: 0.0403
+Rank 0: single_forward end timestamp: 0.0533
+Rank 0: all_reduce 3 start timestamp: 0.0534
+Rank 0: single_forward start timestamp: 0.0534
+Rank 0: single_forward end timestamp: 0.0666
+Rank 0: all_reduce 4 start timestamp: 0.0666
+Rank 0: single_forward start timestamp: 0.0667
+Rank 0: single_forward end timestamp: 0.0798
+Rank 0: all_reduce 5 start timestamp: 0.0798
+Rank 0: single_forward start timestamp: 0.0799
+Rank 0: single_forward end timestamp: 0.0930
+Rank 0: all_reduce 6 start timestamp: 0.0930
+Rank 0: single_forward start timestamp: 0.0931
+Rank 0: single_forward end timestamp: 0.1001
+Rank 0: all_reduce 7 start timestamp: 0.1001
+Rank 0: all_reduce 0 end timestamp: 0.1002
+Rank 0: all_reduce 1 end timestamp: 0.1002
+Rank 0: all_reduce 2 end timestamp: 0.1003
+Rank 0: all_reduce 3 end timestamp: 0.1043
+Rank 0: all_reduce 4 end timestamp: 0.1044
+Rank 0: all_reduce 5 end timestamp: 0.1047
+Rank 0: all_reduce 6 end timestamp: 0.1105
+Rank 0: all_reduce 7 end timestamp: 0.1106
+Rank 0: Time for tiled matrix multiplication: 0.1108 seconds
+********** Iteration 39 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0261
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0401
+Rank 0: all_reduce 2 start timestamp: 0.0401
+Rank 0: single_forward start timestamp: 0.0401
+Rank 0: single_forward end timestamp: 0.0523
+Rank 0: all_reduce 3 start timestamp: 0.0523
+Rank 0: single_forward start timestamp: 0.0523
+Rank 0: single_forward end timestamp: 0.0663
+Rank 0: all_reduce 4 start timestamp: 0.0663
+Rank 0: single_forward start timestamp: 0.0664
+Rank 0: single_forward end timestamp: 0.0785
+Rank 0: all_reduce 5 start timestamp: 0.0785
+Rank 0: single_forward start timestamp: 0.0786
+Rank 0: single_forward end timestamp: 0.0923
+Rank 0: all_reduce 6 start timestamp: 0.0923
+Rank 0: single_forward start timestamp: 0.0924
+Rank 0: single_forward end timestamp: 0.0991
+Rank 0: all_reduce 7 start timestamp: 0.0991
+Rank 0: all_reduce 0 end timestamp: 0.0992
+Rank 0: all_reduce 1 end timestamp: 0.0993
+Rank 0: all_reduce 2 end timestamp: 0.0993
+Rank 0: all_reduce 3 end timestamp: 0.1046
+Rank 0: all_reduce 4 end timestamp: 0.1047
+Rank 0: all_reduce 5 end timestamp: 0.1050
+Rank 0: all_reduce 6 end timestamp: 0.1108
+Rank 0: all_reduce 7 end timestamp: 0.1110
+Rank 0: Time for tiled matrix multiplication: 0.1112 seconds
+********** Iteration 40 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0129
+Rank 0: all_reduce 0 start timestamp: 0.0129
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0271
+Rank 0: all_reduce 1 start timestamp: 0.0271
+Rank 0: single_forward start timestamp: 0.0272
+Rank 0: single_forward end timestamp: 0.0412
+Rank 0: all_reduce 2 start timestamp: 0.0412
+Rank 0: single_forward start timestamp: 0.0413
+Rank 0: single_forward end timestamp: 0.0544
+Rank 0: all_reduce 3 start timestamp: 0.0544
+Rank 0: single_forward start timestamp: 0.0545
+Rank 0: single_forward end timestamp: 0.0667
+Rank 0: all_reduce 4 start timestamp: 0.0667
+Rank 0: single_forward start timestamp: 0.0667
+Rank 0: single_forward end timestamp: 0.0799
+Rank 0: all_reduce 5 start timestamp: 0.0799
+Rank 0: single_forward start timestamp: 0.0800
+Rank 0: single_forward end timestamp: 0.0942
+Rank 0: all_reduce 6 start timestamp: 0.0942
+Rank 0: single_forward start timestamp: 0.0943
+Rank 0: single_forward end timestamp: 0.1006
+Rank 0: all_reduce 7 start timestamp: 0.1006
+Rank 0: all_reduce 0 end timestamp: 0.1006
+Rank 0: all_reduce 1 end timestamp: 0.1007
+Rank 0: all_reduce 2 end timestamp: 0.1008
+Rank 0: all_reduce 3 end timestamp: 0.1047
+Rank 0: all_reduce 4 end timestamp: 0.1048
+Rank 0: all_reduce 5 end timestamp: 0.1051
+Rank 0: all_reduce 6 end timestamp: 0.1109
+Rank 0: all_reduce 7 end timestamp: 0.1111
+Rank 0: Time for tiled matrix multiplication: 0.1113 seconds
+********** Iteration 41 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0262
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0391
+Rank 0: all_reduce 2 start timestamp: 0.0391
+Rank 0: single_forward start timestamp: 0.0392
+Rank 0: single_forward end timestamp: 0.0532
+Rank 0: all_reduce 3 start timestamp: 0.0532
+Rank 0: single_forward start timestamp: 0.0532
+Rank 0: single_forward end timestamp: 0.0673
+Rank 0: all_reduce 4 start timestamp: 0.0673
+Rank 0: single_forward start timestamp: 0.0673
+Rank 0: single_forward end timestamp: 0.0808
+Rank 0: all_reduce 5 start timestamp: 0.0808
+Rank 0: single_forward start timestamp: 0.0809
+Rank 0: single_forward end timestamp: 0.0944
+Rank 0: all_reduce 6 start timestamp: 0.0944
+Rank 0: single_forward start timestamp: 0.0945
+Rank 0: single_forward end timestamp: 0.1009
+Rank 0: all_reduce 7 start timestamp: 0.1009
+Rank 0: all_reduce 0 end timestamp: 0.1010
+Rank 0: all_reduce 1 end timestamp: 0.1010
+Rank 0: all_reduce 2 end timestamp: 0.1011
+Rank 0: all_reduce 3 end timestamp: 0.1050
+Rank 0: all_reduce 4 end timestamp: 0.1051
+Rank 0: all_reduce 5 end timestamp: 0.1053
+Rank 0: all_reduce 6 end timestamp: 0.1112
+Rank 0: all_reduce 7 end timestamp: 0.1113
+Rank 0: Time for tiled matrix multiplication: 0.1116 seconds
+********** Iteration 42 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0131
+Rank 0: all_reduce 0 start timestamp: 0.0131
+Rank 0: single_forward start timestamp: 0.0132
+Rank 0: single_forward end timestamp: 0.0253
+Rank 0: all_reduce 1 start timestamp: 0.0253
+Rank 0: single_forward start timestamp: 0.0254
+Rank 0: single_forward end timestamp: 0.0394
+Rank 0: all_reduce 2 start timestamp: 0.0394
+Rank 0: single_forward start timestamp: 0.0394
+Rank 0: single_forward end timestamp: 0.0516
+Rank 0: all_reduce 3 start timestamp: 0.0516
+Rank 0: single_forward start timestamp: 0.0517
+Rank 0: single_forward end timestamp: 0.0659
+Rank 0: all_reduce 4 start timestamp: 0.0659
+Rank 0: single_forward start timestamp: 0.0660
+Rank 0: single_forward end timestamp: 0.0791
+Rank 0: all_reduce 5 start timestamp: 0.0791
+Rank 0: single_forward start timestamp: 0.0791
+Rank 0: single_forward end timestamp: 0.0923
+Rank 0: all_reduce 6 start timestamp: 0.0923
+Rank 0: single_forward start timestamp: 0.0923
+Rank 0: single_forward end timestamp: 0.0987
+Rank 0: all_reduce 7 start timestamp: 0.0987
+Rank 0: all_reduce 0 end timestamp: 0.0988
+Rank 0: all_reduce 1 end timestamp: 0.0988
+Rank 0: all_reduce 2 end timestamp: 0.0989
+Rank 0: all_reduce 3 end timestamp: 0.1028
+Rank 0: all_reduce 4 end timestamp: 0.1029
+Rank 0: all_reduce 5 end timestamp: 0.1032
+Rank 0: all_reduce 6 end timestamp: 0.1090
+Rank 0: all_reduce 7 end timestamp: 0.1092
+Rank 0: Time for tiled matrix multiplication: 0.1094 seconds
+********** Iteration 43 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0264
+Rank 0: all_reduce 1 start timestamp: 0.0264
+Rank 0: single_forward start timestamp: 0.0265
+Rank 0: single_forward end timestamp: 0.0386
+Rank 0: all_reduce 2 start timestamp: 0.0386
+Rank 0: single_forward start timestamp: 0.0387
+Rank 0: single_forward end timestamp: 0.0524
+Rank 0: all_reduce 3 start timestamp: 0.0524
+Rank 0: single_forward start timestamp: 0.0525
+Rank 0: single_forward end timestamp: 0.0646
+Rank 0: all_reduce 4 start timestamp: 0.0646
+Rank 0: single_forward start timestamp: 0.0647
+Rank 0: single_forward end timestamp: 0.0778
+Rank 0: all_reduce 5 start timestamp: 0.0778
+Rank 0: single_forward start timestamp: 0.0779
+Rank 0: single_forward end timestamp: 0.0915
+Rank 0: all_reduce 6 start timestamp: 0.0915
+Rank 0: single_forward start timestamp: 0.0916
+Rank 0: single_forward end timestamp: 0.0990
+Rank 0: all_reduce 7 start timestamp: 0.0990
+Rank 0: all_reduce 0 end timestamp: 0.0991
+Rank 0: all_reduce 1 end timestamp: 0.0991
+Rank 0: all_reduce 2 end timestamp: 0.0992
+Rank 0: all_reduce 3 end timestamp: 0.1048
+Rank 0: all_reduce 4 end timestamp: 0.1049
+Rank 0: all_reduce 5 end timestamp: 0.1052
+Rank 0: all_reduce 6 end timestamp: 0.1110
+Rank 0: all_reduce 7 end timestamp: 0.1112
+Rank 0: Time for tiled matrix multiplication: 0.1114 seconds
+********** Iteration 44 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0131
+Rank 0: all_reduce 0 start timestamp: 0.0132
+Rank 0: single_forward start timestamp: 0.0132
+Rank 0: single_forward end timestamp: 0.0254
+Rank 0: all_reduce 1 start timestamp: 0.0254
+Rank 0: single_forward start timestamp: 0.0255
+Rank 0: single_forward end timestamp: 0.0388
+Rank 0: all_reduce 2 start timestamp: 0.0388
+Rank 0: single_forward start timestamp: 0.0389
+Rank 0: single_forward end timestamp: 0.0527
+Rank 0: all_reduce 3 start timestamp: 0.0527
+Rank 0: single_forward start timestamp: 0.0528
+Rank 0: single_forward end timestamp: 0.0669
+Rank 0: all_reduce 4 start timestamp: 0.0669
+Rank 0: single_forward start timestamp: 0.0669
+Rank 0: single_forward end timestamp: 0.0791
+Rank 0: all_reduce 5 start timestamp: 0.0791
+Rank 0: single_forward start timestamp: 0.0792
+Rank 0: single_forward end timestamp: 0.0923
+Rank 0: all_reduce 6 start timestamp: 0.0923
+Rank 0: single_forward start timestamp: 0.0923
+Rank 0: single_forward end timestamp: 0.0996
+Rank 0: all_reduce 7 start timestamp: 0.0997
+Rank 0: all_reduce 0 end timestamp: 0.0997
+Rank 0: all_reduce 1 end timestamp: 0.0998
+Rank 0: all_reduce 2 end timestamp: 0.0998
+Rank 0: all_reduce 3 end timestamp: 0.1055
+Rank 0: all_reduce 4 end timestamp: 0.1056
+Rank 0: all_reduce 5 end timestamp: 0.1059
+Rank 0: all_reduce 6 end timestamp: 0.1117
+Rank 0: all_reduce 7 end timestamp: 0.1119
+Rank 0: Time for tiled matrix multiplication: 0.1121 seconds
+********** Iteration 45 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0263
+Rank 0: all_reduce 1 start timestamp: 0.0263
+Rank 0: single_forward start timestamp: 0.0264
+Rank 0: single_forward end timestamp: 0.0385
+Rank 0: all_reduce 2 start timestamp: 0.0385
+Rank 0: single_forward start timestamp: 0.0386
+Rank 0: single_forward end timestamp: 0.0517
+Rank 0: all_reduce 3 start timestamp: 0.0517
+Rank 0: single_forward start timestamp: 0.0517
+Rank 0: single_forward end timestamp: 0.0655
+Rank 0: all_reduce 4 start timestamp: 0.0655
+Rank 0: single_forward start timestamp: 0.0656
+Rank 0: single_forward end timestamp: 0.0794
+Rank 0: all_reduce 5 start timestamp: 0.0794
+Rank 0: single_forward start timestamp: 0.0795
+Rank 0: single_forward end timestamp: 0.0933
+Rank 0: all_reduce 6 start timestamp: 0.0933
+Rank 0: single_forward start timestamp: 0.0934
+Rank 0: single_forward end timestamp: 0.0997
+Rank 0: all_reduce 7 start timestamp: 0.0997
+Rank 0: all_reduce 0 end timestamp: 0.0998
+Rank 0: all_reduce 1 end timestamp: 0.0999
+Rank 0: all_reduce 2 end timestamp: 0.1000
+Rank 0: all_reduce 3 end timestamp: 0.1038
+Rank 0: all_reduce 4 end timestamp: 0.1039
+Rank 0: all_reduce 5 end timestamp: 0.1042
+Rank 0: all_reduce 6 end timestamp: 0.1100
+Rank 0: all_reduce 7 end timestamp: 0.1101
+Rank 0: Time for tiled matrix multiplication: 0.1104 seconds
+********** Iteration 46 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0129
+Rank 0: all_reduce 0 start timestamp: 0.0130
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0269
+Rank 0: all_reduce 1 start timestamp: 0.0269
+Rank 0: single_forward start timestamp: 0.0270
+Rank 0: single_forward end timestamp: 0.0401
+Rank 0: all_reduce 2 start timestamp: 0.0401
+Rank 0: single_forward start timestamp: 0.0402
+Rank 0: single_forward end timestamp: 0.0533
+Rank 0: all_reduce 3 start timestamp: 0.0533
+Rank 0: single_forward start timestamp: 0.0533
+Rank 0: single_forward end timestamp: 0.0665
+Rank 0: all_reduce 4 start timestamp: 0.0665
+Rank 0: single_forward start timestamp: 0.0665
+Rank 0: single_forward end timestamp: 0.0802
+Rank 0: all_reduce 5 start timestamp: 0.0802
+Rank 0: single_forward start timestamp: 0.0803
+Rank 0: single_forward end timestamp: 0.0925
+Rank 0: all_reduce 6 start timestamp: 0.0925
+Rank 0: single_forward start timestamp: 0.0926
+Rank 0: single_forward end timestamp: 0.0999
+Rank 0: all_reduce 7 start timestamp: 0.0999
+Rank 0: all_reduce 0 end timestamp: 0.1000
+Rank 0: all_reduce 1 end timestamp: 0.1000
+Rank 0: all_reduce 2 end timestamp: 0.1001
+Rank 0: all_reduce 3 end timestamp: 0.1040
+Rank 0: all_reduce 4 end timestamp: 0.1041
+Rank 0: all_reduce 5 end timestamp: 0.1044
+Rank 0: all_reduce 6 end timestamp: 0.1102
+Rank 0: all_reduce 7 end timestamp: 0.1104
+Rank 0: Time for tiled matrix multiplication: 0.1106 seconds
+********** Iteration 47 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0263
+Rank 0: all_reduce 1 start timestamp: 0.0263
+Rank 0: single_forward start timestamp: 0.0264
+Rank 0: single_forward end timestamp: 0.0393
+Rank 0: all_reduce 2 start timestamp: 0.0394
+Rank 0: single_forward start timestamp: 0.0394
+Rank 0: single_forward end timestamp: 0.0523
+Rank 0: all_reduce 3 start timestamp: 0.0523
+Rank 0: single_forward start timestamp: 0.0524
+Rank 0: single_forward end timestamp: 0.0655
+Rank 0: all_reduce 4 start timestamp: 0.0655
+Rank 0: single_forward start timestamp: 0.0656
+Rank 0: single_forward end timestamp: 0.0786
+Rank 0: all_reduce 5 start timestamp: 0.0787
+Rank 0: single_forward start timestamp: 0.0787
+Rank 0: single_forward end timestamp: 0.0918
+Rank 0: all_reduce 6 start timestamp: 0.0918
+Rank 0: single_forward start timestamp: 0.0919
+Rank 0: single_forward end timestamp: 0.0992
+Rank 0: all_reduce 7 start timestamp: 0.0992
+Rank 0: all_reduce 0 end timestamp: 0.0992
+Rank 0: all_reduce 1 end timestamp: 0.0993
+Rank 0: all_reduce 2 end timestamp: 0.0994
+Rank 0: all_reduce 3 end timestamp: 0.1036
+Rank 0: all_reduce 4 end timestamp: 0.1036
+Rank 0: all_reduce 5 end timestamp: 0.1040
+Rank 0: all_reduce 6 end timestamp: 0.1098
+Rank 0: all_reduce 7 end timestamp: 0.1099
+Rank 0: Time for tiled matrix multiplication: 0.1101 seconds
+********** Iteration 48 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0253
+Rank 0: all_reduce 1 start timestamp: 0.0253
+Rank 0: single_forward start timestamp: 0.0254
+Rank 0: single_forward end timestamp: 0.0392
+Rank 0: all_reduce 2 start timestamp: 0.0392
+Rank 0: single_forward start timestamp: 0.0392
+Rank 0: single_forward end timestamp: 0.0532
+Rank 0: all_reduce 3 start timestamp: 0.0532
+Rank 0: single_forward start timestamp: 0.0533
+Rank 0: single_forward end timestamp: 0.0663
+Rank 0: all_reduce 4 start timestamp: 0.0663
+Rank 0: single_forward start timestamp: 0.0663
+Rank 0: single_forward end timestamp: 0.0785
+Rank 0: all_reduce 5 start timestamp: 0.0785
+Rank 0: single_forward start timestamp: 0.0785
+Rank 0: single_forward end timestamp: 0.0930
+Rank 0: all_reduce 6 start timestamp: 0.0930
+Rank 0: single_forward start timestamp: 0.0930
+Rank 0: single_forward end timestamp: 0.0993
+Rank 0: all_reduce 7 start timestamp: 0.0993
+Rank 0: all_reduce 0 end timestamp: 0.0994
+Rank 0: all_reduce 1 end timestamp: 0.0995
+Rank 0: all_reduce 2 end timestamp: 0.0995
+Rank 0: all_reduce 3 end timestamp: 0.1051
+Rank 0: all_reduce 4 end timestamp: 0.1051
+Rank 0: all_reduce 5 end timestamp: 0.1054
+Rank 0: all_reduce 6 end timestamp: 0.1113
+Rank 0: all_reduce 7 end timestamp: 0.1114
+Rank 0: Time for tiled matrix multiplication: 0.1116 seconds
+********** Iteration 49 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0263
+Rank 0: all_reduce 1 start timestamp: 0.0263
+Rank 0: single_forward start timestamp: 0.0263
+Rank 0: single_forward end timestamp: 0.0392
+Rank 0: all_reduce 2 start timestamp: 0.0392
+Rank 0: single_forward start timestamp: 0.0393
+Rank 0: single_forward end timestamp: 0.0536
+Rank 0: all_reduce 3 start timestamp: 0.0536
+Rank 0: single_forward start timestamp: 0.0536
+Rank 0: single_forward end timestamp: 0.0665
+Rank 0: all_reduce 4 start timestamp: 0.0665
+Rank 0: single_forward start timestamp: 0.0666
+Rank 0: single_forward end timestamp: 0.0806
+Rank 0: all_reduce 5 start timestamp: 0.0806
+Rank 0: single_forward start timestamp: 0.0807
+Rank 0: single_forward end timestamp: 0.0935
+Rank 0: all_reduce 6 start timestamp: 0.0935
+Rank 0: single_forward start timestamp: 0.0936
+Rank 0: single_forward end timestamp: 0.1008
+Rank 0: all_reduce 7 start timestamp: 0.1009
+Rank 0: all_reduce 0 end timestamp: 0.1009
+Rank 0: all_reduce 1 end timestamp: 0.1010
+Rank 0: all_reduce 2 end timestamp: 0.1010
+Rank 0: all_reduce 3 end timestamp: 0.1051
+Rank 0: all_reduce 4 end timestamp: 0.1052
+Rank 0: all_reduce 5 end timestamp: 0.1055
+Rank 0: all_reduce 6 end timestamp: 0.1113
+Rank 0: all_reduce 7 end timestamp: 0.1115
+Rank 0: Time for tiled matrix multiplication: 0.1117 seconds
+********** Iteration 50 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0254
+Rank 0: all_reduce 1 start timestamp: 0.0254
+Rank 0: single_forward start timestamp: 0.0255
+Rank 0: single_forward end timestamp: 0.0386
+Rank 0: all_reduce 2 start timestamp: 0.0386
+Rank 0: single_forward start timestamp: 0.0387
+Rank 0: single_forward end timestamp: 0.0518
+Rank 0: all_reduce 3 start timestamp: 0.0518
+Rank 0: single_forward start timestamp: 0.0518
+Rank 0: single_forward end timestamp: 0.0657
+Rank 0: all_reduce 4 start timestamp: 0.0657
+Rank 0: single_forward start timestamp: 0.0657
+Rank 0: single_forward end timestamp: 0.0787
+Rank 0: all_reduce 5 start timestamp: 0.0787
+Rank 0: single_forward start timestamp: 0.0788
+Rank 0: single_forward end timestamp: 0.0932
+Rank 0: all_reduce 6 start timestamp: 0.0932
+Rank 0: single_forward start timestamp: 0.0932
+Rank 0: single_forward end timestamp: 0.1000
+Rank 0: all_reduce 7 start timestamp: 0.1000
+Rank 0: all_reduce 0 end timestamp: 0.1001
+Rank 0: all_reduce 1 end timestamp: 0.1002
+Rank 0: all_reduce 2 end timestamp: 0.1002
+Rank 0: all_reduce 3 end timestamp: 0.1055
+Rank 0: all_reduce 4 end timestamp: 0.1056
+Rank 0: all_reduce 5 end timestamp: 0.1059
+Rank 0: all_reduce 6 end timestamp: 0.1117
+Rank 0: all_reduce 7 end timestamp: 0.1119
+Rank 0: Time for tiled matrix multiplication: 0.1121 seconds
+********** Iteration 51 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0132
+Rank 0: all_reduce 0 start timestamp: 0.0132
+Rank 0: single_forward start timestamp: 0.0132
+Rank 0: single_forward end timestamp: 0.0254
+Rank 0: all_reduce 1 start timestamp: 0.0254
+Rank 0: single_forward start timestamp: 0.0254
+Rank 0: single_forward end timestamp: 0.0384
+Rank 0: all_reduce 2 start timestamp: 0.0384
+Rank 0: single_forward start timestamp: 0.0385
+Rank 0: single_forward end timestamp: 0.0520
+Rank 0: all_reduce 3 start timestamp: 0.0520
+Rank 0: single_forward start timestamp: 0.0521
+Rank 0: single_forward end timestamp: 0.0652
+Rank 0: all_reduce 4 start timestamp: 0.0652
+Rank 0: single_forward start timestamp: 0.0653
+Rank 0: single_forward end timestamp: 0.0789
+Rank 0: all_reduce 5 start timestamp: 0.0789
+Rank 0: single_forward start timestamp: 0.0790
+Rank 0: single_forward end timestamp: 0.0929
+Rank 0: all_reduce 6 start timestamp: 0.0929
+Rank 0: single_forward start timestamp: 0.0930
+Rank 0: single_forward end timestamp: 0.0993
+Rank 0: all_reduce 7 start timestamp: 0.0993
+Rank 0: all_reduce 0 end timestamp: 0.0994
+Rank 0: all_reduce 1 end timestamp: 0.0994
+Rank 0: all_reduce 2 end timestamp: 0.0995
+Rank 0: all_reduce 3 end timestamp: 0.1046
+Rank 0: all_reduce 4 end timestamp: 0.1047
+Rank 0: all_reduce 5 end timestamp: 0.1050
+Rank 0: all_reduce 6 end timestamp: 0.1108
+Rank 0: all_reduce 7 end timestamp: 0.1110
+Rank 0: Time for tiled matrix multiplication: 0.1112 seconds
+********** Iteration 52 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0251
+Rank 0: all_reduce 1 start timestamp: 0.0251
+Rank 0: single_forward start timestamp: 0.0252
+Rank 0: single_forward end timestamp: 0.0383
+Rank 0: all_reduce 2 start timestamp: 0.0383
+Rank 0: single_forward start timestamp: 0.0384
+Rank 0: single_forward end timestamp: 0.0523
+Rank 0: all_reduce 3 start timestamp: 0.0524
+Rank 0: single_forward start timestamp: 0.0524
+Rank 0: single_forward end timestamp: 0.0655
+Rank 0: all_reduce 4 start timestamp: 0.0655
+Rank 0: single_forward start timestamp: 0.0656
+Rank 0: single_forward end timestamp: 0.0784
+Rank 0: all_reduce 5 start timestamp: 0.0784
+Rank 0: single_forward start timestamp: 0.0785
+Rank 0: single_forward end timestamp: 0.0923
+Rank 0: all_reduce 6 start timestamp: 0.0923
+Rank 0: single_forward start timestamp: 0.0923
+Rank 0: single_forward end timestamp: 0.0995
+Rank 0: all_reduce 7 start timestamp: 0.0995
+Rank 0: all_reduce 0 end timestamp: 0.0996
+Rank 0: all_reduce 1 end timestamp: 0.0996
+Rank 0: all_reduce 2 end timestamp: 0.0997
+Rank 0: all_reduce 3 end timestamp: 0.1036
+Rank 0: all_reduce 4 end timestamp: 0.1037
+Rank 0: all_reduce 5 end timestamp: 0.1040
+Rank 0: all_reduce 6 end timestamp: 0.1098
+Rank 0: all_reduce 7 end timestamp: 0.1100
+Rank 0: Time for tiled matrix multiplication: 0.1102 seconds
+********** Iteration 53 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0132
+Rank 0: all_reduce 0 start timestamp: 0.0132
+Rank 0: single_forward start timestamp: 0.0133
+Rank 0: single_forward end timestamp: 0.0254
+Rank 0: all_reduce 1 start timestamp: 0.0254
+Rank 0: single_forward start timestamp: 0.0255
+Rank 0: single_forward end timestamp: 0.0395
+Rank 0: all_reduce 2 start timestamp: 0.0397
+Rank 0: single_forward start timestamp: 0.0397
+Rank 0: single_forward end timestamp: 0.0527
+Rank 0: all_reduce 3 start timestamp: 0.0528
+Rank 0: single_forward start timestamp: 0.0528
+Rank 0: single_forward end timestamp: 0.0659
+Rank 0: all_reduce 4 start timestamp: 0.0659
+Rank 0: single_forward start timestamp: 0.0659
+Rank 0: single_forward end timestamp: 0.0789
+Rank 0: all_reduce 5 start timestamp: 0.0789
+Rank 0: single_forward start timestamp: 0.0789
+Rank 0: single_forward end timestamp: 0.0928
+Rank 0: all_reduce 6 start timestamp: 0.0928
+Rank 0: single_forward start timestamp: 0.0928
+Rank 0: single_forward end timestamp: 0.1001
+Rank 0: all_reduce 7 start timestamp: 0.1001
+Rank 0: all_reduce 0 end timestamp: 0.1002
+Rank 0: all_reduce 1 end timestamp: 0.1003
+Rank 0: all_reduce 2 end timestamp: 0.1003
+Rank 0: all_reduce 3 end timestamp: 0.1043
+Rank 0: all_reduce 4 end timestamp: 0.1044
+Rank 0: all_reduce 5 end timestamp: 0.1047
+Rank 0: all_reduce 6 end timestamp: 0.1105
+Rank 0: all_reduce 7 end timestamp: 0.1107
+Rank 0: Time for tiled matrix multiplication: 0.1109 seconds
+********** Iteration 54 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0261
+Rank 0: single_forward start timestamp: 0.0261
+Rank 0: single_forward end timestamp: 0.0392
+Rank 0: all_reduce 2 start timestamp: 0.0392
+Rank 0: single_forward start timestamp: 0.0393
+Rank 0: single_forward end timestamp: 0.0532
+Rank 0: all_reduce 3 start timestamp: 0.0532
+Rank 0: single_forward start timestamp: 0.0533
+Rank 0: single_forward end timestamp: 0.0662
+Rank 0: all_reduce 4 start timestamp: 0.0663
+Rank 0: single_forward start timestamp: 0.0663
+Rank 0: single_forward end timestamp: 0.0803
+Rank 0: all_reduce 5 start timestamp: 0.0803
+Rank 0: single_forward start timestamp: 0.0804
+Rank 0: single_forward end timestamp: 0.0941
+Rank 0: all_reduce 6 start timestamp: 0.0941
+Rank 0: single_forward start timestamp: 0.0942
+Rank 0: single_forward end timestamp: 0.1005
+Rank 0: all_reduce 7 start timestamp: 0.1006
+Rank 0: all_reduce 0 end timestamp: 0.1006
+Rank 0: all_reduce 1 end timestamp: 0.1007
+Rank 0: all_reduce 2 end timestamp: 0.1008
+Rank 0: all_reduce 3 end timestamp: 0.1046
+Rank 0: all_reduce 4 end timestamp: 0.1047
+Rank 0: all_reduce 5 end timestamp: 0.1050
+Rank 0: all_reduce 6 end timestamp: 0.1109
+Rank 0: all_reduce 7 end timestamp: 0.1110
+Rank 0: Time for tiled matrix multiplication: 0.1112 seconds
+********** Iteration 55 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0261
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0392
+Rank 0: all_reduce 2 start timestamp: 0.0392
+Rank 0: single_forward start timestamp: 0.0392
+Rank 0: single_forward end timestamp: 0.0524
+Rank 0: all_reduce 3 start timestamp: 0.0524
+Rank 0: single_forward start timestamp: 0.0524
+Rank 0: single_forward end timestamp: 0.0646
+Rank 0: all_reduce 4 start timestamp: 0.0646
+Rank 0: single_forward start timestamp: 0.0646
+Rank 0: single_forward end timestamp: 0.0788
+Rank 0: all_reduce 5 start timestamp: 0.0788
+Rank 0: single_forward start timestamp: 0.0788
+Rank 0: single_forward end timestamp: 0.0924
+Rank 0: all_reduce 6 start timestamp: 0.0924
+Rank 0: single_forward start timestamp: 0.0925
+Rank 0: single_forward end timestamp: 0.0988
+Rank 0: all_reduce 7 start timestamp: 0.0988
+Rank 0: all_reduce 0 end timestamp: 0.0989
+Rank 0: all_reduce 1 end timestamp: 0.0989
+Rank 0: all_reduce 2 end timestamp: 0.0990
+Rank 0: all_reduce 3 end timestamp: 0.1043
+Rank 0: all_reduce 4 end timestamp: 0.1044
+Rank 0: all_reduce 5 end timestamp: 0.1047
+Rank 0: all_reduce 6 end timestamp: 0.1105
+Rank 0: all_reduce 7 end timestamp: 0.1107
+Rank 0: Time for tiled matrix multiplication: 0.1109 seconds
+********** Iteration 56 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0131
+Rank 0: all_reduce 0 start timestamp: 0.0132
+Rank 0: single_forward start timestamp: 0.0132
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0261
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0403
+Rank 0: all_reduce 2 start timestamp: 0.0403
+Rank 0: single_forward start timestamp: 0.0404
+Rank 0: single_forward end timestamp: 0.0525
+Rank 0: all_reduce 3 start timestamp: 0.0526
+Rank 0: single_forward start timestamp: 0.0526
+Rank 0: single_forward end timestamp: 0.0665
+Rank 0: all_reduce 4 start timestamp: 0.0665
+Rank 0: single_forward start timestamp: 0.0666
+Rank 0: single_forward end timestamp: 0.0797
+Rank 0: all_reduce 5 start timestamp: 0.0797
+Rank 0: single_forward start timestamp: 0.0798
+Rank 0: single_forward end timestamp: 0.0919
+Rank 0: all_reduce 6 start timestamp: 0.0919
+Rank 0: single_forward start timestamp: 0.0920
+Rank 0: single_forward end timestamp: 0.0990
+Rank 0: all_reduce 7 start timestamp: 0.0990
+Rank 0: all_reduce 0 end timestamp: 0.0991
+Rank 0: all_reduce 1 end timestamp: 0.0991
+Rank 0: all_reduce 2 end timestamp: 0.0992
+Rank 0: all_reduce 3 end timestamp: 0.1032
+Rank 0: all_reduce 4 end timestamp: 0.1033
+Rank 0: all_reduce 5 end timestamp: 0.1036
+Rank 0: all_reduce 6 end timestamp: 0.1094
+Rank 0: all_reduce 7 end timestamp: 0.1096
+Rank 0: Time for tiled matrix multiplication: 0.1098 seconds
+********** Iteration 57 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0132
+Rank 0: all_reduce 0 start timestamp: 0.0132
+Rank 0: single_forward start timestamp: 0.0132
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0261
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0393
+Rank 0: all_reduce 2 start timestamp: 0.0393
+Rank 0: single_forward start timestamp: 0.0394
+Rank 0: single_forward end timestamp: 0.0522
+Rank 0: all_reduce 3 start timestamp: 0.0522
+Rank 0: single_forward start timestamp: 0.0523
+Rank 0: single_forward end timestamp: 0.0654
+Rank 0: all_reduce 4 start timestamp: 0.0654
+Rank 0: single_forward start timestamp: 0.0654
+Rank 0: single_forward end timestamp: 0.0785
+Rank 0: all_reduce 5 start timestamp: 0.0785
+Rank 0: single_forward start timestamp: 0.0786
+Rank 0: single_forward end timestamp: 0.0922
+Rank 0: all_reduce 6 start timestamp: 0.0922
+Rank 0: single_forward start timestamp: 0.0923
+Rank 0: single_forward end timestamp: 0.0995
+Rank 0: all_reduce 7 start timestamp: 0.0996
+Rank 0: all_reduce 0 end timestamp: 0.0996
+Rank 0: all_reduce 1 end timestamp: 0.0997
+Rank 0: all_reduce 2 end timestamp: 0.0997
+Rank 0: all_reduce 3 end timestamp: 0.1040
+Rank 0: all_reduce 4 end timestamp: 0.1041
+Rank 0: all_reduce 5 end timestamp: 0.1044
+Rank 0: all_reduce 6 end timestamp: 0.1102
+Rank 0: all_reduce 7 end timestamp: 0.1104
+Rank 0: Time for tiled matrix multiplication: 0.1106 seconds
+********** Iteration 58 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0129
+Rank 0: all_reduce 0 start timestamp: 0.0130
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0262
+Rank 0: all_reduce 1 start timestamp: 0.0262
+Rank 0: single_forward start timestamp: 0.0263
+Rank 0: single_forward end timestamp: 0.0401
+Rank 0: all_reduce 2 start timestamp: 0.0401
+Rank 0: single_forward start timestamp: 0.0402
+Rank 0: single_forward end timestamp: 0.0535
+Rank 0: all_reduce 3 start timestamp: 0.0535
+Rank 0: single_forward start timestamp: 0.0536
+Rank 0: single_forward end timestamp: 0.0674
+Rank 0: all_reduce 4 start timestamp: 0.0675
+Rank 0: single_forward start timestamp: 0.0675
+Rank 0: single_forward end timestamp: 0.0814
+Rank 0: all_reduce 5 start timestamp: 0.0814
+Rank 0: single_forward start timestamp: 0.0815
+Rank 0: single_forward end timestamp: 0.0936
+Rank 0: all_reduce 6 start timestamp: 0.0937
+Rank 0: single_forward start timestamp: 0.0937
+Rank 0: single_forward end timestamp: 0.1008
+Rank 0: all_reduce 7 start timestamp: 0.1008
+Rank 0: all_reduce 0 end timestamp: 0.1009
+Rank 0: all_reduce 1 end timestamp: 0.1009
+Rank 0: all_reduce 2 end timestamp: 0.1010
+Rank 0: all_reduce 3 end timestamp: 0.1049
+Rank 0: all_reduce 4 end timestamp: 0.1050
+Rank 0: all_reduce 5 end timestamp: 0.1053
+Rank 0: all_reduce 6 end timestamp: 0.1111
+Rank 0: all_reduce 7 end timestamp: 0.1113
+Rank 0: Time for tiled matrix multiplication: 0.1115 seconds
+********** Iteration 59 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0128
+Rank 0: all_reduce 0 start timestamp: 0.0128
+Rank 0: single_forward start timestamp: 0.0129
+Rank 0: single_forward end timestamp: 0.0259
+Rank 0: all_reduce 1 start timestamp: 0.0259
+Rank 0: single_forward start timestamp: 0.0260
+Rank 0: single_forward end timestamp: 0.0391
+Rank 0: all_reduce 2 start timestamp: 0.0391
+Rank 0: single_forward start timestamp: 0.0392
+Rank 0: single_forward end timestamp: 0.0527
+Rank 0: all_reduce 3 start timestamp: 0.0527
+Rank 0: single_forward start timestamp: 0.0528
+Rank 0: single_forward end timestamp: 0.0659
+Rank 0: all_reduce 4 start timestamp: 0.0659
+Rank 0: single_forward start timestamp: 0.0660
+Rank 0: single_forward end timestamp: 0.0790
+Rank 0: all_reduce 5 start timestamp: 0.0791
+Rank 0: single_forward start timestamp: 0.0791
+Rank 0: single_forward end timestamp: 0.0928
+Rank 0: all_reduce 6 start timestamp: 0.0928
+Rank 0: single_forward start timestamp: 0.0928
+Rank 0: single_forward end timestamp: 0.0999
+Rank 0: all_reduce 7 start timestamp: 0.0999
+Rank 0: all_reduce 0 end timestamp: 0.1000
+Rank 0: all_reduce 1 end timestamp: 0.1000
+Rank 0: all_reduce 2 end timestamp: 0.1001
+Rank 0: all_reduce 3 end timestamp: 0.1058
+Rank 0: all_reduce 4 end timestamp: 0.1058
+Rank 0: all_reduce 5 end timestamp: 0.1061
+Rank 0: all_reduce 6 end timestamp: 0.1120
+Rank 0: all_reduce 7 end timestamp: 0.1121
+Rank 0: Time for tiled matrix multiplication: 0.1123 seconds
+********** Iteration 60 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0131
+Rank 0: all_reduce 0 start timestamp: 0.0131
+Rank 0: single_forward start timestamp: 0.0132
+Rank 0: single_forward end timestamp: 0.0254
+Rank 0: all_reduce 1 start timestamp: 0.0254
+Rank 0: single_forward start timestamp: 0.0254
+Rank 0: single_forward end timestamp: 0.0392
+Rank 0: all_reduce 2 start timestamp: 0.0392
+Rank 0: single_forward start timestamp: 0.0393
+Rank 0: single_forward end timestamp: 0.0515
+Rank 0: all_reduce 3 start timestamp: 0.0515
+Rank 0: single_forward start timestamp: 0.0516
+Rank 0: single_forward end timestamp: 0.0650
+Rank 0: all_reduce 4 start timestamp: 0.0650
+Rank 0: single_forward start timestamp: 0.0651
+Rank 0: single_forward end timestamp: 0.0788
+Rank 0: all_reduce 5 start timestamp: 0.0788
+Rank 0: single_forward start timestamp: 0.0789
+Rank 0: single_forward end timestamp: 0.0920
+Rank 0: all_reduce 6 start timestamp: 0.0920
+Rank 0: single_forward start timestamp: 0.0921
+Rank 0: single_forward end timestamp: 0.0993
+Rank 0: all_reduce 7 start timestamp: 0.0993
+Rank 0: all_reduce 0 end timestamp: 0.0993
+Rank 0: all_reduce 1 end timestamp: 0.0994
+Rank 0: all_reduce 2 end timestamp: 0.0995
+Rank 0: all_reduce 3 end timestamp: 0.1036
+Rank 0: all_reduce 4 end timestamp: 0.1037
+Rank 0: all_reduce 5 end timestamp: 0.1039
+Rank 0: all_reduce 6 end timestamp: 0.1098
+Rank 0: all_reduce 7 end timestamp: 0.1099
+Rank 0: Time for tiled matrix multiplication: 0.1101 seconds
+********** Iteration 61 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0253
+Rank 0: all_reduce 1 start timestamp: 0.0253
+Rank 0: single_forward start timestamp: 0.0254
+Rank 0: single_forward end timestamp: 0.0393
+Rank 0: all_reduce 2 start timestamp: 0.0393
+Rank 0: single_forward start timestamp: 0.0394
+Rank 0: single_forward end timestamp: 0.0525
+Rank 0: all_reduce 3 start timestamp: 0.0525
+Rank 0: single_forward start timestamp: 0.0525
+Rank 0: single_forward end timestamp: 0.0657
+Rank 0: all_reduce 4 start timestamp: 0.0657
+Rank 0: single_forward start timestamp: 0.0658
+Rank 0: single_forward end timestamp: 0.0786
+Rank 0: all_reduce 5 start timestamp: 0.0786
+Rank 0: single_forward start timestamp: 0.0787
+Rank 0: single_forward end timestamp: 0.0919
+Rank 0: all_reduce 6 start timestamp: 0.0919
+Rank 0: single_forward start timestamp: 0.0919
+Rank 0: single_forward end timestamp: 0.0992
+Rank 0: all_reduce 7 start timestamp: 0.0992
+Rank 0: all_reduce 0 end timestamp: 0.0993
+Rank 0: all_reduce 1 end timestamp: 0.0993
+Rank 0: all_reduce 2 end timestamp: 0.0994
+Rank 0: all_reduce 3 end timestamp: 0.1034
+Rank 0: all_reduce 4 end timestamp: 0.1035
+Rank 0: all_reduce 5 end timestamp: 0.1038
+Rank 0: all_reduce 6 end timestamp: 0.1096
+Rank 0: all_reduce 7 end timestamp: 0.1098
+Rank 0: Time for tiled matrix multiplication: 0.1100 seconds
+********** Iteration 62 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0130
+Rank 0: all_reduce 0 start timestamp: 0.0130
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0274
+Rank 0: all_reduce 1 start timestamp: 0.0274
+Rank 0: single_forward start timestamp: 0.0275
+Rank 0: single_forward end timestamp: 0.0415
+Rank 0: all_reduce 2 start timestamp: 0.0416
+Rank 0: single_forward start timestamp: 0.0416
+Rank 0: single_forward end timestamp: 0.0555
+Rank 0: all_reduce 3 start timestamp: 0.0555
+Rank 0: single_forward start timestamp: 0.0556
+Rank 0: single_forward end timestamp: 0.0695
+Rank 0: all_reduce 4 start timestamp: 0.0695
+Rank 0: single_forward start timestamp: 0.0695
+Rank 0: single_forward end timestamp: 0.0823
+Rank 0: all_reduce 5 start timestamp: 0.0823
+Rank 0: single_forward start timestamp: 0.0823
+Rank 0: single_forward end timestamp: 0.0962
+Rank 0: all_reduce 6 start timestamp: 0.0962
+Rank 0: single_forward start timestamp: 0.0962
+Rank 0: single_forward end timestamp: 0.1030
+Rank 0: all_reduce 7 start timestamp: 0.1031
+Rank 0: all_reduce 0 end timestamp: 0.1031
+Rank 0: all_reduce 1 end timestamp: 0.1032
+Rank 0: all_reduce 2 end timestamp: 0.1033
+Rank 0: all_reduce 3 end timestamp: 0.1072
+Rank 0: all_reduce 4 end timestamp: 0.1073
+Rank 0: all_reduce 5 end timestamp: 0.1076
+Rank 0: all_reduce 6 end timestamp: 0.1134
+Rank 0: all_reduce 7 end timestamp: 0.1135
+Rank 0: Time for tiled matrix multiplication: 0.1137 seconds
+********** Iteration 63 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0253
+Rank 0: all_reduce 1 start timestamp: 0.0253
+Rank 0: single_forward start timestamp: 0.0253
+Rank 0: single_forward end timestamp: 0.0390
+Rank 0: all_reduce 2 start timestamp: 0.0390
+Rank 0: single_forward start timestamp: 0.0390
+Rank 0: single_forward end timestamp: 0.0519
+Rank 0: all_reduce 3 start timestamp: 0.0519
+Rank 0: single_forward start timestamp: 0.0520
+Rank 0: single_forward end timestamp: 0.0650
+Rank 0: all_reduce 4 start timestamp: 0.0650
+Rank 0: single_forward start timestamp: 0.0651
+Rank 0: single_forward end timestamp: 0.0789
+Rank 0: all_reduce 5 start timestamp: 0.0789
+Rank 0: single_forward start timestamp: 0.0789
+Rank 0: single_forward end timestamp: 0.0927
+Rank 0: all_reduce 6 start timestamp: 0.0927
+Rank 0: single_forward start timestamp: 0.0927
+Rank 0: single_forward end timestamp: 0.0995
+Rank 0: all_reduce 7 start timestamp: 0.0995
+Rank 0: all_reduce 0 end timestamp: 0.0996
+Rank 0: all_reduce 1 end timestamp: 0.0996
+Rank 0: all_reduce 2 end timestamp: 0.0997
+Rank 0: all_reduce 3 end timestamp: 0.1056
+Rank 0: all_reduce 4 end timestamp: 0.1057
+Rank 0: all_reduce 5 end timestamp: 0.1060
+Rank 0: all_reduce 6 end timestamp: 0.1119
+Rank 0: all_reduce 7 end timestamp: 0.1120
+Rank 0: Time for tiled matrix multiplication: 0.1122 seconds
+********** Iteration 64 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0263
+Rank 0: all_reduce 1 start timestamp: 0.0263
+Rank 0: single_forward start timestamp: 0.0263
+Rank 0: single_forward end timestamp: 0.0397
+Rank 0: all_reduce 2 start timestamp: 0.0397
+Rank 0: single_forward start timestamp: 0.0398
+Rank 0: single_forward end timestamp: 0.0514
+Rank 0: all_reduce 3 start timestamp: 0.0514
+Rank 0: single_forward start timestamp: 0.0515
+Rank 0: single_forward end timestamp: 0.0645
+Rank 0: all_reduce 4 start timestamp: 0.0645
+Rank 0: single_forward start timestamp: 0.0646
+Rank 0: single_forward end timestamp: 0.0784
+Rank 0: all_reduce 5 start timestamp: 0.0784
+Rank 0: single_forward start timestamp: 0.0785
+Rank 0: single_forward end timestamp: 0.0917
+Rank 0: all_reduce 6 start timestamp: 0.0917
+Rank 0: single_forward start timestamp: 0.0918
+Rank 0: single_forward end timestamp: 0.0988
+Rank 0: all_reduce 7 start timestamp: 0.0988
+Rank 0: all_reduce 0 end timestamp: 0.0988
+Rank 0: all_reduce 1 end timestamp: 0.0989
+Rank 0: all_reduce 2 end timestamp: 0.0989
+Rank 0: all_reduce 3 end timestamp: 0.1049
+Rank 0: all_reduce 4 end timestamp: 0.1050
+Rank 0: all_reduce 5 end timestamp: 0.1053
+Rank 0: all_reduce 6 end timestamp: 0.1111
+Rank 0: all_reduce 7 end timestamp: 0.1113
+Rank 0: Time for tiled matrix multiplication: 0.1115 seconds
+********** Iteration 65 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0132
+Rank 0: all_reduce 0 start timestamp: 0.0132
+Rank 0: single_forward start timestamp: 0.0133
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0262
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0393
+Rank 0: all_reduce 2 start timestamp: 0.0393
+Rank 0: single_forward start timestamp: 0.0394
+Rank 0: single_forward end timestamp: 0.0520
+Rank 0: all_reduce 3 start timestamp: 0.0521
+Rank 0: single_forward start timestamp: 0.0521
+Rank 0: single_forward end timestamp: 0.0653
+Rank 0: all_reduce 4 start timestamp: 0.0653
+Rank 0: single_forward start timestamp: 0.0654
+Rank 0: single_forward end timestamp: 0.0793
+Rank 0: all_reduce 5 start timestamp: 0.0793
+Rank 0: single_forward start timestamp: 0.0794
+Rank 0: single_forward end timestamp: 0.0916
+Rank 0: all_reduce 6 start timestamp: 0.0916
+Rank 0: single_forward start timestamp: 0.0916
+Rank 0: single_forward end timestamp: 0.0988
+Rank 0: all_reduce 7 start timestamp: 0.0988
+Rank 0: all_reduce 0 end timestamp: 0.0989
+Rank 0: all_reduce 1 end timestamp: 0.0989
+Rank 0: all_reduce 2 end timestamp: 0.0990
+Rank 0: all_reduce 3 end timestamp: 0.1047
+Rank 0: all_reduce 4 end timestamp: 0.1048
+Rank 0: all_reduce 5 end timestamp: 0.1051
+Rank 0: all_reduce 6 end timestamp: 0.1109
+Rank 0: all_reduce 7 end timestamp: 0.1111
+Rank 0: Time for tiled matrix multiplication: 0.1113 seconds
+********** Iteration 66 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0254
+Rank 0: all_reduce 1 start timestamp: 0.0254
+Rank 0: single_forward start timestamp: 0.0255
+Rank 0: single_forward end timestamp: 0.0393
+Rank 0: all_reduce 2 start timestamp: 0.0393
+Rank 0: single_forward start timestamp: 0.0394
+Rank 0: single_forward end timestamp: 0.0526
+Rank 0: all_reduce 3 start timestamp: 0.0526
+Rank 0: single_forward start timestamp: 0.0527
+Rank 0: single_forward end timestamp: 0.0665
+Rank 0: all_reduce 4 start timestamp: 0.0666
+Rank 0: single_forward start timestamp: 0.0666
+Rank 0: single_forward end timestamp: 0.0787
+Rank 0: all_reduce 5 start timestamp: 0.0788
+Rank 0: single_forward start timestamp: 0.0788
+Rank 0: single_forward end timestamp: 0.0920
+Rank 0: all_reduce 6 start timestamp: 0.0920
+Rank 0: single_forward start timestamp: 0.0921
+Rank 0: single_forward end timestamp: 0.0992
+Rank 0: all_reduce 7 start timestamp: 0.0992
+Rank 0: all_reduce 0 end timestamp: 0.0993
+Rank 0: all_reduce 1 end timestamp: 0.0993
+Rank 0: all_reduce 2 end timestamp: 0.0994
+Rank 0: all_reduce 3 end timestamp: 0.1032
+Rank 0: all_reduce 4 end timestamp: 0.1033
+Rank 0: all_reduce 5 end timestamp: 0.1036
+Rank 0: all_reduce 6 end timestamp: 0.1095
+Rank 0: all_reduce 7 end timestamp: 0.1096
+Rank 0: Time for tiled matrix multiplication: 0.1098 seconds
+********** Iteration 67 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0129
+Rank 0: all_reduce 0 start timestamp: 0.0129
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0271
+Rank 0: all_reduce 1 start timestamp: 0.0272
+Rank 0: single_forward start timestamp: 0.0272
+Rank 0: single_forward end timestamp: 0.0402
+Rank 0: all_reduce 2 start timestamp: 0.0402
+Rank 0: single_forward start timestamp: 0.0403
+Rank 0: single_forward end timestamp: 0.0531
+Rank 0: all_reduce 3 start timestamp: 0.0532
+Rank 0: single_forward start timestamp: 0.0532
+Rank 0: single_forward end timestamp: 0.0673
+Rank 0: all_reduce 4 start timestamp: 0.0673
+Rank 0: single_forward start timestamp: 0.0673
+Rank 0: single_forward end timestamp: 0.0795
+Rank 0: all_reduce 5 start timestamp: 0.0795
+Rank 0: single_forward start timestamp: 0.0796
+Rank 0: single_forward end timestamp: 0.0926
+Rank 0: all_reduce 6 start timestamp: 0.0926
+Rank 0: single_forward start timestamp: 0.0926
+Rank 0: single_forward end timestamp: 0.1000
+Rank 0: all_reduce 7 start timestamp: 0.1000
+Rank 0: all_reduce 0 end timestamp: 0.1001
+Rank 0: all_reduce 1 end timestamp: 0.1001
+Rank 0: all_reduce 2 end timestamp: 0.1002
+Rank 0: all_reduce 3 end timestamp: 0.1054
+Rank 0: all_reduce 4 end timestamp: 0.1055
+Rank 0: all_reduce 5 end timestamp: 0.1058
+Rank 0: all_reduce 6 end timestamp: 0.1117
+Rank 0: all_reduce 7 end timestamp: 0.1118
+Rank 0: Time for tiled matrix multiplication: 0.1120 seconds
+********** Iteration 68 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0121
+Rank 0: all_reduce 0 start timestamp: 0.0121
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0260
+Rank 0: all_reduce 1 start timestamp: 0.0260
+Rank 0: single_forward start timestamp: 0.0261
+Rank 0: single_forward end timestamp: 0.0401
+Rank 0: all_reduce 2 start timestamp: 0.0401
+Rank 0: single_forward start timestamp: 0.0402
+Rank 0: single_forward end timestamp: 0.0530
+Rank 0: all_reduce 3 start timestamp: 0.0530
+Rank 0: single_forward start timestamp: 0.0531
+Rank 0: single_forward end timestamp: 0.0664
+Rank 0: all_reduce 4 start timestamp: 0.0664
+Rank 0: single_forward start timestamp: 0.0664
+Rank 0: single_forward end timestamp: 0.0795
+Rank 0: all_reduce 5 start timestamp: 0.0795
+Rank 0: single_forward start timestamp: 0.0796
+Rank 0: single_forward end timestamp: 0.0926
+Rank 0: all_reduce 6 start timestamp: 0.0926
+Rank 0: single_forward start timestamp: 0.0927
+Rank 0: single_forward end timestamp: 0.0998
+Rank 0: all_reduce 7 start timestamp: 0.0998
+Rank 0: all_reduce 0 end timestamp: 0.0998
+Rank 0: all_reduce 1 end timestamp: 0.0999
+Rank 0: all_reduce 2 end timestamp: 0.1000
+Rank 0: all_reduce 3 end timestamp: 0.1043
+Rank 0: all_reduce 4 end timestamp: 0.1044
+Rank 0: all_reduce 5 end timestamp: 0.1047
+Rank 0: all_reduce 6 end timestamp: 0.1105
+Rank 0: all_reduce 7 end timestamp: 0.1107
+Rank 0: Time for tiled matrix multiplication: 0.1109 seconds
+********** Iteration 69 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0132
+Rank 0: all_reduce 0 start timestamp: 0.0132
+Rank 0: single_forward start timestamp: 0.0133
+Rank 0: single_forward end timestamp: 0.0264
+Rank 0: all_reduce 1 start timestamp: 0.0264
+Rank 0: single_forward start timestamp: 0.0265
+Rank 0: single_forward end timestamp: 0.0386
+Rank 0: all_reduce 2 start timestamp: 0.0387
+Rank 0: single_forward start timestamp: 0.0387
+Rank 0: single_forward end timestamp: 0.0518
+Rank 0: all_reduce 3 start timestamp: 0.0518
+Rank 0: single_forward start timestamp: 0.0518
+Rank 0: single_forward end timestamp: 0.0659
+Rank 0: all_reduce 4 start timestamp: 0.0659
+Rank 0: single_forward start timestamp: 0.0659
+Rank 0: single_forward end timestamp: 0.0780
+Rank 0: all_reduce 5 start timestamp: 0.0781
+Rank 0: single_forward start timestamp: 0.0781
+Rank 0: single_forward end timestamp: 0.0916
+Rank 0: all_reduce 6 start timestamp: 0.0916
+Rank 0: single_forward start timestamp: 0.0917
+Rank 0: single_forward end timestamp: 0.0989
+Rank 0: all_reduce 7 start timestamp: 0.0989
+Rank 0: all_reduce 0 end timestamp: 0.0990
+Rank 0: all_reduce 1 end timestamp: 0.0990
+Rank 0: all_reduce 2 end timestamp: 0.0991
+Rank 0: all_reduce 3 end timestamp: 0.1038
+Rank 0: all_reduce 4 end timestamp: 0.1039
+Rank 0: all_reduce 5 end timestamp: 0.1042
+Rank 0: all_reduce 6 end timestamp: 0.1100
+Rank 0: all_reduce 7 end timestamp: 0.1102
+Rank 0: Time for tiled matrix multiplication: 0.1104 seconds
+********** Iteration 70 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0132
+Rank 0: all_reduce 0 start timestamp: 0.0132
+Rank 0: single_forward start timestamp: 0.0133
+Rank 0: single_forward end timestamp: 0.0254
+Rank 0: all_reduce 1 start timestamp: 0.0254
+Rank 0: single_forward start timestamp: 0.0254
+Rank 0: single_forward end timestamp: 0.0396
+Rank 0: all_reduce 2 start timestamp: 0.0396
+Rank 0: single_forward start timestamp: 0.0397
+Rank 0: single_forward end timestamp: 0.0529
+Rank 0: all_reduce 3 start timestamp: 0.0529
+Rank 0: single_forward start timestamp: 0.0529
+Rank 0: single_forward end timestamp: 0.0651
+Rank 0: all_reduce 4 start timestamp: 0.0651
+Rank 0: single_forward start timestamp: 0.0651
+Rank 0: single_forward end timestamp: 0.0782
+Rank 0: all_reduce 5 start timestamp: 0.0783
+Rank 0: single_forward start timestamp: 0.0783
+Rank 0: single_forward end timestamp: 0.0928
+Rank 0: all_reduce 6 start timestamp: 0.0928
+Rank 0: single_forward start timestamp: 0.0929
+Rank 0: single_forward end timestamp: 0.0996
+Rank 0: all_reduce 7 start timestamp: 0.0996
+Rank 0: all_reduce 0 end timestamp: 0.0997
+Rank 0: all_reduce 1 end timestamp: 0.0997
+Rank 0: all_reduce 2 end timestamp: 0.0998
+Rank 0: all_reduce 3 end timestamp: 0.1051
+Rank 0: all_reduce 4 end timestamp: 0.1052
+Rank 0: all_reduce 5 end timestamp: 0.1054
+Rank 0: all_reduce 6 end timestamp: 0.1113
+Rank 0: all_reduce 7 end timestamp: 0.1114
+Rank 0: Time for tiled matrix multiplication: 0.1117 seconds
+********** Iteration 71 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0258
+Rank 0: all_reduce 1 start timestamp: 0.0258
+Rank 0: single_forward start timestamp: 0.0259
+Rank 0: single_forward end timestamp: 0.0390
+Rank 0: all_reduce 2 start timestamp: 0.0391
+Rank 0: single_forward start timestamp: 0.0391
+Rank 0: single_forward end timestamp: 0.0522
+Rank 0: all_reduce 3 start timestamp: 0.0522
+Rank 0: single_forward start timestamp: 0.0523
+Rank 0: single_forward end timestamp: 0.0661
+Rank 0: all_reduce 4 start timestamp: 0.0661
+Rank 0: single_forward start timestamp: 0.0662
+Rank 0: single_forward end timestamp: 0.0802
+Rank 0: all_reduce 5 start timestamp: 0.0802
+Rank 0: single_forward start timestamp: 0.0803
+Rank 0: single_forward end timestamp: 0.0931
+Rank 0: all_reduce 6 start timestamp: 0.0931
+Rank 0: single_forward start timestamp: 0.0932
+Rank 0: single_forward end timestamp: 0.1004
+Rank 0: all_reduce 7 start timestamp: 0.1004
+Rank 0: all_reduce 0 end timestamp: 0.1004
+Rank 0: all_reduce 1 end timestamp: 0.1005
+Rank 0: all_reduce 2 end timestamp: 0.1006
+Rank 0: all_reduce 3 end timestamp: 0.1050
+Rank 0: all_reduce 4 end timestamp: 0.1051
+Rank 0: all_reduce 5 end timestamp: 0.1054
+Rank 0: all_reduce 6 end timestamp: 0.1112
+Rank 0: all_reduce 7 end timestamp: 0.1113
+Rank 0: Time for tiled matrix multiplication: 0.1115 seconds
+********** Iteration 72 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0131
+Rank 0: all_reduce 0 start timestamp: 0.0132
+Rank 0: single_forward start timestamp: 0.0132
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0261
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0403
+Rank 0: all_reduce 2 start timestamp: 0.0403
+Rank 0: single_forward start timestamp: 0.0404
+Rank 0: single_forward end timestamp: 0.0536
+Rank 0: all_reduce 3 start timestamp: 0.0536
+Rank 0: single_forward start timestamp: 0.0537
+Rank 0: single_forward end timestamp: 0.0674
+Rank 0: all_reduce 4 start timestamp: 0.0675
+Rank 0: single_forward start timestamp: 0.0675
+Rank 0: single_forward end timestamp: 0.0806
+Rank 0: all_reduce 5 start timestamp: 0.0806
+Rank 0: single_forward start timestamp: 0.0806
+Rank 0: single_forward end timestamp: 0.0936
+Rank 0: all_reduce 6 start timestamp: 0.0936
+Rank 0: single_forward start timestamp: 0.0937
+Rank 0: single_forward end timestamp: 0.1009
+Rank 0: all_reduce 7 start timestamp: 0.1009
+Rank 0: all_reduce 0 end timestamp: 0.1010
+Rank 0: all_reduce 1 end timestamp: 0.1011
+Rank 0: all_reduce 2 end timestamp: 0.1011
+Rank 0: all_reduce 3 end timestamp: 0.1051
+Rank 0: all_reduce 4 end timestamp: 0.1052
+Rank 0: all_reduce 5 end timestamp: 0.1055
+Rank 0: all_reduce 6 end timestamp: 0.1113
+Rank 0: all_reduce 7 end timestamp: 0.1115
+Rank 0: Time for tiled matrix multiplication: 0.1117 seconds
+********** Iteration 73 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0251
+Rank 0: all_reduce 1 start timestamp: 0.0251
+Rank 0: single_forward start timestamp: 0.0252
+Rank 0: single_forward end timestamp: 0.0383
+Rank 0: all_reduce 2 start timestamp: 0.0383
+Rank 0: single_forward start timestamp: 0.0383
+Rank 0: single_forward end timestamp: 0.0514
+Rank 0: all_reduce 3 start timestamp: 0.0514
+Rank 0: single_forward start timestamp: 0.0515
+Rank 0: single_forward end timestamp: 0.0644
+Rank 0: all_reduce 4 start timestamp: 0.0645
+Rank 0: single_forward start timestamp: 0.0645
+Rank 0: single_forward end timestamp: 0.0775
+Rank 0: all_reduce 5 start timestamp: 0.0775
+Rank 0: single_forward start timestamp: 0.0776
+Rank 0: single_forward end timestamp: 0.0905
+Rank 0: all_reduce 6 start timestamp: 0.0905
+Rank 0: single_forward start timestamp: 0.0905
+Rank 0: single_forward end timestamp: 0.0977
+Rank 0: all_reduce 7 start timestamp: 0.0977
+Rank 0: all_reduce 0 end timestamp: 0.0978
+Rank 0: all_reduce 1 end timestamp: 0.0978
+Rank 0: all_reduce 2 end timestamp: 0.0981
+Rank 0: all_reduce 3 end timestamp: 0.1052
+Rank 0: all_reduce 4 end timestamp: 0.1053
+Rank 0: all_reduce 5 end timestamp: 0.1053
+Rank 0: all_reduce 6 end timestamp: 0.1110
+Rank 0: all_reduce 7 end timestamp: 0.1112
+Rank 0: Time for tiled matrix multiplication: 0.1114 seconds
+********** Iteration 74 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0121
+Rank 0: all_reduce 0 start timestamp: 0.0121
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0252
+Rank 0: all_reduce 1 start timestamp: 0.0252
+Rank 0: single_forward start timestamp: 0.0253
+Rank 0: single_forward end timestamp: 0.0391
+Rank 0: all_reduce 2 start timestamp: 0.0391
+Rank 0: single_forward start timestamp: 0.0391
+Rank 0: single_forward end timestamp: 0.0531
+Rank 0: all_reduce 3 start timestamp: 0.0531
+Rank 0: single_forward start timestamp: 0.0532
+Rank 0: single_forward end timestamp: 0.0671
+Rank 0: all_reduce 4 start timestamp: 0.0671
+Rank 0: single_forward start timestamp: 0.0671
+Rank 0: single_forward end timestamp: 0.0811
+Rank 0: all_reduce 5 start timestamp: 0.0811
+Rank 0: single_forward start timestamp: 0.0812
+Rank 0: single_forward end timestamp: 0.0951
+Rank 0: all_reduce 6 start timestamp: 0.0952
+Rank 0: single_forward start timestamp: 0.0952
+Rank 0: single_forward end timestamp: 0.1025
+Rank 0: all_reduce 7 start timestamp: 0.1025
+Rank 0: all_reduce 0 end timestamp: 0.1025
+Rank 0: all_reduce 1 end timestamp: 0.1026
+Rank 0: all_reduce 2 end timestamp: 0.1027
+Rank 0: all_reduce 3 end timestamp: 0.1065
+Rank 0: all_reduce 4 end timestamp: 0.1066
+Rank 0: all_reduce 5 end timestamp: 0.1069
+Rank 0: all_reduce 6 end timestamp: 0.1127
+Rank 0: all_reduce 7 end timestamp: 0.1129
+Rank 0: Time for tiled matrix multiplication: 0.1131 seconds
+********** Iteration 75 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0259
+Rank 0: all_reduce 1 start timestamp: 0.0259
+Rank 0: single_forward start timestamp: 0.0259
+Rank 0: single_forward end timestamp: 0.0390
+Rank 0: all_reduce 2 start timestamp: 0.0390
+Rank 0: single_forward start timestamp: 0.0391
+Rank 0: single_forward end timestamp: 0.0522
+Rank 0: all_reduce 3 start timestamp: 0.0522
+Rank 0: single_forward start timestamp: 0.0523
+Rank 0: single_forward end timestamp: 0.0651
+Rank 0: all_reduce 4 start timestamp: 0.0652
+Rank 0: single_forward start timestamp: 0.0652
+Rank 0: single_forward end timestamp: 0.0786
+Rank 0: all_reduce 5 start timestamp: 0.0786
+Rank 0: single_forward start timestamp: 0.0786
+Rank 0: single_forward end timestamp: 0.0925
+Rank 0: all_reduce 6 start timestamp: 0.0925
+Rank 0: single_forward start timestamp: 0.0926
+Rank 0: single_forward end timestamp: 0.0996
+Rank 0: all_reduce 7 start timestamp: 0.0996
+Rank 0: all_reduce 0 end timestamp: 0.0997
+Rank 0: all_reduce 1 end timestamp: 0.0998
+Rank 0: all_reduce 2 end timestamp: 0.0998
+Rank 0: all_reduce 3 end timestamp: 0.1050
+Rank 0: all_reduce 4 end timestamp: 0.1051
+Rank 0: all_reduce 5 end timestamp: 0.1054
+Rank 0: all_reduce 6 end timestamp: 0.1112
+Rank 0: all_reduce 7 end timestamp: 0.1114
+Rank 0: Time for tiled matrix multiplication: 0.1116 seconds
+********** Iteration 76 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0129
+Rank 0: all_reduce 0 start timestamp: 0.0129
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0261
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0401
+Rank 0: all_reduce 2 start timestamp: 0.0401
+Rank 0: single_forward start timestamp: 0.0402
+Rank 0: single_forward end timestamp: 0.0523
+Rank 0: all_reduce 3 start timestamp: 0.0523
+Rank 0: single_forward start timestamp: 0.0523
+Rank 0: single_forward end timestamp: 0.0662
+Rank 0: all_reduce 4 start timestamp: 0.0663
+Rank 0: single_forward start timestamp: 0.0663
+Rank 0: single_forward end timestamp: 0.0807
+Rank 0: all_reduce 5 start timestamp: 0.0807
+Rank 0: single_forward start timestamp: 0.0808
+Rank 0: single_forward end timestamp: 0.0935
+Rank 0: all_reduce 6 start timestamp: 0.0935
+Rank 0: single_forward start timestamp: 0.0935
+Rank 0: single_forward end timestamp: 0.1007
+Rank 0: all_reduce 7 start timestamp: 0.1007
+Rank 0: all_reduce 0 end timestamp: 0.1007
+Rank 0: all_reduce 1 end timestamp: 0.1008
+Rank 0: all_reduce 2 end timestamp: 0.1009
+Rank 0: all_reduce 3 end timestamp: 0.1047
+Rank 0: all_reduce 4 end timestamp: 0.1048
+Rank 0: all_reduce 5 end timestamp: 0.1051
+Rank 0: all_reduce 6 end timestamp: 0.1109
+Rank 0: all_reduce 7 end timestamp: 0.1111
+Rank 0: Time for tiled matrix multiplication: 0.1113 seconds
+********** Iteration 77 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0129
+Rank 0: all_reduce 0 start timestamp: 0.0130
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0269
+Rank 0: all_reduce 1 start timestamp: 0.0269
+Rank 0: single_forward start timestamp: 0.0270
+Rank 0: single_forward end timestamp: 0.0400
+Rank 0: all_reduce 2 start timestamp: 0.0400
+Rank 0: single_forward start timestamp: 0.0400
+Rank 0: single_forward end timestamp: 0.0531
+Rank 0: all_reduce 3 start timestamp: 0.0531
+Rank 0: single_forward start timestamp: 0.0532
+Rank 0: single_forward end timestamp: 0.0672
+Rank 0: all_reduce 4 start timestamp: 0.0673
+Rank 0: single_forward start timestamp: 0.0673
+Rank 0: single_forward end timestamp: 0.0802
+Rank 0: all_reduce 5 start timestamp: 0.0802
+Rank 0: single_forward start timestamp: 0.0803
+Rank 0: single_forward end timestamp: 0.0932
+Rank 0: all_reduce 6 start timestamp: 0.0932
+Rank 0: single_forward start timestamp: 0.0933
+Rank 0: single_forward end timestamp: 0.1005
+Rank 0: all_reduce 7 start timestamp: 0.1006
+Rank 0: all_reduce 0 end timestamp: 0.1006
+Rank 0: all_reduce 1 end timestamp: 0.1007
+Rank 0: all_reduce 2 end timestamp: 0.1008
+Rank 0: all_reduce 3 end timestamp: 0.1047
+Rank 0: all_reduce 4 end timestamp: 0.1048
+Rank 0: all_reduce 5 end timestamp: 0.1051
+Rank 0: all_reduce 6 end timestamp: 0.1109
+Rank 0: all_reduce 7 end timestamp: 0.1111
+Rank 0: Time for tiled matrix multiplication: 0.1113 seconds
+********** Iteration 78 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0131
+Rank 0: all_reduce 0 start timestamp: 0.0132
+Rank 0: single_forward start timestamp: 0.0132
+Rank 0: single_forward end timestamp: 0.0254
+Rank 0: all_reduce 1 start timestamp: 0.0254
+Rank 0: single_forward start timestamp: 0.0254
+Rank 0: single_forward end timestamp: 0.0395
+Rank 0: all_reduce 2 start timestamp: 0.0395
+Rank 0: single_forward start timestamp: 0.0396
+Rank 0: single_forward end timestamp: 0.0525
+Rank 0: all_reduce 3 start timestamp: 0.0525
+Rank 0: single_forward start timestamp: 0.0526
+Rank 0: single_forward end timestamp: 0.0669
+Rank 0: all_reduce 4 start timestamp: 0.0669
+Rank 0: single_forward start timestamp: 0.0670
+Rank 0: single_forward end timestamp: 0.0798
+Rank 0: all_reduce 5 start timestamp: 0.0798
+Rank 0: single_forward start timestamp: 0.0799
+Rank 0: single_forward end timestamp: 0.0940
+Rank 0: all_reduce 6 start timestamp: 0.0941
+Rank 0: single_forward start timestamp: 0.0941
+Rank 0: single_forward end timestamp: 0.1012
+Rank 0: all_reduce 7 start timestamp: 0.1012
+Rank 0: all_reduce 0 end timestamp: 0.1013
+Rank 0: all_reduce 1 end timestamp: 0.1014
+Rank 0: all_reduce 2 end timestamp: 0.1014
+Rank 0: all_reduce 3 end timestamp: 0.1053
+Rank 0: all_reduce 4 end timestamp: 0.1054
+Rank 0: all_reduce 5 end timestamp: 0.1057
+Rank 0: all_reduce 6 end timestamp: 0.1115
+Rank 0: all_reduce 7 end timestamp: 0.1116
+Rank 0: Time for tiled matrix multiplication: 0.1119 seconds
+********** Iteration 79 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0252
+Rank 0: all_reduce 1 start timestamp: 0.0252
+Rank 0: single_forward start timestamp: 0.0252
+Rank 0: single_forward end timestamp: 0.0390
+Rank 0: all_reduce 2 start timestamp: 0.0390
+Rank 0: single_forward start timestamp: 0.0391
+Rank 0: single_forward end timestamp: 0.0533
+Rank 0: all_reduce 3 start timestamp: 0.0533
+Rank 0: single_forward start timestamp: 0.0533
+Rank 0: single_forward end timestamp: 0.0674
+Rank 0: all_reduce 4 start timestamp: 0.0674
+Rank 0: single_forward start timestamp: 0.0675
+Rank 0: single_forward end timestamp: 0.0813
+Rank 0: all_reduce 5 start timestamp: 0.0813
+Rank 0: single_forward start timestamp: 0.0814
+Rank 0: single_forward end timestamp: 0.0945
+Rank 0: all_reduce 6 start timestamp: 0.0945
+Rank 0: single_forward start timestamp: 0.0946
+Rank 0: single_forward end timestamp: 0.1008
+Rank 0: all_reduce 7 start timestamp: 0.1008
+Rank 0: all_reduce 0 end timestamp: 0.1009
+Rank 0: all_reduce 1 end timestamp: 0.1010
+Rank 0: all_reduce 2 end timestamp: 0.1010
+Rank 0: all_reduce 3 end timestamp: 0.1050
+Rank 0: all_reduce 4 end timestamp: 0.1051
+Rank 0: all_reduce 5 end timestamp: 0.1054
+Rank 0: all_reduce 6 end timestamp: 0.1112
+Rank 0: all_reduce 7 end timestamp: 0.1114
+Rank 0: Time for tiled matrix multiplication: 0.1116 seconds
+********** Iteration 80 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0121
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0262
+Rank 0: all_reduce 1 start timestamp: 0.0263
+Rank 0: single_forward start timestamp: 0.0263
+Rank 0: single_forward end timestamp: 0.0395
+Rank 0: all_reduce 2 start timestamp: 0.0395
+Rank 0: single_forward start timestamp: 0.0395
+Rank 0: single_forward end timestamp: 0.0517
+Rank 0: all_reduce 3 start timestamp: 0.0517
+Rank 0: single_forward start timestamp: 0.0518
+Rank 0: single_forward end timestamp: 0.0661
+Rank 0: all_reduce 4 start timestamp: 0.0661
+Rank 0: single_forward start timestamp: 0.0661
+Rank 0: single_forward end timestamp: 0.0800
+Rank 0: all_reduce 5 start timestamp: 0.0800
+Rank 0: single_forward start timestamp: 0.0801
+Rank 0: single_forward end timestamp: 0.0930
+Rank 0: all_reduce 6 start timestamp: 0.0931
+Rank 0: single_forward start timestamp: 0.0931
+Rank 0: single_forward end timestamp: 0.0994
+Rank 0: all_reduce 7 start timestamp: 0.0994
+Rank 0: all_reduce 0 end timestamp: 0.0995
+Rank 0: all_reduce 1 end timestamp: 0.0995
+Rank 0: all_reduce 2 end timestamp: 0.0996
+Rank 0: all_reduce 3 end timestamp: 0.1036
+Rank 0: all_reduce 4 end timestamp: 0.1037
+Rank 0: all_reduce 5 end timestamp: 0.1040
+Rank 0: all_reduce 6 end timestamp: 0.1098
+Rank 0: all_reduce 7 end timestamp: 0.1100
+Rank 0: Time for tiled matrix multiplication: 0.1102 seconds
+********** Iteration 81 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0253
+Rank 0: all_reduce 1 start timestamp: 0.0253
+Rank 0: single_forward start timestamp: 0.0254
+Rank 0: single_forward end timestamp: 0.0391
+Rank 0: all_reduce 2 start timestamp: 0.0391
+Rank 0: single_forward start timestamp: 0.0392
+Rank 0: single_forward end timestamp: 0.0530
+Rank 0: all_reduce 3 start timestamp: 0.0531
+Rank 0: single_forward start timestamp: 0.0531
+Rank 0: single_forward end timestamp: 0.0667
+Rank 0: all_reduce 4 start timestamp: 0.0667
+Rank 0: single_forward start timestamp: 0.0668
+Rank 0: single_forward end timestamp: 0.0807
+Rank 0: all_reduce 5 start timestamp: 0.0808
+Rank 0: single_forward start timestamp: 0.0808
+Rank 0: single_forward end timestamp: 0.0929
+Rank 0: all_reduce 6 start timestamp: 0.0930
+Rank 0: single_forward start timestamp: 0.0930
+Rank 0: single_forward end timestamp: 0.1002
+Rank 0: all_reduce 7 start timestamp: 0.1002
+Rank 0: all_reduce 0 end timestamp: 0.1002
+Rank 0: all_reduce 1 end timestamp: 0.1003
+Rank 0: all_reduce 2 end timestamp: 0.1004
+Rank 0: all_reduce 3 end timestamp: 0.1043
+Rank 0: all_reduce 4 end timestamp: 0.1044
+Rank 0: all_reduce 5 end timestamp: 0.1047
+Rank 0: all_reduce 6 end timestamp: 0.1106
+Rank 0: all_reduce 7 end timestamp: 0.1107
+Rank 0: Time for tiled matrix multiplication: 0.1109 seconds
+********** Iteration 82 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0130
+Rank 0: all_reduce 0 start timestamp: 0.0130
+Rank 0: single_forward start timestamp: 0.0131
+Rank 0: single_forward end timestamp: 0.0252
+Rank 0: all_reduce 1 start timestamp: 0.0252
+Rank 0: single_forward start timestamp: 0.0253
+Rank 0: single_forward end timestamp: 0.0384
+Rank 0: all_reduce 2 start timestamp: 0.0384
+Rank 0: single_forward start timestamp: 0.0385
+Rank 0: single_forward end timestamp: 0.0525
+Rank 0: all_reduce 3 start timestamp: 0.0525
+Rank 0: single_forward start timestamp: 0.0526
+Rank 0: single_forward end timestamp: 0.0665
+Rank 0: all_reduce 4 start timestamp: 0.0665
+Rank 0: single_forward start timestamp: 0.0665
+Rank 0: single_forward end timestamp: 0.0786
+Rank 0: all_reduce 5 start timestamp: 0.0787
+Rank 0: single_forward start timestamp: 0.0787
+Rank 0: single_forward end timestamp: 0.0916
+Rank 0: all_reduce 6 start timestamp: 0.0916
+Rank 0: single_forward start timestamp: 0.0917
+Rank 0: single_forward end timestamp: 0.0988
+Rank 0: all_reduce 7 start timestamp: 0.0988
+Rank 0: all_reduce 0 end timestamp: 0.0989
+Rank 0: all_reduce 1 end timestamp: 0.0989
+Rank 0: all_reduce 2 end timestamp: 0.0990
+Rank 0: all_reduce 3 end timestamp: 0.1030
+Rank 0: all_reduce 4 end timestamp: 0.1031
+Rank 0: all_reduce 5 end timestamp: 0.1034
+Rank 0: all_reduce 6 end timestamp: 0.1092
+Rank 0: all_reduce 7 end timestamp: 0.1093
+Rank 0: Time for tiled matrix multiplication: 0.1096 seconds
+********** Iteration 83 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0259
+Rank 0: all_reduce 1 start timestamp: 0.0259
+Rank 0: single_forward start timestamp: 0.0259
+Rank 0: single_forward end timestamp: 0.0390
+Rank 0: all_reduce 2 start timestamp: 0.0390
+Rank 0: single_forward start timestamp: 0.0390
+Rank 0: single_forward end timestamp: 0.0530
+Rank 0: all_reduce 3 start timestamp: 0.0531
+Rank 0: single_forward start timestamp: 0.0531
+Rank 0: single_forward end timestamp: 0.0660
+Rank 0: all_reduce 4 start timestamp: 0.0661
+Rank 0: single_forward start timestamp: 0.0661
+Rank 0: single_forward end timestamp: 0.0790
+Rank 0: all_reduce 5 start timestamp: 0.0790
+Rank 0: single_forward start timestamp: 0.0791
+Rank 0: single_forward end timestamp: 0.0930
+Rank 0: all_reduce 6 start timestamp: 0.0930
+Rank 0: single_forward start timestamp: 0.0930
+Rank 0: single_forward end timestamp: 0.1002
+Rank 0: all_reduce 7 start timestamp: 0.1002
+Rank 0: all_reduce 0 end timestamp: 0.1003
+Rank 0: all_reduce 1 end timestamp: 0.1003
+Rank 0: all_reduce 2 end timestamp: 0.1004
+Rank 0: all_reduce 3 end timestamp: 0.1044
+Rank 0: all_reduce 4 end timestamp: 0.1045
+Rank 0: all_reduce 5 end timestamp: 0.1048
+Rank 0: all_reduce 6 end timestamp: 0.1106
+Rank 0: all_reduce 7 end timestamp: 0.1108
+Rank 0: Time for tiled matrix multiplication: 0.1110 seconds
+********** Iteration 84 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0130
+Rank 0: all_reduce 0 start timestamp: 0.0130
+Rank 0: single_forward start timestamp: 0.0131
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0261
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0402
+Rank 0: all_reduce 2 start timestamp: 0.0403
+Rank 0: single_forward start timestamp: 0.0403
+Rank 0: single_forward end timestamp: 0.0541
+Rank 0: all_reduce 3 start timestamp: 0.0541
+Rank 0: single_forward start timestamp: 0.0541
+Rank 0: single_forward end timestamp: 0.0672
+Rank 0: all_reduce 4 start timestamp: 0.0672
+Rank 0: single_forward start timestamp: 0.0673
+Rank 0: single_forward end timestamp: 0.0804
+Rank 0: all_reduce 5 start timestamp: 0.0804
+Rank 0: single_forward start timestamp: 0.0805
+Rank 0: single_forward end timestamp: 0.0937
+Rank 0: all_reduce 6 start timestamp: 0.0937
+Rank 0: single_forward start timestamp: 0.0938
+Rank 0: single_forward end timestamp: 0.1011
+Rank 0: all_reduce 7 start timestamp: 0.1012
+Rank 0: all_reduce 0 end timestamp: 0.1012
+Rank 0: all_reduce 1 end timestamp: 0.1013
+Rank 0: all_reduce 2 end timestamp: 0.1014
+Rank 0: all_reduce 3 end timestamp: 0.1053
+Rank 0: all_reduce 4 end timestamp: 0.1054
+Rank 0: all_reduce 5 end timestamp: 0.1057
+Rank 0: all_reduce 6 end timestamp: 0.1115
+Rank 0: all_reduce 7 end timestamp: 0.1117
+Rank 0: Time for tiled matrix multiplication: 0.1119 seconds
+********** Iteration 85 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0254
+Rank 0: all_reduce 1 start timestamp: 0.0254
+Rank 0: single_forward start timestamp: 0.0255
+Rank 0: single_forward end timestamp: 0.0390
+Rank 0: all_reduce 2 start timestamp: 0.0391
+Rank 0: single_forward start timestamp: 0.0391
+Rank 0: single_forward end timestamp: 0.0528
+Rank 0: all_reduce 3 start timestamp: 0.0529
+Rank 0: single_forward start timestamp: 0.0529
+Rank 0: single_forward end timestamp: 0.0651
+Rank 0: all_reduce 4 start timestamp: 0.0651
+Rank 0: single_forward start timestamp: 0.0651
+Rank 0: single_forward end timestamp: 0.0782
+Rank 0: all_reduce 5 start timestamp: 0.0782
+Rank 0: single_forward start timestamp: 0.0783
+Rank 0: single_forward end timestamp: 0.0919
+Rank 0: all_reduce 6 start timestamp: 0.0919
+Rank 0: single_forward start timestamp: 0.0920
+Rank 0: single_forward end timestamp: 0.0991
+Rank 0: all_reduce 7 start timestamp: 0.0991
+Rank 0: all_reduce 0 end timestamp: 0.0992
+Rank 0: all_reduce 1 end timestamp: 0.0993
+Rank 0: all_reduce 2 end timestamp: 0.0993
+Rank 0: all_reduce 3 end timestamp: 0.1056
+Rank 0: all_reduce 4 end timestamp: 0.1056
+Rank 0: all_reduce 5 end timestamp: 0.1059
+Rank 0: all_reduce 6 end timestamp: 0.1117
+Rank 0: all_reduce 7 end timestamp: 0.1119
+Rank 0: Time for tiled matrix multiplication: 0.1121 seconds
+********** Iteration 86 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0262
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0393
+Rank 0: all_reduce 2 start timestamp: 0.0393
+Rank 0: single_forward start timestamp: 0.0394
+Rank 0: single_forward end timestamp: 0.0515
+Rank 0: all_reduce 3 start timestamp: 0.0515
+Rank 0: single_forward start timestamp: 0.0516
+Rank 0: single_forward end timestamp: 0.0659
+Rank 0: all_reduce 4 start timestamp: 0.0659
+Rank 0: single_forward start timestamp: 0.0660
+Rank 0: single_forward end timestamp: 0.0790
+Rank 0: all_reduce 5 start timestamp: 0.0791
+Rank 0: single_forward start timestamp: 0.0791
+Rank 0: single_forward end timestamp: 0.0930
+Rank 0: all_reduce 6 start timestamp: 0.0930
+Rank 0: single_forward start timestamp: 0.0931
+Rank 0: single_forward end timestamp: 0.0999
+Rank 0: all_reduce 7 start timestamp: 0.0999
+Rank 0: all_reduce 0 end timestamp: 0.1000
+Rank 0: all_reduce 1 end timestamp: 0.1001
+Rank 0: all_reduce 2 end timestamp: 0.1001
+Rank 0: all_reduce 3 end timestamp: 0.1041
+Rank 0: all_reduce 4 end timestamp: 0.1042
+Rank 0: all_reduce 5 end timestamp: 0.1045
+Rank 0: all_reduce 6 end timestamp: 0.1103
+Rank 0: all_reduce 7 end timestamp: 0.1104
+Rank 0: Time for tiled matrix multiplication: 0.1107 seconds
+********** Iteration 87 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0267
+Rank 0: all_reduce 1 start timestamp: 0.0267
+Rank 0: single_forward start timestamp: 0.0268
+Rank 0: single_forward end timestamp: 0.0389
+Rank 0: all_reduce 2 start timestamp: 0.0389
+Rank 0: single_forward start timestamp: 0.0390
+Rank 0: single_forward end timestamp: 0.0522
+Rank 0: all_reduce 3 start timestamp: 0.0522
+Rank 0: single_forward start timestamp: 0.0523
+Rank 0: single_forward end timestamp: 0.0654
+Rank 0: all_reduce 4 start timestamp: 0.0654
+Rank 0: single_forward start timestamp: 0.0655
+Rank 0: single_forward end timestamp: 0.0790
+Rank 0: all_reduce 5 start timestamp: 0.0790
+Rank 0: single_forward start timestamp: 0.0790
+Rank 0: single_forward end timestamp: 0.0929
+Rank 0: all_reduce 6 start timestamp: 0.0929
+Rank 0: single_forward start timestamp: 0.0930
+Rank 0: single_forward end timestamp: 0.1002
+Rank 0: all_reduce 7 start timestamp: 0.1002
+Rank 0: all_reduce 0 end timestamp: 0.1003
+Rank 0: all_reduce 1 end timestamp: 0.1003
+Rank 0: all_reduce 2 end timestamp: 0.1004
+Rank 0: all_reduce 3 end timestamp: 0.1049
+Rank 0: all_reduce 4 end timestamp: 0.1049
+Rank 0: all_reduce 5 end timestamp: 0.1053
+Rank 0: all_reduce 6 end timestamp: 0.1111
+Rank 0: all_reduce 7 end timestamp: 0.1112
+Rank 0: Time for tiled matrix multiplication: 0.1114 seconds
+********** Iteration 88 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0121
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0263
+Rank 0: all_reduce 1 start timestamp: 0.0264
+Rank 0: single_forward start timestamp: 0.0264
+Rank 0: single_forward end timestamp: 0.0385
+Rank 0: all_reduce 2 start timestamp: 0.0386
+Rank 0: single_forward start timestamp: 0.0386
+Rank 0: single_forward end timestamp: 0.0522
+Rank 0: all_reduce 3 start timestamp: 0.0523
+Rank 0: single_forward start timestamp: 0.0523
+Rank 0: single_forward end timestamp: 0.0645
+Rank 0: all_reduce 4 start timestamp: 0.0645
+Rank 0: single_forward start timestamp: 0.0645
+Rank 0: single_forward end timestamp: 0.0783
+Rank 0: all_reduce 5 start timestamp: 0.0783
+Rank 0: single_forward start timestamp: 0.0784
+Rank 0: single_forward end timestamp: 0.0918
+Rank 0: all_reduce 6 start timestamp: 0.0918
+Rank 0: single_forward start timestamp: 0.0918
+Rank 0: single_forward end timestamp: 0.0991
+Rank 0: all_reduce 7 start timestamp: 0.0991
+Rank 0: all_reduce 0 end timestamp: 0.0992
+Rank 0: all_reduce 1 end timestamp: 0.0992
+Rank 0: all_reduce 2 end timestamp: 0.0993
+Rank 0: all_reduce 3 end timestamp: 0.1033
+Rank 0: all_reduce 4 end timestamp: 0.1034
+Rank 0: all_reduce 5 end timestamp: 0.1037
+Rank 0: all_reduce 6 end timestamp: 0.1095
+Rank 0: all_reduce 7 end timestamp: 0.1097
+Rank 0: Time for tiled matrix multiplication: 0.1099 seconds
+********** Iteration 89 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0121
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0122
+Rank 0: single_forward end timestamp: 0.0262
+Rank 0: all_reduce 1 start timestamp: 0.0262
+Rank 0: single_forward start timestamp: 0.0263
+Rank 0: single_forward end timestamp: 0.0384
+Rank 0: all_reduce 2 start timestamp: 0.0384
+Rank 0: single_forward start timestamp: 0.0384
+Rank 0: single_forward end timestamp: 0.0523
+Rank 0: all_reduce 3 start timestamp: 0.0523
+Rank 0: single_forward start timestamp: 0.0524
+Rank 0: single_forward end timestamp: 0.0654
+Rank 0: all_reduce 4 start timestamp: 0.0654
+Rank 0: single_forward start timestamp: 0.0654
+Rank 0: single_forward end timestamp: 0.0783
+Rank 0: all_reduce 5 start timestamp: 0.0783
+Rank 0: single_forward start timestamp: 0.0784
+Rank 0: single_forward end timestamp: 0.0922
+Rank 0: all_reduce 6 start timestamp: 0.0922
+Rank 0: single_forward start timestamp: 0.0922
+Rank 0: single_forward end timestamp: 0.0986
+Rank 0: all_reduce 7 start timestamp: 0.0986
+Rank 0: all_reduce 0 end timestamp: 0.0987
+Rank 0: all_reduce 1 end timestamp: 0.0987
+Rank 0: all_reduce 2 end timestamp: 0.0988
+Rank 0: all_reduce 3 end timestamp: 0.1036
+Rank 0: all_reduce 4 end timestamp: 0.1036
+Rank 0: all_reduce 5 end timestamp: 0.1039
+Rank 0: all_reduce 6 end timestamp: 0.1098
+Rank 0: all_reduce 7 end timestamp: 0.1099
+Rank 0: Time for tiled matrix multiplication: 0.1101 seconds
+********** Iteration 90 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0129
+Rank 0: all_reduce 0 start timestamp: 0.0129
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0261
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0393
+Rank 0: all_reduce 2 start timestamp: 0.0393
+Rank 0: single_forward start timestamp: 0.0394
+Rank 0: single_forward end timestamp: 0.0530
+Rank 0: all_reduce 3 start timestamp: 0.0530
+Rank 0: single_forward start timestamp: 0.0531
+Rank 0: single_forward end timestamp: 0.0671
+Rank 0: all_reduce 4 start timestamp: 0.0671
+Rank 0: single_forward start timestamp: 0.0671
+Rank 0: single_forward end timestamp: 0.0793
+Rank 0: all_reduce 5 start timestamp: 0.0793
+Rank 0: single_forward start timestamp: 0.0794
+Rank 0: single_forward end timestamp: 0.0922
+Rank 0: all_reduce 6 start timestamp: 0.0922
+Rank 0: single_forward start timestamp: 0.0923
+Rank 0: single_forward end timestamp: 0.0996
+Rank 0: all_reduce 7 start timestamp: 0.0996
+Rank 0: all_reduce 0 end timestamp: 0.0996
+Rank 0: all_reduce 1 end timestamp: 0.0997
+Rank 0: all_reduce 2 end timestamp: 0.0998
+Rank 0: all_reduce 3 end timestamp: 0.1037
+Rank 0: all_reduce 4 end timestamp: 0.1038
+Rank 0: all_reduce 5 end timestamp: 0.1041
+Rank 0: all_reduce 6 end timestamp: 0.1099
+Rank 0: all_reduce 7 end timestamp: 0.1101
+Rank 0: Time for tiled matrix multiplication: 0.1103 seconds
+********** Iteration 91 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0131
+Rank 0: all_reduce 0 start timestamp: 0.0131
+Rank 0: single_forward start timestamp: 0.0131
+Rank 0: single_forward end timestamp: 0.0253
+Rank 0: all_reduce 1 start timestamp: 0.0253
+Rank 0: single_forward start timestamp: 0.0253
+Rank 0: single_forward end timestamp: 0.0383
+Rank 0: all_reduce 2 start timestamp: 0.0383
+Rank 0: single_forward start timestamp: 0.0383
+Rank 0: single_forward end timestamp: 0.0514
+Rank 0: all_reduce 3 start timestamp: 0.0514
+Rank 0: single_forward start timestamp: 0.0515
+Rank 0: single_forward end timestamp: 0.0645
+Rank 0: all_reduce 4 start timestamp: 0.0645
+Rank 0: single_forward start timestamp: 0.0646
+Rank 0: single_forward end timestamp: 0.0776
+Rank 0: all_reduce 5 start timestamp: 0.0776
+Rank 0: single_forward start timestamp: 0.0777
+Rank 0: single_forward end timestamp: 0.0919
+Rank 0: all_reduce 6 start timestamp: 0.0919
+Rank 0: single_forward start timestamp: 0.0920
+Rank 0: single_forward end timestamp: 0.0989
+Rank 0: all_reduce 7 start timestamp: 0.0990
+Rank 0: all_reduce 0 end timestamp: 0.0990
+Rank 0: all_reduce 1 end timestamp: 0.0991
+Rank 0: all_reduce 2 end timestamp: 0.0991
+Rank 0: all_reduce 3 end timestamp: 0.1046
+Rank 0: all_reduce 4 end timestamp: 0.1047
+Rank 0: all_reduce 5 end timestamp: 0.1050
+Rank 0: all_reduce 6 end timestamp: 0.1108
+Rank 0: all_reduce 7 end timestamp: 0.1110
+Rank 0: Time for tiled matrix multiplication: 0.1112 seconds
+********** Iteration 92 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0129
+Rank 0: all_reduce 0 start timestamp: 0.0129
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0271
+Rank 0: all_reduce 1 start timestamp: 0.0271
+Rank 0: single_forward start timestamp: 0.0271
+Rank 0: single_forward end timestamp: 0.0393
+Rank 0: all_reduce 2 start timestamp: 0.0393
+Rank 0: single_forward start timestamp: 0.0394
+Rank 0: single_forward end timestamp: 0.0522
+Rank 0: all_reduce 3 start timestamp: 0.0522
+Rank 0: single_forward start timestamp: 0.0523
+Rank 0: single_forward end timestamp: 0.0660
+Rank 0: all_reduce 4 start timestamp: 0.0660
+Rank 0: single_forward start timestamp: 0.0661
+Rank 0: single_forward end timestamp: 0.0782
+Rank 0: all_reduce 5 start timestamp: 0.0782
+Rank 0: single_forward start timestamp: 0.0783
+Rank 0: single_forward end timestamp: 0.0913
+Rank 0: all_reduce 6 start timestamp: 0.0914
+Rank 0: single_forward start timestamp: 0.0914
+Rank 0: single_forward end timestamp: 0.0987
+Rank 0: all_reduce 7 start timestamp: 0.0987
+Rank 0: all_reduce 0 end timestamp: 0.0987
+Rank 0: all_reduce 1 end timestamp: 0.0988
+Rank 0: all_reduce 2 end timestamp: 0.0988
+Rank 0: all_reduce 3 end timestamp: 0.1044
+Rank 0: all_reduce 4 end timestamp: 0.1044
+Rank 0: all_reduce 5 end timestamp: 0.1047
+Rank 0: all_reduce 6 end timestamp: 0.1106
+Rank 0: all_reduce 7 end timestamp: 0.1107
+Rank 0: Time for tiled matrix multiplication: 0.1109 seconds
+********** Iteration 93 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0131
+Rank 0: all_reduce 0 start timestamp: 0.0132
+Rank 0: single_forward start timestamp: 0.0132
+Rank 0: single_forward end timestamp: 0.0254
+Rank 0: all_reduce 1 start timestamp: 0.0254
+Rank 0: single_forward start timestamp: 0.0254
+Rank 0: single_forward end timestamp: 0.0395
+Rank 0: all_reduce 2 start timestamp: 0.0395
+Rank 0: single_forward start timestamp: 0.0395
+Rank 0: single_forward end timestamp: 0.0524
+Rank 0: all_reduce 3 start timestamp: 0.0524
+Rank 0: single_forward start timestamp: 0.0525
+Rank 0: single_forward end timestamp: 0.0654
+Rank 0: all_reduce 4 start timestamp: 0.0654
+Rank 0: single_forward start timestamp: 0.0655
+Rank 0: single_forward end timestamp: 0.0786
+Rank 0: all_reduce 5 start timestamp: 0.0786
+Rank 0: single_forward start timestamp: 0.0787
+Rank 0: single_forward end timestamp: 0.0931
+Rank 0: all_reduce 6 start timestamp: 0.0931
+Rank 0: single_forward start timestamp: 0.0931
+Rank 0: single_forward end timestamp: 0.1002
+Rank 0: all_reduce 7 start timestamp: 0.1002
+Rank 0: all_reduce 0 end timestamp: 0.1003
+Rank 0: all_reduce 1 end timestamp: 0.1003
+Rank 0: all_reduce 2 end timestamp: 0.1004
+Rank 0: all_reduce 3 end timestamp: 0.1043
+Rank 0: all_reduce 4 end timestamp: 0.1044
+Rank 0: all_reduce 5 end timestamp: 0.1047
+Rank 0: all_reduce 6 end timestamp: 0.1105
+Rank 0: all_reduce 7 end timestamp: 0.1107
+Rank 0: Time for tiled matrix multiplication: 0.1109 seconds
+********** Iteration 94 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0130
+Rank 0: all_reduce 0 start timestamp: 0.0130
+Rank 0: single_forward start timestamp: 0.0131
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0262
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0403
+Rank 0: all_reduce 2 start timestamp: 0.0403
+Rank 0: single_forward start timestamp: 0.0403
+Rank 0: single_forward end timestamp: 0.0534
+Rank 0: all_reduce 3 start timestamp: 0.0534
+Rank 0: single_forward start timestamp: 0.0534
+Rank 0: single_forward end timestamp: 0.0656
+Rank 0: all_reduce 4 start timestamp: 0.0656
+Rank 0: single_forward start timestamp: 0.0656
+Rank 0: single_forward end timestamp: 0.0788
+Rank 0: all_reduce 5 start timestamp: 0.0788
+Rank 0: single_forward start timestamp: 0.0789
+Rank 0: single_forward end timestamp: 0.0929
+Rank 0: all_reduce 6 start timestamp: 0.0929
+Rank 0: single_forward start timestamp: 0.0930
+Rank 0: single_forward end timestamp: 0.1001
+Rank 0: all_reduce 7 start timestamp: 0.1001
+Rank 0: all_reduce 0 end timestamp: 0.1001
+Rank 0: all_reduce 1 end timestamp: 0.1002
+Rank 0: all_reduce 2 end timestamp: 0.1003
+Rank 0: all_reduce 3 end timestamp: 0.1042
+Rank 0: all_reduce 4 end timestamp: 0.1043
+Rank 0: all_reduce 5 end timestamp: 0.1046
+Rank 0: all_reduce 6 end timestamp: 0.1104
+Rank 0: all_reduce 7 end timestamp: 0.1106
+Rank 0: Time for tiled matrix multiplication: 0.1108 seconds
+********** Iteration 95 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0122
+Rank 0: all_reduce 0 start timestamp: 0.0122
+Rank 0: single_forward start timestamp: 0.0123
+Rank 0: single_forward end timestamp: 0.0253
+Rank 0: all_reduce 1 start timestamp: 0.0253
+Rank 0: single_forward start timestamp: 0.0254
+Rank 0: single_forward end timestamp: 0.0393
+Rank 0: all_reduce 2 start timestamp: 0.0394
+Rank 0: single_forward start timestamp: 0.0394
+Rank 0: single_forward end timestamp: 0.0520
+Rank 0: all_reduce 3 start timestamp: 0.0520
+Rank 0: single_forward start timestamp: 0.0520
+Rank 0: single_forward end timestamp: 0.0657
+Rank 0: all_reduce 4 start timestamp: 0.0657
+Rank 0: single_forward start timestamp: 0.0657
+Rank 0: single_forward end timestamp: 0.0786
+Rank 0: all_reduce 5 start timestamp: 0.0787
+Rank 0: single_forward start timestamp: 0.0787
+Rank 0: single_forward end timestamp: 0.0916
+Rank 0: all_reduce 6 start timestamp: 0.0916
+Rank 0: single_forward start timestamp: 0.0917
+Rank 0: single_forward end timestamp: 0.0989
+Rank 0: all_reduce 7 start timestamp: 0.0989
+Rank 0: all_reduce 0 end timestamp: 0.0989
+Rank 0: all_reduce 1 end timestamp: 0.0990
+Rank 0: all_reduce 2 end timestamp: 0.0992
+Rank 0: all_reduce 3 end timestamp: 0.1055
+Rank 0: all_reduce 4 end timestamp: 0.1056
+Rank 0: all_reduce 5 end timestamp: 0.1059
+Rank 0: all_reduce 6 end timestamp: 0.1118
+Rank 0: all_reduce 7 end timestamp: 0.1119
+Rank 0: Time for tiled matrix multiplication: 0.1121 seconds
+********** Iteration 96 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0129
+Rank 0: all_reduce 0 start timestamp: 0.0129
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0261
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0402
+Rank 0: all_reduce 2 start timestamp: 0.0402
+Rank 0: single_forward start timestamp: 0.0402
+Rank 0: single_forward end timestamp: 0.0533
+Rank 0: all_reduce 3 start timestamp: 0.0533
+Rank 0: single_forward start timestamp: 0.0534
+Rank 0: single_forward end timestamp: 0.0655
+Rank 0: all_reduce 4 start timestamp: 0.0656
+Rank 0: single_forward start timestamp: 0.0656
+Rank 0: single_forward end timestamp: 0.0785
+Rank 0: all_reduce 5 start timestamp: 0.0785
+Rank 0: single_forward start timestamp: 0.0786
+Rank 0: single_forward end timestamp: 0.0927
+Rank 0: all_reduce 6 start timestamp: 0.0927
+Rank 0: single_forward start timestamp: 0.0928
+Rank 0: single_forward end timestamp: 0.0991
+Rank 0: all_reduce 7 start timestamp: 0.0992
+Rank 0: all_reduce 0 end timestamp: 0.0992
+Rank 0: all_reduce 1 end timestamp: 0.0993
+Rank 0: all_reduce 2 end timestamp: 0.0994
+Rank 0: all_reduce 3 end timestamp: 0.1033
+Rank 0: all_reduce 4 end timestamp: 0.1034
+Rank 0: all_reduce 5 end timestamp: 0.1037
+Rank 0: all_reduce 6 end timestamp: 0.1095
+Rank 0: all_reduce 7 end timestamp: 0.1097
+Rank 0: Time for tiled matrix multiplication: 0.1099 seconds
+********** Iteration 97 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0131
+Rank 0: all_reduce 0 start timestamp: 0.0131
+Rank 0: single_forward start timestamp: 0.0132
+Rank 0: single_forward end timestamp: 0.0261
+Rank 0: all_reduce 1 start timestamp: 0.0261
+Rank 0: single_forward start timestamp: 0.0262
+Rank 0: single_forward end timestamp: 0.0391
+Rank 0: all_reduce 2 start timestamp: 0.0391
+Rank 0: single_forward start timestamp: 0.0392
+Rank 0: single_forward end timestamp: 0.0532
+Rank 0: all_reduce 3 start timestamp: 0.0533
+Rank 0: single_forward start timestamp: 0.0533
+Rank 0: single_forward end timestamp: 0.0663
+Rank 0: all_reduce 4 start timestamp: 0.0663
+Rank 0: single_forward start timestamp: 0.0663
+Rank 0: single_forward end timestamp: 0.0793
+Rank 0: all_reduce 5 start timestamp: 0.0793
+Rank 0: single_forward start timestamp: 0.0794
+Rank 0: single_forward end timestamp: 0.0934
+Rank 0: all_reduce 6 start timestamp: 0.0934
+Rank 0: single_forward start timestamp: 0.0935
+Rank 0: single_forward end timestamp: 0.1006
+Rank 0: all_reduce 7 start timestamp: 0.1006
+Rank 0: all_reduce 0 end timestamp: 0.1007
+Rank 0: all_reduce 1 end timestamp: 0.1007
+Rank 0: all_reduce 2 end timestamp: 0.1008
+Rank 0: all_reduce 3 end timestamp: 0.1047
+Rank 0: all_reduce 4 end timestamp: 0.1048
+Rank 0: all_reduce 5 end timestamp: 0.1051
+Rank 0: all_reduce 6 end timestamp: 0.1110
+Rank 0: all_reduce 7 end timestamp: 0.1111
+Rank 0: Time for tiled matrix multiplication: 0.1113 seconds
+********** Iteration 98 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0130
+Rank 0: all_reduce 0 start timestamp: 0.0130
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0260
+Rank 0: all_reduce 1 start timestamp: 0.0261
+Rank 0: single_forward start timestamp: 0.0261
+Rank 0: single_forward end timestamp: 0.0392
+Rank 0: all_reduce 2 start timestamp: 0.0392
+Rank 0: single_forward start timestamp: 0.0393
+Rank 0: single_forward end timestamp: 0.0533
+Rank 0: all_reduce 3 start timestamp: 0.0533
+Rank 0: single_forward start timestamp: 0.0534
+Rank 0: single_forward end timestamp: 0.0666
+Rank 0: all_reduce 4 start timestamp: 0.0666
+Rank 0: single_forward start timestamp: 0.0666
+Rank 0: single_forward end timestamp: 0.0797
+Rank 0: all_reduce 5 start timestamp: 0.0797
+Rank 0: single_forward start timestamp: 0.0798
+Rank 0: single_forward end timestamp: 0.0920
+Rank 0: all_reduce 6 start timestamp: 0.0920
+Rank 0: single_forward start timestamp: 0.0920
+Rank 0: single_forward end timestamp: 0.0993
+Rank 0: all_reduce 7 start timestamp: 0.0993
+Rank 0: all_reduce 0 end timestamp: 0.0994
+Rank 0: all_reduce 1 end timestamp: 0.0994
+Rank 0: all_reduce 2 end timestamp: 0.0995
+Rank 0: all_reduce 3 end timestamp: 0.1035
+Rank 0: all_reduce 4 end timestamp: 0.1036
+Rank 0: all_reduce 5 end timestamp: 0.1039
+Rank 0: all_reduce 6 end timestamp: 0.1097
+Rank 0: all_reduce 7 end timestamp: 0.1099
+Rank 0: Time for tiled matrix multiplication: 0.1101 seconds
+********** Iteration 99 **********
+Rank 0: single_forward start timestamp: 0.0001
+Rank 0: single_forward end timestamp: 0.0129
+Rank 0: all_reduce 0 start timestamp: 0.0130
+Rank 0: single_forward start timestamp: 0.0130
+Rank 0: single_forward end timestamp: 0.0270
+Rank 0: all_reduce 1 start timestamp: 0.0270
+Rank 0: single_forward start timestamp: 0.0270
+Rank 0: single_forward end timestamp: 0.0399
+Rank 0: all_reduce 2 start timestamp: 0.0399
+Rank 0: single_forward start timestamp: 0.0400
+Rank 0: single_forward end timestamp: 0.0539
+Rank 0: all_reduce 3 start timestamp: 0.0540
+Rank 0: single_forward start timestamp: 0.0540
+Rank 0: single_forward end timestamp: 0.0670
+Rank 0: all_reduce 4 start timestamp: 0.0670
+Rank 0: single_forward start timestamp: 0.0671
+Rank 0: single_forward end timestamp: 0.0808
+Rank 0: all_reduce 5 start timestamp: 0.0808
+Rank 0: single_forward start timestamp: 0.0809
+Rank 0: single_forward end timestamp: 0.0947
+Rank 0: all_reduce 6 start timestamp: 0.0947
+Rank 0: single_forward start timestamp: 0.0948
+Rank 0: single_forward end timestamp: 0.1019
+Rank 0: all_reduce 7 start timestamp: 0.1019
+Rank 0: all_reduce 0 end timestamp: 0.1019
+Rank 0: all_reduce 1 end timestamp: 0.1020
+Rank 0: all_reduce 2 end timestamp: 0.1021
+Rank 0: all_reduce 3 end timestamp: 0.1060
+Rank 0: all_reduce 4 end timestamp: 0.1061
+Rank 0: all_reduce 5 end timestamp: 0.1064
+Rank 0: all_reduce 6 end timestamp: 0.1122
+Rank 0: all_reduce 7 end timestamp: 0.1124
+Rank 0: Time for tiled matrix multiplication: 0.1126 seconds
+
+********** Statistics **********
+Average time for tiled matrix multiplication: 0.1153 seconds
+Median time for tiled matrix multiplication: 0.1110 seconds

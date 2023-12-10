@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Loop from 1 to 5
+for i in {1..5}
+do
+    # Calculate i squared
+    num_tiles=$((i ** 2))
+
+    # Run the python script with calculated number of tiles and redirect output
+    python tiled_mlp.py --num_tiles $num_tiles --num_iter 100 > "output/time_for_tile_size_$i.txt"
+done
