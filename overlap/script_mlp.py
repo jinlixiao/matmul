@@ -6,7 +6,7 @@ import numpy as np
 
 EXCLUDE_ITERATIONS = 5  # Number of initial iterations to exclude
 
-EXTRA_DESCRIPTION = "_4gpu"
+EXTRA_DESCRIPTION = "_2gpu_allgather"
 
 def extract_times(output):
     """Extracts time values from the command output."""
@@ -27,8 +27,8 @@ def extract_times(output):
 layer_times_for_tile_sizes = {}
 compute_times_for_tile_sizes = {}
 
-for tile_size in [1, 2, 3, 4, 6, 8, 12, 24]:
-    file_path = f"output/time_for_tile_size_{tile_size}{EXTRA_DESCRIPTION}.txt"
+for tile_size in [1]:
+    file_path = f"output/time_{tile_size}{EXTRA_DESCRIPTION}.txt"
     
     # Check if the file already exists
     if os.path.exists(file_path):
@@ -38,7 +38,7 @@ for tile_size in [1, 2, 3, 4, 6, 8, 12, 24]:
     else:
         print(f"Running for tile size {tile_size}")
         # Run the command and capture its output
-        command = f"python tiled_mlp.py --num_tiles {tile_size} --num_iter 100"
+        command = f"python tiled_mlp_allgather.py --num_tiles {tile_size} --num_iter 100"
         process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, text=True)
         stdout, stderr = process.communicate()
 
@@ -46,6 +46,7 @@ for tile_size in [1, 2, 3, 4, 6, 8, 12, 24]:
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
         with open(file_path, "w") as file:
             file.write(stdout)
+            file.write(stderr)
 
     # Extract times from the output or the file content
     layer_times, compute_times = extract_times(stdout)

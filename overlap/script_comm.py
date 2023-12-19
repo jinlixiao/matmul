@@ -52,6 +52,7 @@ for tile_size in [1, 2, 3, 4, 6, 8, 12, 24]:
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
         with open(file_path, "w") as file:
             file.write(stdout)
+            file.write(stderr)
 
     # Extract times from the output or the file content
     layer_times, compute_times, communication_times = extract_times(stdout)
