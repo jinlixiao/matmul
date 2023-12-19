@@ -27,7 +27,7 @@ def extract_times(output):
 layer_times_for_tile_sizes = {}
 compute_times_for_tile_sizes = {}
 
-for tile_size in [1]:
+for tile_size in [1, 2, 3, 4, 6, 8, 12, 24]:
     file_path = f"output/time_{tile_size}{EXTRA_DESCRIPTION}.txt"
     
     # Check if the file already exists

@@ -8,7 +8,7 @@ import torch.multiprocessing as mp
 import utils
 
 NNODES = 1                 # Number of nodes
-MODEL_PARALLEL_SIZE = 4    # Number of GPUs per node
+MODEL_PARALLEL_SIZE = 2    # Number of GPUs per node
 RUN_WITH_CPU = False       # Run with CPU instead of GPU
 B, L, H = 24, 1024, 2560   # Batch size, sequence length, hidden size
 EXCLUDE_ITERATIONS = 3     # Number of iterations to exclude from statistics

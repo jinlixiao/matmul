@@ -29,31 +29,31 @@ class TwoLayerMLP(nn.Module):
     def forward(self, x, num_tiles):
         # Split among the batch dimension
         input_splits = torch.chunk(x, num_tiles, dim=0)
-        output_ = torch.zeros_like(x)
-
+        output_list = []
         total_duration = 0
-        all_reduce_duration = 0
 
+        # Launch non-blocking all-gather operations
         for i, input_part in enumerate(input_splits):
             output_part, duration = self.single_forward(input_part)
+            gathered_outputs = [torch.zeros_like(output_part) for _ in range(dist.get_world_size())]
+            handle = dist.all_gather(gathered_outputs, output_part, group=utils.get_model_parallel_group(), async_op=True)
+            output_list.append((handle, gathered_outputs))
             total_duration += duration
-            ar_start_event = cuda.Event(enable_timing=True)
-            ar_end_event = cuda.Event(enable_timing=True)
-            
-            ar_start_event.record()
-            dist.all_reduce(output_part, op=dist.ReduceOp.SUM, group=utils.get_model_parallel_group())
-            ar_end_event.record()
-            output_[i * output_part.shape[0]:(i + 1) * output_part.shape[0], :] = output_part
-            
-            # Calculate all_reduce duration
-            cuda.synchronize()
-            ar_duration = ar_start_event.elapsed_time(ar_end_event)
-            utils.print_rank_0(f"Rank {dist.get_rank()}: All-reduce duration for tile {i}: {ar_duration:.04f} milliseconds")
-            all_reduce_duration += ar_duration
 
-        utils.print_rank_0(f"Rank {dist.get_rank()}: Total computation time: {total_duration:.04f} milliseconds")
-        utils.print_rank_0(f"Rank {dist.get_rank()}: Total communication time: {all_reduce_duration:.04f} milliseconds")
-        return output_
+        # Wait for all operations to complete
+        for handle, _ in output_list:
+            handle.wait()
+
+        # Correctly combine the gathered results
+        outputs_combined = []
+        for _, gathered in output_list:
+            for tensor in gathered:
+                outputs_combined.append(tensor)
+
+        output_ = torch.cat(outputs_combined, dim=0)
+
+        utils.print_rank_0(f"Rank {dist.get_rank()}: Total time for single_forward: {total_duration:.04f} milliseconds")
+        return x
 
     def single_forward(self, x):
         start_event = cuda.Event(enable_timing=True)
@@ -108,6 +108,6 @@ def run(rank, world_size):
     utils.print_rank_0(f"Median time for tiled matrix multiplication: {sorted(running_time)[len(running_time) // 2]:.04f} milliseconds")
 
 if __name__ == "__main__":
-    print(f"Running on {MODEL_PARALLEL_SIZE} GPUs per node, with {args.num_tiles} tiles")
+    print(f"Running on {MODEL_PARALLEL_SIZE} GPUs per node, tile size {args.num_tiles}")
     world_size = NNODES * MODEL_PARALLEL_SIZE
     mp.spawn(run, args=(world_size,), nprocs=world_size, join=True)
