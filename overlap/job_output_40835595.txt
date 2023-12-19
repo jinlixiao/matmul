@@ -1,0 +1,58 @@
+/opt/slurm/data/slurmd/job40835595/slurm_script: line 9: /path/to/conda.sh: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+/scratch/jx2076/miniconda3/envs/pytorch/lib/python3.9/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/scratch/jx2076/miniconda3/envs/pytorch/lib/python3.9/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Running for tile size 1
+Running for tile size 2
+Running for tile size 3
+Running for tile size 4
+Running for tile size 6
+Running for tile size 8
+Running for tile size 12
+Running for tile size 24
+Layer Times and Compute Times (in milliseconds):
+Tile Size 1: Layer Time = 94.82 ms, Compute Time = nan ms
+Tile Size 2: Layer Time = 92.57 ms, Compute Time = nan ms
+Tile Size 3: Layer Time = 91.91 ms, Compute Time = nan ms
+Tile Size 4: Layer Time = 92.45 ms, Compute Time = nan ms
+Tile Size 6: Layer Time = 93.13 ms, Compute Time = nan ms
+Tile Size 8: Layer Time = 95.37 ms, Compute Time = nan ms
+Tile Size 12: Layer Time = 95.74 ms, Compute Time = nan ms
+Tile Size 24: Layer Time = 97.22 ms, Compute Time = nan ms
+Running for tile size 1
+Running for tile size 2
+Running for tile size 3
+Running for tile size 4
+Running for tile size 6
+Running for tile size 8
+Running for tile size 12
+Running for tile size 24
+Layer, Compute, and Communication Times (in milliseconds):
+Tile Size 1: Layer Time = 94.87 ms, Compute Time = 87.29 ms, Communication Time = 7.58 ms
+Tile Size 2: Layer Time = 94.95 ms, Compute Time = 87.09 ms, Communication Time = 7.86 ms
+Tile Size 3: Layer Time = 95.23 ms, Compute Time = 87.07 ms, Communication Time = 8.16 ms
+Tile Size 4: Layer Time = 95.35 ms, Compute Time = 87.07 ms, Communication Time = 8.28 ms
+Tile Size 6: Layer Time = 96.19 ms, Compute Time = 87.51 ms, Communication Time = 8.67 ms
+Tile Size 8: Layer Time = 96.55 ms, Compute Time = 87.65 ms, Communication Time = 8.90 ms
+Tile Size 12: Layer Time = 96.87 ms, Compute Time = 87.56 ms, Communication Time = 9.32 ms
+Tile Size 24: Layer Time = 99.07 ms, Compute Time = 88.30 ms, Communication Time = 10.77 ms

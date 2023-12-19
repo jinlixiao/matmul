@@ -1,0 +1,1035 @@
+Running on 2 GPUs per node, with 3 tiles
+********** Iteration 0 **********
+Rank 0: single_forward duration: 352.0809 milliseconds
+Rank 0: All-reduce duration for tile 0: 332.7836 milliseconds
+Rank 0: single_forward duration: 34.2303 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.3460 milliseconds
+Rank 0: single_forward duration: 34.1125 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2794 milliseconds
+Rank 0: Total computation time: 420.4237 milliseconds
+Rank 0: Total communication time: 337.4090 milliseconds
+Rank 0: Time for tiled matrix multiplication: 760.1436 milliseconds
+********** Iteration 1 **********
+Rank 0: single_forward duration: 31.8863 milliseconds
+Rank 0: All-reduce duration for tile 0: 4.4145 milliseconds
+Rank 0: single_forward duration: 31.9283 milliseconds
+Rank 0: All-reduce duration for tile 1: 4.4585 milliseconds
+Rank 0: single_forward duration: 31.9242 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2712 milliseconds
+Rank 0: Total computation time: 95.7389 milliseconds
+Rank 0: Total communication time: 11.1442 milliseconds
+Rank 0: Time for tiled matrix multiplication: 108.2122 milliseconds
+********** Iteration 2 **********
+Rank 0: single_forward duration: 31.8976 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2815 milliseconds
+Rank 0: single_forward duration: 31.1419 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.3757 milliseconds
+Rank 0: single_forward duration: 29.7759 milliseconds
+Rank 0: All-reduce duration for tile 2: 3.7632 milliseconds
+Rank 0: Total computation time: 92.8154 milliseconds
+Rank 0: Total communication time: 8.4204 milliseconds
+Rank 0: Time for tiled matrix multiplication: 102.4543 milliseconds
+********** Iteration 3 **********
+Rank 0: single_forward duration: 30.1722 milliseconds
+Rank 0: All-reduce duration for tile 0: 3.3444 milliseconds
+Rank 0: single_forward duration: 30.1066 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.8006 milliseconds
+Rank 0: single_forward duration: 30.0749 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.9092 milliseconds
+Rank 0: Total computation time: 90.3537 milliseconds
+Rank 0: Total communication time: 9.0542 milliseconds
+Rank 0: Time for tiled matrix multiplication: 100.6152 milliseconds
+********** Iteration 4 **********
+Rank 0: single_forward duration: 30.0319 milliseconds
+Rank 0: All-reduce duration for tile 0: 3.0085 milliseconds
+Rank 0: single_forward duration: 30.0749 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.9604 milliseconds
+Rank 0: single_forward duration: 30.0636 milliseconds
+Rank 0: All-reduce duration for tile 2: 3.0147 milliseconds
+Rank 0: Total computation time: 90.1704 milliseconds
+Rank 0: Total communication time: 8.9836 milliseconds
+Rank 0: Time for tiled matrix multiplication: 100.3520 milliseconds
+********** Iteration 5 **********
+Rank 0: single_forward duration: 30.1711 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.8406 milliseconds
+Rank 0: single_forward duration: 30.0995 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.9819 milliseconds
+Rank 0: single_forward duration: 29.9500 milliseconds
+Rank 0: All-reduce duration for tile 2: 3.0833 milliseconds
+Rank 0: Total computation time: 90.2205 milliseconds
+Rank 0: Total communication time: 8.9057 milliseconds
+Rank 0: Time for tiled matrix multiplication: 100.3243 milliseconds
+********** Iteration 6 **********
+Rank 0: single_forward duration: 29.8998 milliseconds
+Rank 0: All-reduce duration for tile 0: 3.1980 milliseconds
+Rank 0: single_forward duration: 29.8619 milliseconds
+Rank 0: All-reduce duration for tile 1: 3.2317 milliseconds
+Rank 0: single_forward duration: 29.7677 milliseconds
+Rank 0: All-reduce duration for tile 2: 3.2481 milliseconds
+Rank 0: Total computation time: 89.5293 milliseconds
+Rank 0: Total communication time: 9.6778 milliseconds
+Rank 0: Time for tiled matrix multiplication: 100.4093 milliseconds
+********** Iteration 7 **********
+Rank 0: single_forward duration: 30.2049 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.7054 milliseconds
+Rank 0: single_forward duration: 30.0513 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2548 milliseconds
+Rank 0: single_forward duration: 29.6376 milliseconds
+Rank 0: All-reduce duration for tile 2: 3.2676 milliseconds
+Rank 0: Total computation time: 89.8939 milliseconds
+Rank 0: Total communication time: 8.2278 milliseconds
+Rank 0: Time for tiled matrix multiplication: 101.8726 milliseconds
+********** Iteration 8 **********
+Rank 0: single_forward duration: 29.5977 milliseconds
+Rank 0: All-reduce duration for tile 0: 3.3608 milliseconds
+Rank 0: single_forward duration: 29.5506 milliseconds
+Rank 0: All-reduce duration for tile 1: 3.1560 milliseconds
+Rank 0: single_forward duration: 29.9223 milliseconds
+Rank 0: All-reduce duration for tile 2: 3.0167 milliseconds
+Rank 0: Total computation time: 89.0706 milliseconds
+Rank 0: Total communication time: 9.5334 milliseconds
+Rank 0: Time for tiled matrix multiplication: 99.8042 milliseconds
+********** Iteration 9 **********
+Rank 0: single_forward duration: 29.9192 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.9450 milliseconds
+Rank 0: single_forward duration: 29.7718 milliseconds
+Rank 0: All-reduce duration for tile 1: 3.1887 milliseconds
+Rank 0: single_forward duration: 29.9315 milliseconds
+Rank 0: All-reduce duration for tile 2: 3.0382 milliseconds
+Rank 0: Total computation time: 89.6225 milliseconds
+Rank 0: Total communication time: 9.1720 milliseconds
+Rank 0: Time for tiled matrix multiplication: 99.9885 milliseconds
+********** Iteration 10 **********
+Rank 0: single_forward duration: 29.9141 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.9112 milliseconds
+Rank 0: single_forward duration: 29.8260 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.9082 milliseconds
+Rank 0: single_forward duration: 29.7923 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.8539 milliseconds
+Rank 0: Total computation time: 89.5324 milliseconds
+Rank 0: Total communication time: 8.6733 milliseconds
+Rank 0: Time for tiled matrix multiplication: 99.4007 milliseconds
+********** Iteration 11 **********
+Rank 0: single_forward duration: 29.4625 milliseconds
+Rank 0: All-reduce duration for tile 0: 3.1089 milliseconds
+Rank 0: single_forward duration: 29.4840 milliseconds
+Rank 0: All-reduce duration for tile 1: 3.1498 milliseconds
+Rank 0: single_forward duration: 29.5291 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.4484 milliseconds
+Rank 0: Total computation time: 88.4756 milliseconds
+Rank 0: Total communication time: 8.7071 milliseconds
+Rank 0: Time for tiled matrix multiplication: 98.3849 milliseconds
+********** Iteration 12 **********
+Rank 0: single_forward duration: 29.4666 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2344 milliseconds
+Rank 0: single_forward duration: 29.5188 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2487 milliseconds
+Rank 0: single_forward duration: 29.1645 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2815 milliseconds
+Rank 0: Total computation time: 88.1500 milliseconds
+Rank 0: Total communication time: 6.7645 milliseconds
+Rank 0: Time for tiled matrix multiplication: 96.1085 milliseconds
+********** Iteration 13 **********
+Rank 0: single_forward duration: 29.0621 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.3941 milliseconds
+Rank 0: single_forward duration: 29.0990 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.3040 milliseconds
+Rank 0: single_forward duration: 29.0140 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2559 milliseconds
+Rank 0: Total computation time: 87.1752 milliseconds
+Rank 0: Total communication time: 6.9540 milliseconds
+Rank 0: Time for tiled matrix multiplication: 95.3211 milliseconds
+********** Iteration 14 **********
+Rank 0: single_forward duration: 28.9106 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2620 milliseconds
+Rank 0: single_forward duration: 28.9536 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2845 milliseconds
+Rank 0: single_forward duration: 28.9710 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2528 milliseconds
+Rank 0: Total computation time: 86.8352 milliseconds
+Rank 0: Total communication time: 6.7994 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8716 milliseconds
+********** Iteration 15 **********
+Rank 0: single_forward duration: 28.9618 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2477 milliseconds
+Rank 0: single_forward duration: 28.9444 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2487 milliseconds
+Rank 0: single_forward duration: 29.0355 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2211 milliseconds
+Rank 0: Total computation time: 86.9417 milliseconds
+Rank 0: Total communication time: 6.7174 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8541 milliseconds
+********** Iteration 16 **********
+Rank 0: single_forward duration: 28.9239 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2395 milliseconds
+Rank 0: single_forward duration: 28.9372 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2548 milliseconds
+Rank 0: single_forward duration: 28.9638 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2815 milliseconds
+Rank 0: Total computation time: 86.8250 milliseconds
+Rank 0: Total communication time: 6.7758 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7845 milliseconds
+********** Iteration 17 **********
+Rank 0: single_forward duration: 28.9628 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2508 milliseconds
+Rank 0: single_forward duration: 28.9413 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2456 milliseconds
+Rank 0: single_forward duration: 28.9772 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2364 milliseconds
+Rank 0: Total computation time: 86.8813 milliseconds
+Rank 0: Total communication time: 6.7328 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7999 milliseconds
+********** Iteration 18 **********
+Rank 0: single_forward duration: 28.9300 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2702 milliseconds
+Rank 0: single_forward duration: 28.9587 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2364 milliseconds
+Rank 0: single_forward duration: 28.9628 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2979 milliseconds
+Rank 0: Total computation time: 86.8516 milliseconds
+Rank 0: Total communication time: 6.8045 milliseconds
+Rank 0: Time for tiled matrix multiplication: 95.4880 milliseconds
+********** Iteration 19 **********
+Rank 0: single_forward duration: 28.9147 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2518 milliseconds
+Rank 0: single_forward duration: 28.9905 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2733 milliseconds
+Rank 0: single_forward duration: 28.9761 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2508 milliseconds
+Rank 0: Total computation time: 86.8813 milliseconds
+Rank 0: Total communication time: 6.7758 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8480 milliseconds
+********** Iteration 20 **********
+Rank 0: single_forward duration: 28.9516 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2374 milliseconds
+Rank 0: single_forward duration: 28.9260 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.3419 milliseconds
+Rank 0: single_forward duration: 28.9649 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2497 milliseconds
+Rank 0: Total computation time: 86.8424 milliseconds
+Rank 0: Total communication time: 6.8291 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8654 milliseconds
+********** Iteration 21 **********
+Rank 0: single_forward duration: 28.9372 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2487 milliseconds
+Rank 0: single_forward duration: 28.9403 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2733 milliseconds
+Rank 0: single_forward duration: 28.9772 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2671 milliseconds
+Rank 0: Total computation time: 86.8547 milliseconds
+Rank 0: Total communication time: 6.7891 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8316 milliseconds
+********** Iteration 22 **********
+Rank 0: single_forward duration: 28.9137 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2579 milliseconds
+Rank 0: single_forward duration: 28.9638 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2344 milliseconds
+Rank 0: single_forward duration: 28.9843 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2364 milliseconds
+Rank 0: Total computation time: 86.8618 milliseconds
+Rank 0: Total communication time: 6.7287 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7866 milliseconds
+********** Iteration 23 **********
+Rank 0: single_forward duration: 28.9116 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2456 milliseconds
+Rank 0: single_forward duration: 28.9485 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2395 milliseconds
+Rank 0: single_forward duration: 28.9536 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2958 milliseconds
+Rank 0: Total computation time: 86.8137 milliseconds
+Rank 0: Total communication time: 6.7809 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7937 milliseconds
+********** Iteration 24 **********
+Rank 0: single_forward duration: 28.8932 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2825 milliseconds
+Rank 0: single_forward duration: 28.9638 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2436 milliseconds
+Rank 0: single_forward duration: 28.9505 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2600 milliseconds
+Rank 0: Total computation time: 86.8076 milliseconds
+Rank 0: Total communication time: 6.7860 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7855 milliseconds
+********** Iteration 25 **********
+Rank 0: single_forward duration: 28.9331 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2497 milliseconds
+Rank 0: single_forward duration: 28.9679 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2426 milliseconds
+Rank 0: single_forward duration: 28.9638 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2712 milliseconds
+Rank 0: Total computation time: 86.8649 milliseconds
+Rank 0: Total communication time: 6.7635 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8204 milliseconds
+********** Iteration 26 **********
+Rank 0: single_forward duration: 28.9362 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2405 milliseconds
+Rank 0: single_forward duration: 28.9393 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2671 milliseconds
+Rank 0: single_forward duration: 28.9649 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.3040 milliseconds
+Rank 0: Total computation time: 86.8403 milliseconds
+Rank 0: Total communication time: 6.8116 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8531 milliseconds
+********** Iteration 27 **********
+Rank 0: single_forward duration: 28.9597 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2333 milliseconds
+Rank 0: single_forward duration: 28.9536 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2323 milliseconds
+Rank 0: single_forward duration: 28.9464 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2753 milliseconds
+Rank 0: Total computation time: 86.8598 milliseconds
+Rank 0: Total communication time: 6.7410 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7886 milliseconds
+********** Iteration 28 **********
+Rank 0: single_forward duration: 29.0171 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2426 milliseconds
+Rank 0: single_forward duration: 28.9792 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2774 milliseconds
+Rank 0: single_forward duration: 28.9475 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2374 milliseconds
+Rank 0: Total computation time: 86.9437 milliseconds
+Rank 0: Total communication time: 6.7574 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8900 milliseconds
+********** Iteration 29 **********
+Rank 0: single_forward duration: 28.9270 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.3163 milliseconds
+Rank 0: single_forward duration: 28.9536 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2497 milliseconds
+Rank 0: single_forward duration: 28.9526 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2508 milliseconds
+Rank 0: Total computation time: 86.8332 milliseconds
+Rank 0: Total communication time: 6.8168 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8879 milliseconds
+********** Iteration 30 **********
+Rank 0: single_forward duration: 28.9382 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2548 milliseconds
+Rank 0: single_forward duration: 28.9475 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2845 milliseconds
+Rank 0: single_forward duration: 28.9556 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2641 milliseconds
+Rank 0: Total computation time: 86.8413 milliseconds
+Rank 0: Total communication time: 6.8035 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8378 milliseconds
+********** Iteration 31 **********
+Rank 0: single_forward duration: 28.8973 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.3398 milliseconds
+Rank 0: single_forward duration: 28.9618 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2579 milliseconds
+Rank 0: single_forward duration: 29.0109 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2620 milliseconds
+Rank 0: Total computation time: 86.8700 milliseconds
+Rank 0: Total communication time: 6.8598 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.9176 milliseconds
+********** Iteration 32 **********
+Rank 0: single_forward duration: 28.8973 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2405 milliseconds
+Rank 0: single_forward duration: 28.9587 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2508 milliseconds
+Rank 0: single_forward duration: 28.9556 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2497 milliseconds
+Rank 0: Total computation time: 86.8116 milliseconds
+Rank 0: Total communication time: 6.7410 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7425 milliseconds
+********** Iteration 33 **********
+Rank 0: single_forward duration: 28.9157 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2948 milliseconds
+Rank 0: single_forward duration: 28.9915 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2600 milliseconds
+Rank 0: single_forward duration: 28.9700 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2538 milliseconds
+Rank 0: Total computation time: 86.8772 milliseconds
+Rank 0: Total communication time: 6.8086 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8756 milliseconds
+********** Iteration 34 **********
+Rank 0: single_forward duration: 28.9116 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2671 milliseconds
+Rank 0: single_forward duration: 28.9454 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2661 milliseconds
+Rank 0: single_forward duration: 28.9516 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2702 milliseconds
+Rank 0: Total computation time: 86.8086 milliseconds
+Rank 0: Total communication time: 6.8035 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8019 milliseconds
+********** Iteration 35 **********
+Rank 0: single_forward duration: 28.9321 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2753 milliseconds
+Rank 0: single_forward duration: 28.9659 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2671 milliseconds
+Rank 0: single_forward duration: 28.9464 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2682 milliseconds
+Rank 0: Total computation time: 86.8444 milliseconds
+Rank 0: Total communication time: 6.8106 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8439 milliseconds
+********** Iteration 36 **********
+Rank 0: single_forward duration: 28.9454 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2620 milliseconds
+Rank 0: single_forward duration: 28.9700 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2446 milliseconds
+Rank 0: single_forward duration: 29.0417 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2579 milliseconds
+Rank 0: Total computation time: 86.9571 milliseconds
+Rank 0: Total communication time: 6.7645 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.9084 milliseconds
+********** Iteration 37 **********
+Rank 0: single_forward duration: 28.9249 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2579 milliseconds
+Rank 0: single_forward duration: 28.9700 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2436 milliseconds
+Rank 0: single_forward duration: 28.9444 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2661 milliseconds
+Rank 0: Total computation time: 86.8393 milliseconds
+Rank 0: Total communication time: 6.7676 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7948 milliseconds
+********** Iteration 38 **********
+Rank 0: single_forward duration: 28.9382 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2559 milliseconds
+Rank 0: single_forward duration: 28.9505 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2651 milliseconds
+Rank 0: single_forward duration: 28.9638 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2866 milliseconds
+Rank 0: Total computation time: 86.8526 milliseconds
+Rank 0: Total communication time: 6.8076 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8490 milliseconds
+********** Iteration 39 **********
+Rank 0: single_forward duration: 28.9188 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2630 milliseconds
+Rank 0: single_forward duration: 28.9741 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2579 milliseconds
+Rank 0: single_forward duration: 28.9526 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2559 milliseconds
+Rank 0: Total computation time: 86.8454 milliseconds
+Rank 0: Total communication time: 6.7768 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8101 milliseconds
+********** Iteration 40 **********
+Rank 0: single_forward duration: 28.9516 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2569 milliseconds
+Rank 0: single_forward duration: 28.9853 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2753 milliseconds
+Rank 0: single_forward duration: 28.9413 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2548 milliseconds
+Rank 0: Total computation time: 86.8782 milliseconds
+Rank 0: Total communication time: 6.7871 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8900 milliseconds
+********** Iteration 41 **********
+Rank 0: single_forward duration: 28.9567 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2620 milliseconds
+Rank 0: single_forward duration: 28.9679 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2426 milliseconds
+Rank 0: single_forward duration: 28.9649 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2180 milliseconds
+Rank 0: Total computation time: 86.8895 milliseconds
+Rank 0: Total communication time: 6.7226 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8040 milliseconds
+********** Iteration 42 **********
+Rank 0: single_forward duration: 28.9280 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.3378 milliseconds
+Rank 0: single_forward duration: 28.9710 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2385 milliseconds
+Rank 0: single_forward duration: 28.9823 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2845 milliseconds
+Rank 0: Total computation time: 86.8813 milliseconds
+Rank 0: Total communication time: 6.8608 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.9289 milliseconds
+********** Iteration 43 **********
+Rank 0: single_forward duration: 28.9280 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2497 milliseconds
+Rank 0: single_forward duration: 28.9669 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2385 milliseconds
+Rank 0: single_forward duration: 28.9946 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2671 milliseconds
+Rank 0: Total computation time: 86.8895 milliseconds
+Rank 0: Total communication time: 6.7553 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8490 milliseconds
+********** Iteration 44 **********
+Rank 0: single_forward duration: 28.9403 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2579 milliseconds
+Rank 0: single_forward duration: 28.9638 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2589 milliseconds
+Rank 0: single_forward duration: 28.9700 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2395 milliseconds
+Rank 0: Total computation time: 86.8741 milliseconds
+Rank 0: Total communication time: 6.7564 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8531 milliseconds
+********** Iteration 45 **********
+Rank 0: single_forward duration: 28.9352 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2354 milliseconds
+Rank 0: single_forward duration: 28.9710 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2231 milliseconds
+Rank 0: single_forward duration: 28.9925 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2364 milliseconds
+Rank 0: Total computation time: 86.8987 milliseconds
+Rank 0: Total communication time: 6.6949 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7917 milliseconds
+********** Iteration 46 **********
+Rank 0: single_forward duration: 28.9475 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2569 milliseconds
+Rank 0: single_forward duration: 28.9321 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2508 milliseconds
+Rank 0: single_forward duration: 28.9403 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.3153 milliseconds
+Rank 0: Total computation time: 86.8198 milliseconds
+Rank 0: Total communication time: 6.8229 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8388 milliseconds
+********** Iteration 47 **********
+Rank 0: single_forward duration: 28.9628 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2374 milliseconds
+Rank 0: single_forward duration: 29.0099 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2569 milliseconds
+Rank 0: single_forward duration: 29.0068 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2333 milliseconds
+Rank 0: Total computation time: 86.9796 milliseconds
+Rank 0: Total communication time: 6.7277 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.9012 milliseconds
+********** Iteration 48 **********
+Rank 0: single_forward duration: 28.9137 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2702 milliseconds
+Rank 0: single_forward duration: 28.9608 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2518 milliseconds
+Rank 0: single_forward duration: 28.9628 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2405 milliseconds
+Rank 0: Total computation time: 86.8372 milliseconds
+Rank 0: Total communication time: 6.7625 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7927 milliseconds
+********** Iteration 49 **********
+Rank 0: single_forward duration: 28.9126 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2610 milliseconds
+Rank 0: single_forward duration: 28.9843 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2364 milliseconds
+Rank 0: single_forward duration: 28.9761 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2528 milliseconds
+Rank 0: Total computation time: 86.8731 milliseconds
+Rank 0: Total communication time: 6.7502 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8101 milliseconds
+********** Iteration 50 **********
+Rank 0: single_forward duration: 28.9044 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2600 milliseconds
+Rank 0: single_forward duration: 29.0140 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2467 milliseconds
+Rank 0: single_forward duration: 28.9546 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2333 milliseconds
+Rank 0: Total computation time: 86.8731 milliseconds
+Rank 0: Total communication time: 6.7400 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8091 milliseconds
+********** Iteration 51 **********
+Rank 0: single_forward duration: 28.8901 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.3183 milliseconds
+Rank 0: single_forward duration: 28.9362 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2497 milliseconds
+Rank 0: single_forward duration: 28.9690 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2620 milliseconds
+Rank 0: Total computation time: 86.7953 milliseconds
+Rank 0: Total communication time: 6.8301 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8163 milliseconds
+********** Iteration 52 **********
+Rank 0: single_forward duration: 28.9249 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2487 milliseconds
+Rank 0: single_forward duration: 28.9608 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2559 milliseconds
+Rank 0: single_forward duration: 28.9628 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2456 milliseconds
+Rank 0: Total computation time: 86.8485 milliseconds
+Rank 0: Total communication time: 6.7502 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8163 milliseconds
+********** Iteration 53 **********
+Rank 0: single_forward duration: 28.9055 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2559 milliseconds
+Rank 0: single_forward duration: 28.9935 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2671 milliseconds
+Rank 0: single_forward duration: 28.9434 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2938 milliseconds
+Rank 0: Total computation time: 86.8424 milliseconds
+Rank 0: Total communication time: 6.8168 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8623 milliseconds
+********** Iteration 54 **********
+Rank 0: single_forward duration: 28.9280 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2374 milliseconds
+Rank 0: single_forward duration: 28.9597 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2528 milliseconds
+Rank 0: single_forward duration: 28.9802 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2559 milliseconds
+Rank 0: Total computation time: 86.8680 milliseconds
+Rank 0: Total communication time: 6.7461 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7989 milliseconds
+********** Iteration 55 **********
+Rank 0: single_forward duration: 28.9546 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2559 milliseconds
+Rank 0: single_forward duration: 28.9546 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2682 milliseconds
+Rank 0: single_forward duration: 28.9782 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2569 milliseconds
+Rank 0: Total computation time: 86.8874 milliseconds
+Rank 0: Total communication time: 6.7809 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8603 milliseconds
+********** Iteration 56 **********
+Rank 0: single_forward duration: 28.9024 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2815 milliseconds
+Rank 0: single_forward duration: 28.9659 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2651 milliseconds
+Rank 0: single_forward duration: 28.9526 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.3306 milliseconds
+Rank 0: Total computation time: 86.8209 milliseconds
+Rank 0: Total communication time: 6.8772 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8910 milliseconds
+********** Iteration 57 **********
+Rank 0: single_forward duration: 28.9300 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2364 milliseconds
+Rank 0: single_forward duration: 28.9976 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2231 milliseconds
+Rank 0: single_forward duration: 28.9894 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2200 milliseconds
+Rank 0: Total computation time: 86.9171 milliseconds
+Rank 0: Total communication time: 6.6796 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7886 milliseconds
+********** Iteration 58 **********
+Rank 0: single_forward duration: 28.9065 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2723 milliseconds
+Rank 0: single_forward duration: 28.9495 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2426 milliseconds
+Rank 0: single_forward duration: 28.9731 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2467 milliseconds
+Rank 0: Total computation time: 86.8291 milliseconds
+Rank 0: Total communication time: 6.7615 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7814 milliseconds
+********** Iteration 59 **********
+Rank 0: single_forward duration: 28.9485 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2354 milliseconds
+Rank 0: single_forward duration: 28.9792 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2620 milliseconds
+Rank 0: single_forward duration: 28.9649 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2569 milliseconds
+Rank 0: Total computation time: 86.8925 milliseconds
+Rank 0: Total communication time: 6.7543 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8664 milliseconds
+********** Iteration 60 **********
+Rank 0: single_forward duration: 28.9126 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2456 milliseconds
+Rank 0: single_forward duration: 28.9669 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2385 milliseconds
+Rank 0: single_forward duration: 28.9802 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2477 milliseconds
+Rank 0: Total computation time: 86.8598 milliseconds
+Rank 0: Total communication time: 6.7318 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7958 milliseconds
+********** Iteration 61 **********
+Rank 0: single_forward duration: 28.9444 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2385 milliseconds
+Rank 0: single_forward duration: 28.9761 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2620 milliseconds
+Rank 0: single_forward duration: 28.9751 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2354 milliseconds
+Rank 0: Total computation time: 86.8956 milliseconds
+Rank 0: Total communication time: 6.7359 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8183 milliseconds
+********** Iteration 62 **********
+Rank 0: single_forward duration: 28.9444 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2364 milliseconds
+Rank 0: single_forward duration: 28.9669 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2671 milliseconds
+Rank 0: single_forward duration: 29.0038 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2733 milliseconds
+Rank 0: Total computation time: 86.9151 milliseconds
+Rank 0: Total communication time: 6.7768 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8808 milliseconds
+********** Iteration 63 **********
+Rank 0: single_forward duration: 28.9157 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2774 milliseconds
+Rank 0: single_forward duration: 28.9577 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2815 milliseconds
+Rank 0: single_forward duration: 28.9638 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2508 milliseconds
+Rank 0: Total computation time: 86.8372 milliseconds
+Rank 0: Total communication time: 6.8096 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8787 milliseconds
+********** Iteration 64 **********
+Rank 0: single_forward duration: 28.9311 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2579 milliseconds
+Rank 0: single_forward duration: 28.9495 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2180 milliseconds
+Rank 0: single_forward duration: 28.9710 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2579 milliseconds
+Rank 0: Total computation time: 86.8516 milliseconds
+Rank 0: Total communication time: 6.7338 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7753 milliseconds
+********** Iteration 65 **********
+Rank 0: single_forward duration: 28.9341 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2589 milliseconds
+Rank 0: single_forward duration: 28.9659 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2077 milliseconds
+Rank 0: single_forward duration: 28.9812 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2508 milliseconds
+Rank 0: Total computation time: 86.8813 milliseconds
+Rank 0: Total communication time: 6.7174 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7907 milliseconds
+********** Iteration 66 **********
+Rank 0: single_forward duration: 28.9434 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2323 milliseconds
+Rank 0: single_forward duration: 28.9464 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2538 milliseconds
+Rank 0: single_forward duration: 28.9669 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2415 milliseconds
+Rank 0: Total computation time: 86.8567 milliseconds
+Rank 0: Total communication time: 6.7277 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7743 milliseconds
+********** Iteration 67 **********
+Rank 0: single_forward duration: 28.9300 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2292 milliseconds
+Rank 0: single_forward duration: 28.9679 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2538 milliseconds
+Rank 0: single_forward duration: 28.9761 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2426 milliseconds
+Rank 0: Total computation time: 86.8741 milliseconds
+Rank 0: Total communication time: 6.7256 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7896 milliseconds
+********** Iteration 68 **********
+Rank 0: single_forward duration: 28.9546 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2682 milliseconds
+Rank 0: single_forward duration: 28.9587 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2559 milliseconds
+Rank 0: single_forward duration: 28.9853 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2579 milliseconds
+Rank 0: Total computation time: 86.8987 milliseconds
+Rank 0: Total communication time: 6.7820 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8685 milliseconds
+********** Iteration 69 **********
+Rank 0: single_forward duration: 28.9321 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2548 milliseconds
+Rank 0: single_forward duration: 28.9679 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2610 milliseconds
+Rank 0: single_forward duration: 28.9577 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2548 milliseconds
+Rank 0: Total computation time: 86.8577 milliseconds
+Rank 0: Total communication time: 6.7707 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8132 milliseconds
+********** Iteration 70 **********
+Rank 0: single_forward duration: 28.9567 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2467 milliseconds
+Rank 0: single_forward duration: 28.9311 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.3265 milliseconds
+Rank 0: single_forward duration: 29.0068 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2538 milliseconds
+Rank 0: Total computation time: 86.8946 milliseconds
+Rank 0: Total communication time: 6.8270 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.9012 milliseconds
+********** Iteration 71 **********
+Rank 0: single_forward duration: 28.9444 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.1996 milliseconds
+Rank 0: single_forward duration: 28.9792 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2487 milliseconds
+Rank 0: single_forward duration: 28.9679 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2610 milliseconds
+Rank 0: Total computation time: 86.8915 milliseconds
+Rank 0: Total communication time: 6.7092 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7876 milliseconds
+********** Iteration 72 **********
+Rank 0: single_forward duration: 28.9137 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2569 milliseconds
+Rank 0: single_forward duration: 28.9710 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2262 milliseconds
+Rank 0: single_forward duration: 28.9864 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2538 milliseconds
+Rank 0: Total computation time: 86.8710 milliseconds
+Rank 0: Total communication time: 6.7369 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7978 milliseconds
+********** Iteration 73 **********
+Rank 0: single_forward duration: 28.9311 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2651 milliseconds
+Rank 0: single_forward duration: 28.9731 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2426 milliseconds
+Rank 0: single_forward duration: 28.9638 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2385 milliseconds
+Rank 0: Total computation time: 86.8680 milliseconds
+Rank 0: Total communication time: 6.7461 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7989 milliseconds
+********** Iteration 74 **********
+Rank 0: single_forward duration: 28.9014 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.4248 milliseconds
+Rank 0: single_forward duration: 28.9321 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2999 milliseconds
+Rank 0: single_forward duration: 29.0120 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2702 milliseconds
+Rank 0: Total computation time: 86.8454 milliseconds
+Rank 0: Total communication time: 6.9949 milliseconds
+Rank 0: Time for tiled matrix multiplication: 95.2299 milliseconds
+********** Iteration 75 **********
+Rank 0: single_forward duration: 28.9679 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2241 milliseconds
+Rank 0: single_forward duration: 28.9618 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2589 milliseconds
+Rank 0: single_forward duration: 28.9792 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2651 milliseconds
+Rank 0: Total computation time: 86.9089 milliseconds
+Rank 0: Total communication time: 6.7482 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8726 milliseconds
+********** Iteration 76 **********
+Rank 0: single_forward duration: 28.9556 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2456 milliseconds
+Rank 0: single_forward duration: 28.9423 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2671 milliseconds
+Rank 0: single_forward duration: 28.9812 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2589 milliseconds
+Rank 0: Total computation time: 86.8792 milliseconds
+Rank 0: Total communication time: 6.7717 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8347 milliseconds
+********** Iteration 77 **********
+Rank 0: single_forward duration: 28.9444 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2620 milliseconds
+Rank 0: single_forward duration: 28.9782 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2364 milliseconds
+Rank 0: single_forward duration: 29.0212 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2692 milliseconds
+Rank 0: Total computation time: 86.9437 milliseconds
+Rank 0: Total communication time: 6.7676 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8982 milliseconds
+********** Iteration 78 **********
+Rank 0: single_forward duration: 28.9382 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2364 milliseconds
+Rank 0: single_forward duration: 28.9505 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2508 milliseconds
+Rank 0: single_forward duration: 28.9864 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2518 milliseconds
+Rank 0: Total computation time: 86.8751 milliseconds
+Rank 0: Total communication time: 6.7389 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7958 milliseconds
+********** Iteration 79 **********
+Rank 0: single_forward duration: 28.9331 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2682 milliseconds
+Rank 0: single_forward duration: 28.9720 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2405 milliseconds
+Rank 0: single_forward duration: 28.9516 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2630 milliseconds
+Rank 0: Total computation time: 86.8567 milliseconds
+Rank 0: Total communication time: 6.7717 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8204 milliseconds
+********** Iteration 80 **********
+Rank 0: single_forward duration: 28.9403 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2333 milliseconds
+Rank 0: single_forward duration: 28.9782 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2436 milliseconds
+Rank 0: single_forward duration: 28.9669 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2477 milliseconds
+Rank 0: Total computation time: 86.8854 milliseconds
+Rank 0: Total communication time: 6.7246 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7907 milliseconds
+********** Iteration 81 **********
+Rank 0: single_forward duration: 28.9311 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2548 milliseconds
+Rank 0: single_forward duration: 28.9894 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2692 milliseconds
+Rank 0: single_forward duration: 28.9618 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2456 milliseconds
+Rank 0: Total computation time: 86.8823 milliseconds
+Rank 0: Total communication time: 6.7697 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8367 milliseconds
+********** Iteration 82 **********
+Rank 0: single_forward duration: 28.9208 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2303 milliseconds
+Rank 0: single_forward duration: 28.9413 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2630 milliseconds
+Rank 0: single_forward duration: 28.9628 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2426 milliseconds
+Rank 0: Total computation time: 86.8250 milliseconds
+Rank 0: Total communication time: 6.7359 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7446 milliseconds
+********** Iteration 83 **********
+Rank 0: single_forward duration: 28.9556 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2548 milliseconds
+Rank 0: single_forward duration: 28.9526 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2600 milliseconds
+Rank 0: single_forward duration: 28.9976 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2620 milliseconds
+Rank 0: Total computation time: 86.9059 milliseconds
+Rank 0: Total communication time: 6.7768 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8634 milliseconds
+********** Iteration 84 **********
+Rank 0: single_forward duration: 28.9382 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2794 milliseconds
+Rank 0: single_forward duration: 28.9434 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2692 milliseconds
+Rank 0: single_forward duration: 28.9679 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2559 milliseconds
+Rank 0: Total computation time: 86.8495 milliseconds
+Rank 0: Total communication time: 6.8045 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8378 milliseconds
+********** Iteration 85 **********
+Rank 0: single_forward duration: 28.9772 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2354 milliseconds
+Rank 0: single_forward duration: 28.9587 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2477 milliseconds
+Rank 0: single_forward duration: 29.0058 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2405 milliseconds
+Rank 0: Total computation time: 86.9417 milliseconds
+Rank 0: Total communication time: 6.7236 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8470 milliseconds
+********** Iteration 86 **********
+Rank 0: single_forward duration: 28.9311 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2589 milliseconds
+Rank 0: single_forward duration: 28.9659 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2518 milliseconds
+Rank 0: single_forward duration: 28.9475 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2774 milliseconds
+Rank 0: Total computation time: 86.8444 milliseconds
+Rank 0: Total communication time: 6.7881 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8132 milliseconds
+********** Iteration 87 **********
+Rank 0: single_forward duration: 28.8963 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.3040 milliseconds
+Rank 0: single_forward duration: 28.9413 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2620 milliseconds
+Rank 0: single_forward duration: 28.9669 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2579 milliseconds
+Rank 0: Total computation time: 86.8045 milliseconds
+Rank 0: Total communication time: 6.8239 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8070 milliseconds
+********** Iteration 88 **********
+Rank 0: single_forward duration: 28.9147 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2487 milliseconds
+Rank 0: single_forward duration: 28.9495 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2548 milliseconds
+Rank 0: single_forward duration: 28.9403 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2753 milliseconds
+Rank 0: Total computation time: 86.8045 milliseconds
+Rank 0: Total communication time: 6.7789 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7835 milliseconds
+********** Iteration 89 **********
+Rank 0: single_forward duration: 28.9178 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2497 milliseconds
+Rank 0: single_forward duration: 28.9802 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2497 milliseconds
+Rank 0: single_forward duration: 28.9864 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2569 milliseconds
+Rank 0: Total computation time: 86.8844 milliseconds
+Rank 0: Total communication time: 6.7564 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8306 milliseconds
+********** Iteration 90 **********
+Rank 0: single_forward duration: 28.9178 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2467 milliseconds
+Rank 0: single_forward duration: 28.9516 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2569 milliseconds
+Rank 0: single_forward duration: 28.9372 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2682 milliseconds
+Rank 0: Total computation time: 86.8065 milliseconds
+Rank 0: Total communication time: 6.7717 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7620 milliseconds
+********** Iteration 91 **********
+Rank 0: single_forward duration: 28.9290 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2784 milliseconds
+Rank 0: single_forward duration: 28.9751 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2333 milliseconds
+Rank 0: single_forward duration: 28.9352 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.3101 milliseconds
+Rank 0: Total computation time: 86.8393 milliseconds
+Rank 0: Total communication time: 6.8219 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8470 milliseconds
+********** Iteration 92 **********
+Rank 0: single_forward duration: 28.9403 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2385 milliseconds
+Rank 0: single_forward duration: 28.9546 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2712 milliseconds
+Rank 0: single_forward duration: 28.9874 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2682 milliseconds
+Rank 0: Total computation time: 86.8823 milliseconds
+Rank 0: Total communication time: 6.7779 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8490 milliseconds
+********** Iteration 93 **********
+Rank 0: single_forward duration: 28.9679 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2661 milliseconds
+Rank 0: single_forward duration: 28.9864 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2610 milliseconds
+Rank 0: single_forward duration: 28.9567 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2569 milliseconds
+Rank 0: Total computation time: 86.9110 milliseconds
+Rank 0: Total communication time: 6.7840 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8787 milliseconds
+********** Iteration 94 **********
+Rank 0: single_forward duration: 28.9464 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2405 milliseconds
+Rank 0: single_forward duration: 28.9608 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2395 milliseconds
+Rank 0: single_forward duration: 28.9567 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2559 milliseconds
+Rank 0: Total computation time: 86.8639 milliseconds
+Rank 0: Total communication time: 6.7359 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7855 milliseconds
+********** Iteration 95 **********
+Rank 0: single_forward duration: 28.8911 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2620 milliseconds
+Rank 0: single_forward duration: 28.9526 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2784 milliseconds
+Rank 0: single_forward duration: 28.9464 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2477 milliseconds
+Rank 0: Total computation time: 86.7901 milliseconds
+Rank 0: Total communication time: 6.7881 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7620 milliseconds
+********** Iteration 96 **********
+Rank 0: single_forward duration: 28.9239 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2487 milliseconds
+Rank 0: single_forward duration: 28.9556 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2589 milliseconds
+Rank 0: single_forward duration: 28.9516 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2907 milliseconds
+Rank 0: Total computation time: 86.8311 milliseconds
+Rank 0: Total communication time: 6.7983 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8163 milliseconds
+********** Iteration 97 **********
+Rank 0: single_forward duration: 28.9341 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2784 milliseconds
+Rank 0: single_forward duration: 28.9659 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2467 milliseconds
+Rank 0: single_forward duration: 29.0212 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2610 milliseconds
+Rank 0: Total computation time: 86.9212 milliseconds
+Rank 0: Total communication time: 6.7860 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8931 milliseconds
+********** Iteration 98 **********
+Rank 0: single_forward duration: 28.9034 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2518 milliseconds
+Rank 0: single_forward duration: 28.9464 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.3050 milliseconds
+Rank 0: single_forward duration: 28.9853 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2579 milliseconds
+Rank 0: Total computation time: 86.8352 milliseconds
+Rank 0: Total communication time: 6.8147 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8316 milliseconds
+********** Iteration 99 **********
+Rank 0: single_forward duration: 28.9290 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2661 milliseconds
+Rank 0: single_forward duration: 28.9434 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2313 milliseconds
+Rank 0: single_forward duration: 29.0048 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2477 milliseconds
+Rank 0: Total computation time: 86.8772 milliseconds
+Rank 0: Total communication time: 6.7451 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.8060 milliseconds
+********** Iteration 100 **********
+Rank 0: single_forward duration: 28.9556 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2200 milliseconds
+Rank 0: single_forward duration: 28.9454 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2487 milliseconds
+Rank 0: single_forward duration: 28.9444 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2344 milliseconds
+Rank 0: Total computation time: 86.8454 milliseconds
+Rank 0: Total communication time: 6.7031 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.7343 milliseconds
+********** Iteration 101 **********
+Rank 0: single_forward duration: 28.9300 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.2077 milliseconds
+Rank 0: single_forward duration: 28.9434 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.2374 milliseconds
+Rank 0: single_forward duration: 28.9669 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2303 milliseconds
+Rank 0: Total computation time: 86.8403 milliseconds
+Rank 0: Total communication time: 6.6755 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.6954 milliseconds
+********** Iteration 102 **********
+Rank 0: single_forward duration: 28.9249 milliseconds
+Rank 0: All-reduce duration for tile 0: 2.3337 milliseconds
+Rank 0: single_forward duration: 28.9260 milliseconds
+Rank 0: All-reduce duration for tile 1: 2.3081 milliseconds
+Rank 0: single_forward duration: 28.9475 milliseconds
+Rank 0: All-reduce duration for tile 2: 2.2866 milliseconds
+Rank 0: Total computation time: 86.7983 milliseconds
+Rank 0: Total communication time: 6.9284 milliseconds
+Rank 0: Time for tiled matrix multiplication: 94.9166 milliseconds
+
+********** Statistics **********
+Average time for tiled matrix multiplication: 95.3332 milliseconds
+Median time for tiled matrix multiplication: 94.8378 milliseconds

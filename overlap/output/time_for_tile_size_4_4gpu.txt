@@ -1,0 +1,726 @@
+Running on 2 GPUs per node, tile size 4
+********** Iteration 0 **********
+Rank 0: single_forward duration: 350.8931 milliseconds
+Rank 0: single_forward duration: 22.6068 milliseconds
+Rank 0: single_forward duration: 22.6232 milliseconds
+Rank 0: single_forward duration: 23.1711 milliseconds
+Rank 0: Total time for single_forward: 419.2942 milliseconds
+Rank 0: Time for tiled matrix multiplication: 760.3568 milliseconds
+********** Iteration 1 **********
+Rank 0: single_forward duration: 22.7092 milliseconds
+Rank 0: single_forward duration: 23.6431 milliseconds
+Rank 0: single_forward duration: 23.8510 milliseconds
+Rank 0: single_forward duration: 23.7322 milliseconds
+Rank 0: Total time for single_forward: 93.9356 milliseconds
+Rank 0: Time for tiled matrix multiplication: 98.8334 milliseconds
+********** Iteration 2 **********
+Rank 0: single_forward duration: 22.9612 milliseconds
+Rank 0: single_forward duration: 23.7251 milliseconds
+Rank 0: single_forward duration: 23.7466 milliseconds
+Rank 0: single_forward duration: 23.8500 milliseconds
+Rank 0: Total time for single_forward: 94.2827 milliseconds
+Rank 0: Time for tiled matrix multiplication: 98.3183 milliseconds
+********** Iteration 3 **********
+Rank 0: single_forward duration: 22.9376 milliseconds
+Rank 0: single_forward duration: 23.7220 milliseconds
+Rank 0: single_forward duration: 23.7292 milliseconds
+Rank 0: single_forward duration: 23.7629 milliseconds
+Rank 0: Total time for single_forward: 94.1517 milliseconds
+Rank 0: Time for tiled matrix multiplication: 98.2630 milliseconds
+********** Iteration 4 **********
+Rank 0: single_forward duration: 22.9448 milliseconds
+Rank 0: single_forward duration: 23.7220 milliseconds
+Rank 0: single_forward duration: 23.3759 milliseconds
+Rank 0: single_forward duration: 23.3923 milliseconds
+Rank 0: Total time for single_forward: 93.4349 milliseconds
+Rank 0: Time for tiled matrix multiplication: 98.2477 milliseconds
+********** Iteration 5 **********
+Rank 0: single_forward duration: 22.7604 milliseconds
+Rank 0: single_forward duration: 23.5377 milliseconds
+Rank 0: single_forward duration: 23.5039 milliseconds
+Rank 0: single_forward duration: 23.5325 milliseconds
+Rank 0: Total time for single_forward: 93.3345 milliseconds
+Rank 0: Time for tiled matrix multiplication: 98.3224 milliseconds
+********** Iteration 6 **********
+Rank 0: single_forward duration: 22.7113 milliseconds
+Rank 0: single_forward duration: 23.4066 milliseconds
+Rank 0: single_forward duration: 23.6769 milliseconds
+Rank 0: single_forward duration: 23.7363 milliseconds
+Rank 0: Total time for single_forward: 93.5311 milliseconds
+Rank 0: Time for tiled matrix multiplication: 98.9164 milliseconds
+********** Iteration 7 **********
+Rank 0: single_forward duration: 22.9284 milliseconds
+Rank 0: single_forward duration: 23.7292 milliseconds
+Rank 0: single_forward duration: 23.8674 milliseconds
+Rank 0: single_forward duration: 23.7588 milliseconds
+Rank 0: Total time for single_forward: 94.2838 milliseconds
+Rank 0: Time for tiled matrix multiplication: 99.1703 milliseconds
+********** Iteration 8 **********
+Rank 0: single_forward duration: 22.7779 milliseconds
+Rank 0: single_forward duration: 23.5162 milliseconds
+Rank 0: single_forward duration: 23.6114 milliseconds
+Rank 0: single_forward duration: 23.7568 milliseconds
+Rank 0: Total time for single_forward: 93.6622 milliseconds
+Rank 0: Time for tiled matrix multiplication: 98.8652 milliseconds
+********** Iteration 9 **********
+Rank 0: single_forward duration: 22.9458 milliseconds
+Rank 0: single_forward duration: 23.7660 milliseconds
+Rank 0: single_forward duration: 23.7670 milliseconds
+Rank 0: single_forward duration: 23.7599 milliseconds
+Rank 0: Total time for single_forward: 94.2387 milliseconds
+Rank 0: Time for tiled matrix multiplication: 98.4822 milliseconds
+********** Iteration 10 **********
+Rank 0: single_forward duration: 22.9233 milliseconds
+Rank 0: single_forward duration: 23.7640 milliseconds
+Rank 0: single_forward duration: 23.7517 milliseconds
+Rank 0: single_forward duration: 23.7384 milliseconds
+Rank 0: Total time for single_forward: 94.1773 milliseconds
+Rank 0: Time for tiled matrix multiplication: 97.6773 milliseconds
+********** Iteration 11 **********
+Rank 0: single_forward duration: 22.9407 milliseconds
+Rank 0: single_forward duration: 23.7496 milliseconds
+Rank 0: single_forward duration: 23.0973 milliseconds
+Rank 0: single_forward duration: 22.8506 milliseconds
+Rank 0: Total time for single_forward: 92.6382 milliseconds
+Rank 0: Time for tiled matrix multiplication: 97.0045 milliseconds
+********** Iteration 12 **********
+Rank 0: single_forward duration: 22.0733 milliseconds
+Rank 0: single_forward duration: 22.8434 milliseconds
+Rank 0: single_forward duration: 22.8526 milliseconds
+Rank 0: single_forward duration: 22.8495 milliseconds
+Rank 0: Total time for single_forward: 90.6189 milliseconds
+Rank 0: Time for tiled matrix multiplication: 93.5885 milliseconds
+********** Iteration 13 **********
+Rank 0: single_forward duration: 22.0764 milliseconds
+Rank 0: single_forward duration: 22.6796 milliseconds
+Rank 0: single_forward duration: 22.6150 milliseconds
+Rank 0: single_forward duration: 22.5894 milliseconds
+Rank 0: Total time for single_forward: 89.9604 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.7611 milliseconds
+********** Iteration 14 **********
+Rank 0: single_forward duration: 21.7743 milliseconds
+Rank 0: single_forward duration: 22.5464 milliseconds
+Rank 0: single_forward duration: 22.5382 milliseconds
+Rank 0: single_forward duration: 22.5423 milliseconds
+Rank 0: Total time for single_forward: 89.4013 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0934 milliseconds
+********** Iteration 15 **********
+Rank 0: single_forward duration: 21.6832 milliseconds
+Rank 0: single_forward duration: 22.4113 milliseconds
+Rank 0: single_forward duration: 22.2495 milliseconds
+Rank 0: single_forward duration: 22.4655 milliseconds
+Rank 0: Total time for single_forward: 88.8095 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9480 milliseconds
+********** Iteration 16 **********
+Rank 0: single_forward duration: 21.7098 milliseconds
+Rank 0: single_forward duration: 22.4963 milliseconds
+Rank 0: single_forward duration: 22.5536 milliseconds
+Rank 0: single_forward duration: 22.5597 milliseconds
+Rank 0: Total time for single_forward: 89.3194 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0699 milliseconds
+********** Iteration 17 **********
+Rank 0: single_forward duration: 21.7098 milliseconds
+Rank 0: single_forward duration: 22.5055 milliseconds
+Rank 0: single_forward duration: 22.4594 milliseconds
+Rank 0: single_forward duration: 22.4573 milliseconds
+Rank 0: Total time for single_forward: 89.1320 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8385 milliseconds
+********** Iteration 18 **********
+Rank 0: single_forward duration: 21.6904 milliseconds
+Rank 0: single_forward duration: 22.5065 milliseconds
+Rank 0: single_forward duration: 22.4870 milliseconds
+Rank 0: single_forward duration: 22.4666 milliseconds
+Rank 0: Total time for single_forward: 89.1505 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9562 milliseconds
+********** Iteration 19 **********
+Rank 0: single_forward duration: 21.6781 milliseconds
+Rank 0: single_forward duration: 22.5444 milliseconds
+Rank 0: single_forward duration: 22.5894 milliseconds
+Rank 0: single_forward duration: 22.4195 milliseconds
+Rank 0: Total time for single_forward: 89.2314 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.1078 milliseconds
+********** Iteration 20 **********
+Rank 0: single_forward duration: 21.7037 milliseconds
+Rank 0: single_forward duration: 22.4225 milliseconds
+Rank 0: single_forward duration: 22.4512 milliseconds
+Rank 0: single_forward duration: 22.4317 milliseconds
+Rank 0: Total time for single_forward: 89.0092 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0269 milliseconds
+********** Iteration 21 **********
+Rank 0: single_forward duration: 21.6893 milliseconds
+Rank 0: single_forward duration: 22.4246 milliseconds
+Rank 0: single_forward duration: 22.4256 milliseconds
+Rank 0: single_forward duration: 22.4532 milliseconds
+Rank 0: Total time for single_forward: 88.9928 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.1477 milliseconds
+********** Iteration 22 **********
+Rank 0: single_forward duration: 21.6893 milliseconds
+Rank 0: single_forward duration: 22.4768 milliseconds
+Rank 0: single_forward duration: 22.5198 milliseconds
+Rank 0: single_forward duration: 22.5454 milliseconds
+Rank 0: Total time for single_forward: 89.2314 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9583 milliseconds
+********** Iteration 23 **********
+Rank 0: single_forward duration: 21.7846 milliseconds
+Rank 0: single_forward duration: 22.5690 milliseconds
+Rank 0: single_forward duration: 22.5546 milliseconds
+Rank 0: single_forward duration: 22.5413 milliseconds
+Rank 0: Total time for single_forward: 89.4495 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.1487 milliseconds
+********** Iteration 24 **********
+Rank 0: single_forward duration: 21.7385 milliseconds
+Rank 0: single_forward duration: 22.4840 milliseconds
+Rank 0: single_forward duration: 22.5679 milliseconds
+Rank 0: single_forward duration: 22.5004 milliseconds
+Rank 0: Total time for single_forward: 89.2908 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9511 milliseconds
+********** Iteration 25 **********
+Rank 0: single_forward duration: 21.6934 milliseconds
+Rank 0: single_forward duration: 22.5341 milliseconds
+Rank 0: single_forward duration: 22.4276 milliseconds
+Rank 0: single_forward duration: 22.5444 milliseconds
+Rank 0: Total time for single_forward: 89.1996 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9030 milliseconds
+********** Iteration 26 **********
+Rank 0: single_forward duration: 21.7078 milliseconds
+Rank 0: single_forward duration: 22.5608 milliseconds
+Rank 0: single_forward duration: 22.5966 milliseconds
+Rank 0: single_forward duration: 22.5556 milliseconds
+Rank 0: Total time for single_forward: 89.4208 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.1252 milliseconds
+********** Iteration 27 **********
+Rank 0: single_forward duration: 21.6934 milliseconds
+Rank 0: single_forward duration: 22.5792 milliseconds
+Rank 0: single_forward duration: 22.5710 milliseconds
+Rank 0: single_forward duration: 22.5649 milliseconds
+Rank 0: Total time for single_forward: 89.4085 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0812 milliseconds
+********** Iteration 28 **********
+Rank 0: single_forward duration: 21.6996 milliseconds
+Rank 0: single_forward duration: 22.4430 milliseconds
+Rank 0: single_forward duration: 22.5731 milliseconds
+Rank 0: single_forward duration: 22.5577 milliseconds
+Rank 0: Total time for single_forward: 89.2733 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9665 milliseconds
+********** Iteration 29 **********
+Rank 0: single_forward duration: 21.6852 milliseconds
+Rank 0: single_forward duration: 22.5823 milliseconds
+Rank 0: single_forward duration: 22.5208 milliseconds
+Rank 0: single_forward duration: 22.5167 milliseconds
+Rank 0: Total time for single_forward: 89.3051 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0074 milliseconds
+********** Iteration 30 **********
+Rank 0: single_forward duration: 21.6893 milliseconds
+Rank 0: single_forward duration: 22.5516 milliseconds
+Rank 0: single_forward duration: 22.5812 milliseconds
+Rank 0: single_forward duration: 22.5495 milliseconds
+Rank 0: Total time for single_forward: 89.3716 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.1078 milliseconds
+********** Iteration 31 **********
+Rank 0: single_forward duration: 21.6965 milliseconds
+Rank 0: single_forward duration: 22.4594 milliseconds
+Rank 0: single_forward duration: 22.5393 milliseconds
+Rank 0: single_forward duration: 22.5618 milliseconds
+Rank 0: Total time for single_forward: 89.2570 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9603 milliseconds
+********** Iteration 32 **********
+Rank 0: single_forward duration: 21.7006 milliseconds
+Rank 0: single_forward duration: 22.5823 milliseconds
+Rank 0: single_forward duration: 22.5638 milliseconds
+Rank 0: single_forward duration: 22.5147 milliseconds
+Rank 0: Total time for single_forward: 89.3614 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0289 milliseconds
+********** Iteration 33 **********
+Rank 0: single_forward duration: 21.7262 milliseconds
+Rank 0: single_forward duration: 22.5290 milliseconds
+Rank 0: single_forward duration: 22.4727 milliseconds
+Rank 0: single_forward duration: 22.4860 milliseconds
+Rank 0: Total time for single_forward: 89.2140 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8917 milliseconds
+********** Iteration 34 **********
+Rank 0: single_forward duration: 21.7221 milliseconds
+Rank 0: single_forward duration: 22.5475 milliseconds
+Rank 0: single_forward duration: 22.2945 milliseconds
+Rank 0: single_forward duration: 22.4205 milliseconds
+Rank 0: Total time for single_forward: 88.9846 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8385 milliseconds
+********** Iteration 35 **********
+Rank 0: single_forward duration: 21.6904 milliseconds
+Rank 0: single_forward duration: 22.5485 milliseconds
+Rank 0: single_forward duration: 22.5341 milliseconds
+Rank 0: single_forward duration: 22.4113 milliseconds
+Rank 0: Total time for single_forward: 89.1843 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8835 milliseconds
+********** Iteration 36 **********
+Rank 0: single_forward duration: 21.6873 milliseconds
+Rank 0: single_forward duration: 22.5300 milliseconds
+Rank 0: single_forward duration: 22.5352 milliseconds
+Rank 0: single_forward duration: 22.5188 milliseconds
+Rank 0: Total time for single_forward: 89.2713 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9593 milliseconds
+********** Iteration 37 **********
+Rank 0: single_forward duration: 21.6873 milliseconds
+Rank 0: single_forward duration: 22.5372 milliseconds
+Rank 0: single_forward duration: 22.4502 milliseconds
+Rank 0: single_forward duration: 22.4461 milliseconds
+Rank 0: Total time for single_forward: 89.1208 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8231 milliseconds
+********** Iteration 38 **********
+Rank 0: single_forward duration: 21.7068 milliseconds
+Rank 0: single_forward duration: 22.5321 milliseconds
+Rank 0: single_forward duration: 22.5526 milliseconds
+Rank 0: single_forward duration: 22.5608 milliseconds
+Rank 0: Total time for single_forward: 89.3522 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0555 milliseconds
+********** Iteration 39 **********
+Rank 0: single_forward duration: 21.6832 milliseconds
+Rank 0: single_forward duration: 22.5341 milliseconds
+Rank 0: single_forward duration: 22.4696 milliseconds
+Rank 0: single_forward duration: 22.4287 milliseconds
+Rank 0: Total time for single_forward: 89.1156 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.7944 milliseconds
+********** Iteration 40 **********
+Rank 0: single_forward duration: 21.7098 milliseconds
+Rank 0: single_forward duration: 22.5178 milliseconds
+Rank 0: single_forward duration: 22.5587 milliseconds
+Rank 0: single_forward duration: 22.5526 milliseconds
+Rank 0: Total time for single_forward: 89.3389 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0105 milliseconds
+********** Iteration 41 **********
+Rank 0: single_forward duration: 21.6893 milliseconds
+Rank 0: single_forward duration: 22.5270 milliseconds
+Rank 0: single_forward duration: 22.5270 milliseconds
+Rank 0: single_forward duration: 22.5208 milliseconds
+Rank 0: Total time for single_forward: 89.2641 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0054 milliseconds
+********** Iteration 42 **********
+Rank 0: single_forward duration: 21.7160 milliseconds
+Rank 0: single_forward duration: 22.5628 milliseconds
+Rank 0: single_forward duration: 22.4410 milliseconds
+Rank 0: single_forward duration: 22.5649 milliseconds
+Rank 0: Total time for single_forward: 89.2846 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9777 milliseconds
+********** Iteration 43 **********
+Rank 0: single_forward duration: 21.7088 milliseconds
+Rank 0: single_forward duration: 22.4532 milliseconds
+Rank 0: single_forward duration: 22.4768 milliseconds
+Rank 0: single_forward duration: 22.5690 milliseconds
+Rank 0: Total time for single_forward: 89.2078 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9982 milliseconds
+********** Iteration 44 **********
+Rank 0: single_forward duration: 21.6678 milliseconds
+Rank 0: single_forward duration: 22.5608 milliseconds
+Rank 0: single_forward duration: 22.4430 milliseconds
+Rank 0: single_forward duration: 22.5669 milliseconds
+Rank 0: Total time for single_forward: 89.2385 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9398 milliseconds
+********** Iteration 45 **********
+Rank 0: single_forward duration: 21.7180 milliseconds
+Rank 0: single_forward duration: 22.5792 milliseconds
+Rank 0: single_forward duration: 22.5495 milliseconds
+Rank 0: single_forward duration: 22.5505 milliseconds
+Rank 0: Total time for single_forward: 89.3972 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.1006 milliseconds
+********** Iteration 46 **********
+Rank 0: single_forward duration: 21.7457 milliseconds
+Rank 0: single_forward duration: 22.5597 milliseconds
+Rank 0: single_forward duration: 22.5597 milliseconds
+Rank 0: single_forward duration: 22.5556 milliseconds
+Rank 0: Total time for single_forward: 89.4208 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.1057 milliseconds
+********** Iteration 47 **********
+Rank 0: single_forward duration: 21.7149 milliseconds
+Rank 0: single_forward duration: 22.4328 milliseconds
+Rank 0: single_forward duration: 22.5690 milliseconds
+Rank 0: single_forward duration: 22.4573 milliseconds
+Rank 0: Total time for single_forward: 89.1740 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8682 milliseconds
+********** Iteration 48 **********
+Rank 0: single_forward duration: 21.7006 milliseconds
+Rank 0: single_forward duration: 22.5311 milliseconds
+Rank 0: single_forward duration: 22.4195 milliseconds
+Rank 0: single_forward duration: 22.4307 milliseconds
+Rank 0: Total time for single_forward: 89.0819 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8190 milliseconds
+********** Iteration 49 **********
+Rank 0: single_forward duration: 21.6883 milliseconds
+Rank 0: single_forward duration: 22.5198 milliseconds
+Rank 0: single_forward duration: 22.5628 milliseconds
+Rank 0: single_forward duration: 22.5423 milliseconds
+Rank 0: Total time for single_forward: 89.3133 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0279 milliseconds
+********** Iteration 50 **********
+Rank 0: single_forward duration: 21.7057 milliseconds
+Rank 0: single_forward duration: 22.4666 milliseconds
+Rank 0: single_forward duration: 22.5618 milliseconds
+Rank 0: single_forward duration: 22.5802 milliseconds
+Rank 0: Total time for single_forward: 89.3143 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9962 milliseconds
+********** Iteration 51 **********
+Rank 0: single_forward duration: 21.7119 milliseconds
+Rank 0: single_forward duration: 22.5690 milliseconds
+Rank 0: single_forward duration: 22.4338 milliseconds
+Rank 0: single_forward duration: 22.2382 milliseconds
+Rank 0: Total time for single_forward: 88.9528 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.6449 milliseconds
+********** Iteration 52 **********
+Rank 0: single_forward duration: 21.7057 milliseconds
+Rank 0: single_forward duration: 22.5618 milliseconds
+Rank 0: single_forward duration: 22.4276 milliseconds
+Rank 0: single_forward duration: 22.5587 milliseconds
+Rank 0: Total time for single_forward: 89.2539 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9491 milliseconds
+********** Iteration 53 **********
+Rank 0: single_forward duration: 21.7242 milliseconds
+Rank 0: single_forward duration: 22.5434 milliseconds
+Rank 0: single_forward duration: 22.5608 milliseconds
+Rank 0: single_forward duration: 22.4358 milliseconds
+Rank 0: Total time for single_forward: 89.2641 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9900 milliseconds
+********** Iteration 54 **********
+Rank 0: single_forward duration: 21.6689 milliseconds
+Rank 0: single_forward duration: 22.5495 milliseconds
+Rank 0: single_forward duration: 22.5720 milliseconds
+Rank 0: single_forward duration: 22.3058 milliseconds
+Rank 0: Total time for single_forward: 89.0962 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.7852 milliseconds
+********** Iteration 55 **********
+Rank 0: single_forward duration: 21.6812 milliseconds
+Rank 0: single_forward duration: 22.5792 milliseconds
+Rank 0: single_forward duration: 22.4461 milliseconds
+Rank 0: single_forward duration: 22.5649 milliseconds
+Rank 0: Total time for single_forward: 89.2713 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9429 milliseconds
+********** Iteration 56 **********
+Rank 0: single_forward duration: 21.7149 milliseconds
+Rank 0: single_forward duration: 22.4655 milliseconds
+Rank 0: single_forward duration: 22.5772 milliseconds
+Rank 0: single_forward duration: 22.5239 milliseconds
+Rank 0: Total time for single_forward: 89.2815 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9869 milliseconds
+********** Iteration 57 **********
+Rank 0: single_forward duration: 21.6832 milliseconds
+Rank 0: single_forward duration: 22.2249 milliseconds
+Rank 0: single_forward duration: 22.4338 milliseconds
+Rank 0: single_forward duration: 22.4307 milliseconds
+Rank 0: Total time for single_forward: 88.7726 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.7094 milliseconds
+********** Iteration 58 **********
+Rank 0: single_forward duration: 21.6852 milliseconds
+Rank 0: single_forward duration: 22.5526 milliseconds
+Rank 0: single_forward duration: 22.4666 milliseconds
+Rank 0: single_forward duration: 22.2669 milliseconds
+Rank 0: Total time for single_forward: 88.9713 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0504 milliseconds
+********** Iteration 59 **********
+Rank 0: single_forward duration: 21.6975 milliseconds
+Rank 0: single_forward duration: 22.5085 milliseconds
+Rank 0: single_forward duration: 22.4666 milliseconds
+Rank 0: single_forward duration: 22.4358 milliseconds
+Rank 0: Total time for single_forward: 89.1085 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8088 milliseconds
+********** Iteration 60 **********
+Rank 0: single_forward duration: 21.7283 milliseconds
+Rank 0: single_forward duration: 22.5761 milliseconds
+Rank 0: single_forward duration: 22.5853 milliseconds
+Rank 0: single_forward duration: 22.4932 milliseconds
+Rank 0: Total time for single_forward: 89.3829 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0986 milliseconds
+********** Iteration 61 **********
+Rank 0: single_forward duration: 21.6771 milliseconds
+Rank 0: single_forward duration: 22.5567 milliseconds
+Rank 0: single_forward duration: 22.5126 milliseconds
+Rank 0: single_forward duration: 22.4338 milliseconds
+Rank 0: Total time for single_forward: 89.1802 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8620 milliseconds
+********** Iteration 62 **********
+Rank 0: single_forward duration: 21.7354 milliseconds
+Rank 0: single_forward duration: 22.5782 milliseconds
+Rank 0: single_forward duration: 22.4625 milliseconds
+Rank 0: single_forward duration: 22.4922 milliseconds
+Rank 0: Total time for single_forward: 89.2682 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9439 milliseconds
+********** Iteration 63 **********
+Rank 0: single_forward duration: 21.6842 milliseconds
+Rank 0: single_forward duration: 22.4553 milliseconds
+Rank 0: single_forward duration: 22.4635 milliseconds
+Rank 0: single_forward duration: 22.4676 milliseconds
+Rank 0: Total time for single_forward: 89.0706 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8723 milliseconds
+********** Iteration 64 **********
+Rank 0: single_forward duration: 21.7354 milliseconds
+Rank 0: single_forward duration: 22.4369 milliseconds
+Rank 0: single_forward duration: 22.5372 milliseconds
+Rank 0: single_forward duration: 22.5260 milliseconds
+Rank 0: Total time for single_forward: 89.2355 milliseconds
+Rank 0: Time for tiled matrix multiplication: 93.7595 milliseconds
+********** Iteration 65 **********
+Rank 0: single_forward duration: 21.7211 milliseconds
+Rank 0: single_forward duration: 22.5495 milliseconds
+Rank 0: single_forward duration: 22.5618 milliseconds
+Rank 0: single_forward duration: 22.5014 milliseconds
+Rank 0: Total time for single_forward: 89.3338 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0310 milliseconds
+********** Iteration 66 **********
+Rank 0: single_forward duration: 21.7016 milliseconds
+Rank 0: single_forward duration: 22.5413 milliseconds
+Rank 0: single_forward duration: 22.4942 milliseconds
+Rank 0: single_forward duration: 22.5567 milliseconds
+Rank 0: Total time for single_forward: 89.2938 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0003 milliseconds
+********** Iteration 67 **********
+Rank 0: single_forward duration: 21.6730 milliseconds
+Rank 0: single_forward duration: 22.5710 milliseconds
+Rank 0: single_forward duration: 22.5741 milliseconds
+Rank 0: single_forward duration: 22.4573 milliseconds
+Rank 0: Total time for single_forward: 89.2754 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9501 milliseconds
+********** Iteration 68 **********
+Rank 0: single_forward duration: 21.6832 milliseconds
+Rank 0: single_forward duration: 22.5659 milliseconds
+Rank 0: single_forward duration: 22.4686 milliseconds
+Rank 0: single_forward duration: 22.4307 milliseconds
+Rank 0: Total time for single_forward: 89.1484 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8456 milliseconds
+********** Iteration 69 **********
+Rank 0: single_forward duration: 21.6924 milliseconds
+Rank 0: single_forward duration: 22.4440 milliseconds
+Rank 0: single_forward duration: 22.4512 milliseconds
+Rank 0: single_forward duration: 22.5638 milliseconds
+Rank 0: Total time for single_forward: 89.1515 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8323 milliseconds
+********** Iteration 70 **********
+Rank 0: single_forward duration: 21.6934 milliseconds
+Rank 0: single_forward duration: 22.4983 milliseconds
+Rank 0: single_forward duration: 22.5751 milliseconds
+Rank 0: single_forward duration: 22.5577 milliseconds
+Rank 0: Total time for single_forward: 89.3245 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0033 milliseconds
+********** Iteration 71 **********
+Rank 0: single_forward duration: 21.6945 milliseconds
+Rank 0: single_forward duration: 22.5270 milliseconds
+Rank 0: single_forward duration: 22.4604 milliseconds
+Rank 0: single_forward duration: 22.4850 milliseconds
+Rank 0: Total time for single_forward: 89.1668 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8426 milliseconds
+********** Iteration 72 **********
+Rank 0: single_forward duration: 21.6863 milliseconds
+Rank 0: single_forward duration: 22.5751 milliseconds
+Rank 0: single_forward duration: 22.5628 milliseconds
+Rank 0: single_forward duration: 22.5761 milliseconds
+Rank 0: Total time for single_forward: 89.4003 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0791 milliseconds
+********** Iteration 73 **********
+Rank 0: single_forward duration: 21.7068 milliseconds
+Rank 0: single_forward duration: 22.2177 milliseconds
+Rank 0: single_forward duration: 22.4440 milliseconds
+Rank 0: single_forward duration: 22.4287 milliseconds
+Rank 0: Total time for single_forward: 88.7972 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.7187 milliseconds
+********** Iteration 74 **********
+Rank 0: single_forward duration: 21.7149 milliseconds
+Rank 0: single_forward duration: 22.5423 milliseconds
+Rank 0: single_forward duration: 22.4543 milliseconds
+Rank 0: single_forward duration: 22.5270 milliseconds
+Rank 0: Total time for single_forward: 89.2385 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9603 milliseconds
+********** Iteration 75 **********
+Rank 0: single_forward duration: 21.7088 milliseconds
+Rank 0: single_forward duration: 22.5894 milliseconds
+Rank 0: single_forward duration: 22.4829 milliseconds
+Rank 0: single_forward duration: 22.5505 milliseconds
+Rank 0: Total time for single_forward: 89.3317 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0248 milliseconds
+********** Iteration 76 **********
+Rank 0: single_forward duration: 21.7160 milliseconds
+Rank 0: single_forward duration: 22.5157 milliseconds
+Rank 0: single_forward duration: 22.3171 milliseconds
+Rank 0: single_forward duration: 22.5874 milliseconds
+Rank 0: Total time for single_forward: 89.1361 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0535 milliseconds
+********** Iteration 77 **********
+Rank 0: single_forward duration: 21.6781 milliseconds
+Rank 0: single_forward duration: 22.2740 milliseconds
+Rank 0: single_forward duration: 22.2444 milliseconds
+Rank 0: single_forward duration: 22.4594 milliseconds
+Rank 0: Total time for single_forward: 88.6559 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8938 milliseconds
+********** Iteration 78 **********
+Rank 0: single_forward duration: 21.7047 milliseconds
+Rank 0: single_forward duration: 22.5843 milliseconds
+Rank 0: single_forward duration: 22.5454 milliseconds
+Rank 0: single_forward duration: 22.5526 milliseconds
+Rank 0: Total time for single_forward: 89.3870 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0699 milliseconds
+********** Iteration 79 **********
+Rank 0: single_forward duration: 21.7364 milliseconds
+Rank 0: single_forward duration: 22.5321 milliseconds
+Rank 0: single_forward duration: 22.4870 milliseconds
+Rank 0: single_forward duration: 22.4707 milliseconds
+Rank 0: Total time for single_forward: 89.2262 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9122 milliseconds
+********** Iteration 80 **********
+Rank 0: single_forward duration: 21.6863 milliseconds
+Rank 0: single_forward duration: 22.5157 milliseconds
+Rank 0: single_forward duration: 22.4532 milliseconds
+Rank 0: single_forward duration: 22.3048 milliseconds
+Rank 0: Total time for single_forward: 88.9600 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9890 milliseconds
+********** Iteration 81 **********
+Rank 0: single_forward duration: 21.6842 milliseconds
+Rank 0: single_forward duration: 22.4993 milliseconds
+Rank 0: single_forward duration: 22.5321 milliseconds
+Rank 0: single_forward duration: 22.5126 milliseconds
+Rank 0: Total time for single_forward: 89.2283 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9306 milliseconds
+********** Iteration 82 **********
+Rank 0: single_forward duration: 21.6986 milliseconds
+Rank 0: single_forward duration: 22.5679 milliseconds
+Rank 0: single_forward duration: 22.5987 milliseconds
+Rank 0: single_forward duration: 22.4963 milliseconds
+Rank 0: Total time for single_forward: 89.3614 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0494 milliseconds
+********** Iteration 83 **********
+Rank 0: single_forward duration: 21.6832 milliseconds
+Rank 0: single_forward duration: 22.5669 milliseconds
+Rank 0: single_forward duration: 22.4819 milliseconds
+Rank 0: single_forward duration: 22.5956 milliseconds
+Rank 0: Total time for single_forward: 89.3276 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0064 milliseconds
+********** Iteration 84 **********
+Rank 0: single_forward duration: 21.6873 milliseconds
+Rank 0: single_forward duration: 22.5454 milliseconds
+Rank 0: single_forward duration: 22.5587 milliseconds
+Rank 0: single_forward duration: 22.4676 milliseconds
+Rank 0: Total time for single_forward: 89.2590 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9368 milliseconds
+********** Iteration 85 **********
+Rank 0: single_forward duration: 21.7119 milliseconds
+Rank 0: single_forward duration: 22.5731 milliseconds
+Rank 0: single_forward duration: 22.3293 milliseconds
+Rank 0: single_forward duration: 22.5352 milliseconds
+Rank 0: Total time for single_forward: 89.1494 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8436 milliseconds
+********** Iteration 86 **********
+Rank 0: single_forward duration: 21.7098 milliseconds
+Rank 0: single_forward duration: 22.5638 milliseconds
+Rank 0: single_forward duration: 22.3918 milliseconds
+Rank 0: single_forward duration: 22.5423 milliseconds
+Rank 0: Total time for single_forward: 89.2078 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9337 milliseconds
+********** Iteration 87 **********
+Rank 0: single_forward duration: 21.6965 milliseconds
+Rank 0: single_forward duration: 22.5567 milliseconds
+Rank 0: single_forward duration: 22.4829 milliseconds
+Rank 0: single_forward duration: 22.5597 milliseconds
+Rank 0: Total time for single_forward: 89.2959 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9982 milliseconds
+********** Iteration 88 **********
+Rank 0: single_forward duration: 21.6996 milliseconds
+Rank 0: single_forward duration: 22.5669 milliseconds
+Rank 0: single_forward duration: 22.5505 milliseconds
+Rank 0: single_forward duration: 22.5454 milliseconds
+Rank 0: Total time for single_forward: 89.3624 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0422 milliseconds
+********** Iteration 89 **********
+Rank 0: single_forward duration: 21.6740 milliseconds
+Rank 0: single_forward duration: 22.5147 milliseconds
+Rank 0: single_forward duration: 22.2546 milliseconds
+Rank 0: single_forward duration: 22.3857 milliseconds
+Rank 0: Total time for single_forward: 88.8289 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8508 milliseconds
+********** Iteration 90 **********
+Rank 0: single_forward duration: 21.6945 milliseconds
+Rank 0: single_forward duration: 22.5311 milliseconds
+Rank 0: single_forward duration: 22.5454 milliseconds
+Rank 0: single_forward duration: 22.2689 milliseconds
+Rank 0: Total time for single_forward: 89.0399 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9654 milliseconds
+********** Iteration 91 **********
+Rank 0: single_forward duration: 21.7149 milliseconds
+Rank 0: single_forward duration: 22.5331 milliseconds
+Rank 0: single_forward duration: 22.4686 milliseconds
+Rank 0: single_forward duration: 22.5106 milliseconds
+Rank 0: Total time for single_forward: 89.2273 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9327 milliseconds
+********** Iteration 92 **********
+Rank 0: single_forward duration: 21.7047 milliseconds
+Rank 0: single_forward duration: 22.5608 milliseconds
+Rank 0: single_forward duration: 22.4512 milliseconds
+Rank 0: single_forward duration: 22.5505 milliseconds
+Rank 0: Total time for single_forward: 89.2672 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9736 milliseconds
+********** Iteration 93 **********
+Rank 0: single_forward duration: 21.6873 milliseconds
+Rank 0: single_forward duration: 22.5403 milliseconds
+Rank 0: single_forward duration: 22.5782 milliseconds
+Rank 0: single_forward duration: 22.5352 milliseconds
+Rank 0: Total time for single_forward: 89.3409 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0340 milliseconds
+********** Iteration 94 **********
+Rank 0: single_forward duration: 21.6996 milliseconds
+Rank 0: single_forward duration: 22.5690 milliseconds
+Rank 0: single_forward duration: 22.5792 milliseconds
+Rank 0: single_forward duration: 22.5710 milliseconds
+Rank 0: Total time for single_forward: 89.4188 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.1160 milliseconds
+********** Iteration 95 **********
+Rank 0: single_forward duration: 21.6812 milliseconds
+Rank 0: single_forward duration: 22.4123 milliseconds
+Rank 0: single_forward duration: 22.4819 milliseconds
+Rank 0: single_forward duration: 22.4563 milliseconds
+Rank 0: Total time for single_forward: 89.0317 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.7217 milliseconds
+********** Iteration 96 **********
+Rank 0: single_forward duration: 21.6986 milliseconds
+Rank 0: single_forward duration: 22.5382 milliseconds
+Rank 0: single_forward duration: 22.4676 milliseconds
+Rank 0: single_forward duration: 22.5464 milliseconds
+Rank 0: Total time for single_forward: 89.2508 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9542 milliseconds
+********** Iteration 97 **********
+Rank 0: single_forward duration: 21.7098 milliseconds
+Rank 0: single_forward duration: 22.4184 milliseconds
+Rank 0: single_forward duration: 22.2874 milliseconds
+Rank 0: single_forward duration: 22.5649 milliseconds
+Rank 0: Total time for single_forward: 88.9805 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.6828 milliseconds
+********** Iteration 98 **********
+Rank 0: single_forward duration: 21.6965 milliseconds
+Rank 0: single_forward duration: 22.5618 milliseconds
+Rank 0: single_forward duration: 22.5700 milliseconds
+Rank 0: single_forward duration: 22.5628 milliseconds
+Rank 0: Total time for single_forward: 89.3911 milliseconds
+Rank 0: Time for tiled matrix multiplication: 92.0689 milliseconds
+********** Iteration 99 **********
+Rank 0: single_forward duration: 21.6822 milliseconds
+Rank 0: single_forward duration: 22.4922 milliseconds
+Rank 0: single_forward duration: 22.5434 milliseconds
+Rank 0: single_forward duration: 22.4102 milliseconds
+Rank 0: Total time for single_forward: 89.1279 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8886 milliseconds
+********** Iteration 100 **********
+Rank 0: single_forward duration: 21.6965 milliseconds
+Rank 0: single_forward duration: 22.5464 milliseconds
+Rank 0: single_forward duration: 22.4748 milliseconds
+Rank 0: single_forward duration: 22.3130 milliseconds
+Rank 0: Total time for single_forward: 89.0307 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.9276 milliseconds
+********** Iteration 101 **********
+Rank 0: single_forward duration: 21.6781 milliseconds
+Rank 0: single_forward duration: 22.4010 milliseconds
+Rank 0: single_forward duration: 22.4195 milliseconds
+Rank 0: single_forward duration: 22.5526 milliseconds
+Rank 0: Total time for single_forward: 89.0511 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.7268 milliseconds
+********** Iteration 102 **********
+Rank 0: single_forward duration: 21.6975 milliseconds
+Rank 0: single_forward duration: 22.5382 milliseconds
+Rank 0: single_forward duration: 22.4584 milliseconds
+Rank 0: single_forward duration: 22.5055 milliseconds
+Rank 0: Total time for single_forward: 89.1996 milliseconds
+Rank 0: Time for tiled matrix multiplication: 91.8886 milliseconds
+
+********** Statistics **********
+Average time for tiled matrix multiplication: 92.5690 milliseconds
+Median time for tiled matrix multiplication: 91.9869 milliseconds
