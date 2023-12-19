@@ -6,7 +6,7 @@ import numpy as np
 
 EXCLUDE_ITERATIONS = 5  # Number of initial iterations to exclude
 
-EXTRA_DESCRIPTION = "_2gpu_allgather"
+EXTRA_DESCRIPTION = "_2gpu_reduce_scatter"
 
 def extract_times(output):
     """Extracts time values from the command output."""

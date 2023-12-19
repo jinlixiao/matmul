@@ -1,0 +1,417 @@
+Running on 2 GPUs per node, tile size 1
+********** Iteration 0 **********
+Rank 0: single_forward duration: 388.6380 milliseconds
+Rank 0: Total time for single_forward: 388.6380 milliseconds
+Rank 0: Time for tiled matrix multiplication: 898.7795 milliseconds
+********** Iteration 1 **********
+Rank 0: single_forward duration: 97.9610 milliseconds
+Rank 0: Total time for single_forward: 97.9610 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.5137 milliseconds
+********** Iteration 2 **********
+Rank 0: single_forward duration: 96.9810 milliseconds
+Rank 0: Total time for single_forward: 96.9810 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.5768 milliseconds
+********** Iteration 3 **********
+Rank 0: single_forward duration: 97.2257 milliseconds
+Rank 0: Total time for single_forward: 97.2257 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.8174 milliseconds
+********** Iteration 4 **********
+Rank 0: single_forward duration: 98.7536 milliseconds
+Rank 0: Total time for single_forward: 98.7536 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.2356 milliseconds
+********** Iteration 5 **********
+Rank 0: single_forward duration: 97.6067 milliseconds
+Rank 0: Total time for single_forward: 97.6067 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.2064 milliseconds
+********** Iteration 6 **********
+Rank 0: single_forward duration: 99.0003 milliseconds
+Rank 0: Total time for single_forward: 99.0003 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.5603 milliseconds
+********** Iteration 7 **********
+Rank 0: single_forward duration: 97.4469 milliseconds
+Rank 0: Total time for single_forward: 97.4469 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.9772 milliseconds
+********** Iteration 8 **********
+Rank 0: single_forward duration: 97.6138 milliseconds
+Rank 0: Total time for single_forward: 97.6138 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.1328 milliseconds
+********** Iteration 9 **********
+Rank 0: single_forward duration: 97.3722 milliseconds
+Rank 0: Total time for single_forward: 97.3722 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.8594 milliseconds
+********** Iteration 10 **********
+Rank 0: single_forward duration: 98.7576 milliseconds
+Rank 0: Total time for single_forward: 98.7576 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.3472 milliseconds
+********** Iteration 11 **********
+Rank 0: single_forward duration: 99.5318 milliseconds
+Rank 0: Total time for single_forward: 99.5318 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.0907 milliseconds
+********** Iteration 12 **********
+Rank 0: single_forward duration: 97.4991 milliseconds
+Rank 0: Total time for single_forward: 97.4991 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.0284 milliseconds
+********** Iteration 13 **********
+Rank 0: single_forward duration: 97.1182 milliseconds
+Rank 0: Total time for single_forward: 97.1182 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.6874 milliseconds
+********** Iteration 14 **********
+Rank 0: single_forward duration: 98.3665 milliseconds
+Rank 0: Total time for single_forward: 98.3665 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.9121 milliseconds
+********** Iteration 15 **********
+Rank 0: single_forward duration: 99.8042 milliseconds
+Rank 0: Total time for single_forward: 99.8042 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.3139 milliseconds
+********** Iteration 16 **********
+Rank 0: single_forward duration: 99.3055 milliseconds
+Rank 0: Total time for single_forward: 99.3055 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.7343 milliseconds
+********** Iteration 17 **********
+Rank 0: single_forward duration: 97.5165 milliseconds
+Rank 0: Total time for single_forward: 97.5165 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.0243 milliseconds
+********** Iteration 18 **********
+Rank 0: single_forward duration: 98.8150 milliseconds
+Rank 0: Total time for single_forward: 98.8150 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.3565 milliseconds
+********** Iteration 19 **********
+Rank 0: single_forward duration: 97.0926 milliseconds
+Rank 0: Total time for single_forward: 97.0926 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.6392 milliseconds
+********** Iteration 20 **********
+Rank 0: single_forward duration: 97.5288 milliseconds
+Rank 0: Total time for single_forward: 97.5288 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.0273 milliseconds
+********** Iteration 21 **********
+Rank 0: single_forward duration: 97.5954 milliseconds
+Rank 0: Total time for single_forward: 97.5954 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.1707 milliseconds
+********** Iteration 22 **********
+Rank 0: single_forward duration: 97.6148 milliseconds
+Rank 0: Total time for single_forward: 97.6148 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.1461 milliseconds
+********** Iteration 23 **********
+Rank 0: single_forward duration: 97.7848 milliseconds
+Rank 0: Total time for single_forward: 97.7848 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.3550 milliseconds
+********** Iteration 24 **********
+Rank 0: single_forward duration: 98.7658 milliseconds
+Rank 0: Total time for single_forward: 98.7658 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.2377 milliseconds
+********** Iteration 25 **********
+Rank 0: single_forward duration: 97.0209 milliseconds
+Rank 0: Total time for single_forward: 97.0209 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.5461 milliseconds
+********** Iteration 26 **********
+Rank 0: single_forward duration: 97.4275 milliseconds
+Rank 0: Total time for single_forward: 97.4275 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.0243 milliseconds
+********** Iteration 27 **********
+Rank 0: single_forward duration: 97.5411 milliseconds
+Rank 0: Total time for single_forward: 97.5411 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.0652 milliseconds
+********** Iteration 28 **********
+Rank 0: single_forward duration: 98.5856 milliseconds
+Rank 0: Total time for single_forward: 98.5856 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.1834 milliseconds
+********** Iteration 29 **********
+Rank 0: single_forward duration: 98.8437 milliseconds
+Rank 0: Total time for single_forward: 98.8437 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.4210 milliseconds
+********** Iteration 30 **********
+Rank 0: single_forward duration: 97.7060 milliseconds
+Rank 0: Total time for single_forward: 97.7060 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.2803 milliseconds
+********** Iteration 31 **********
+Rank 0: single_forward duration: 99.1273 milliseconds
+Rank 0: Total time for single_forward: 99.1273 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.6330 milliseconds
+********** Iteration 32 **********
+Rank 0: single_forward duration: 97.7961 milliseconds
+Rank 0: Total time for single_forward: 97.7961 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.3007 milliseconds
+********** Iteration 33 **********
+Rank 0: single_forward duration: 97.1233 milliseconds
+Rank 0: Total time for single_forward: 97.1233 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.6463 milliseconds
+********** Iteration 34 **********
+Rank 0: single_forward duration: 98.1494 milliseconds
+Rank 0: Total time for single_forward: 98.1494 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.6684 milliseconds
+********** Iteration 35 **********
+Rank 0: single_forward duration: 97.5390 milliseconds
+Rank 0: Total time for single_forward: 97.5390 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.1011 milliseconds
+********** Iteration 36 **********
+Rank 0: single_forward duration: 98.1514 milliseconds
+Rank 0: Total time for single_forward: 98.1514 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.6571 milliseconds
+********** Iteration 37 **********
+Rank 0: single_forward duration: 99.5768 milliseconds
+Rank 0: Total time for single_forward: 99.5768 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.1439 milliseconds
+********** Iteration 38 **********
+Rank 0: single_forward duration: 97.9282 milliseconds
+Rank 0: Total time for single_forward: 97.9282 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.4656 milliseconds
+********** Iteration 39 **********
+Rank 0: single_forward duration: 97.5514 milliseconds
+Rank 0: Total time for single_forward: 97.5514 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.0918 milliseconds
+********** Iteration 40 **********
+Rank 0: single_forward duration: 97.4418 milliseconds
+Rank 0: Total time for single_forward: 97.4418 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.8870 milliseconds
+********** Iteration 41 **********
+Rank 0: single_forward duration: 99.1703 milliseconds
+Rank 0: Total time for single_forward: 99.1703 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.6780 milliseconds
+********** Iteration 42 **********
+Rank 0: single_forward duration: 99.7171 milliseconds
+Rank 0: Total time for single_forward: 99.7171 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.2955 milliseconds
+********** Iteration 43 **********
+Rank 0: single_forward duration: 99.1345 milliseconds
+Rank 0: Total time for single_forward: 99.1345 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.6647 milliseconds
+********** Iteration 44 **********
+Rank 0: single_forward duration: 97.8156 milliseconds
+Rank 0: Total time for single_forward: 97.8156 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.3540 milliseconds
+********** Iteration 45 **********
+Rank 0: single_forward duration: 97.7132 milliseconds
+Rank 0: Total time for single_forward: 97.7132 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.2454 milliseconds
+********** Iteration 46 **********
+Rank 0: single_forward duration: 99.2676 milliseconds
+Rank 0: Total time for single_forward: 99.2676 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.8183 milliseconds
+********** Iteration 47 **********
+Rank 0: single_forward duration: 100.3305 milliseconds
+Rank 0: Total time for single_forward: 100.3305 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.8659 milliseconds
+********** Iteration 48 **********
+Rank 0: single_forward duration: 100.1359 milliseconds
+Rank 0: Total time for single_forward: 100.1359 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.6314 milliseconds
+********** Iteration 49 **********
+Rank 0: single_forward duration: 99.2819 milliseconds
+Rank 0: Total time for single_forward: 99.2819 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.7948 milliseconds
+********** Iteration 50 **********
+Rank 0: single_forward duration: 97.1387 milliseconds
+Rank 0: Total time for single_forward: 97.1387 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.7918 milliseconds
+********** Iteration 51 **********
+Rank 0: single_forward duration: 96.9288 milliseconds
+Rank 0: Total time for single_forward: 96.9288 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.4794 milliseconds
+********** Iteration 52 **********
+Rank 0: single_forward duration: 97.2974 milliseconds
+Rank 0: Total time for single_forward: 97.2974 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.8799 milliseconds
+********** Iteration 53 **********
+Rank 0: single_forward duration: 98.9819 milliseconds
+Rank 0: Total time for single_forward: 98.9819 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.5828 milliseconds
+********** Iteration 54 **********
+Rank 0: single_forward duration: 99.9434 milliseconds
+Rank 0: Total time for single_forward: 99.9434 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.5105 milliseconds
+********** Iteration 55 **********
+Rank 0: single_forward duration: 99.2225 milliseconds
+Rank 0: Total time for single_forward: 99.2225 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.7558 milliseconds
+********** Iteration 56 **********
+Rank 0: single_forward duration: 100.2496 milliseconds
+Rank 0: Total time for single_forward: 100.2496 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.7276 milliseconds
+********** Iteration 57 **********
+Rank 0: single_forward duration: 98.8058 milliseconds
+Rank 0: Total time for single_forward: 98.8058 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.3053 milliseconds
+********** Iteration 58 **********
+Rank 0: single_forward duration: 97.6415 milliseconds
+Rank 0: Total time for single_forward: 97.6415 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.1861 milliseconds
+********** Iteration 59 **********
+Rank 0: single_forward duration: 98.2784 milliseconds
+Rank 0: Total time for single_forward: 98.2784 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.8650 milliseconds
+********** Iteration 60 **********
+Rank 0: single_forward duration: 98.8661 milliseconds
+Rank 0: Total time for single_forward: 98.8661 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.3524 milliseconds
+********** Iteration 61 **********
+Rank 0: single_forward duration: 99.4294 milliseconds
+Rank 0: Total time for single_forward: 99.4294 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.9719 milliseconds
+********** Iteration 62 **********
+Rank 0: single_forward duration: 99.6413 milliseconds
+Rank 0: Total time for single_forward: 99.6413 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.2299 milliseconds
+********** Iteration 63 **********
+Rank 0: single_forward duration: 100.2639 milliseconds
+Rank 0: Total time for single_forward: 100.2639 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.8157 milliseconds
+********** Iteration 64 **********
+Rank 0: single_forward duration: 97.2339 milliseconds
+Rank 0: Total time for single_forward: 97.2339 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.6853 milliseconds
+********** Iteration 65 **********
+Rank 0: single_forward duration: 97.4827 milliseconds
+Rank 0: Total time for single_forward: 97.4827 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.0027 milliseconds
+********** Iteration 66 **********
+Rank 0: single_forward duration: 97.8913 milliseconds
+Rank 0: Total time for single_forward: 97.8913 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.4185 milliseconds
+********** Iteration 67 **********
+Rank 0: single_forward duration: 98.7474 milliseconds
+Rank 0: Total time for single_forward: 98.7474 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.3319 milliseconds
+********** Iteration 68 **********
+Rank 0: single_forward duration: 99.5452 milliseconds
+Rank 0: Total time for single_forward: 99.5452 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.0549 milliseconds
+********** Iteration 69 **********
+Rank 0: single_forward duration: 97.9374 milliseconds
+Rank 0: Total time for single_forward: 97.9374 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.5301 milliseconds
+********** Iteration 70 **********
+Rank 0: single_forward duration: 97.8360 milliseconds
+Rank 0: Total time for single_forward: 97.8360 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.3734 milliseconds
+********** Iteration 71 **********
+Rank 0: single_forward duration: 97.0650 milliseconds
+Rank 0: Total time for single_forward: 97.0650 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.6249 milliseconds
+********** Iteration 72 **********
+Rank 0: single_forward duration: 98.4740 milliseconds
+Rank 0: Total time for single_forward: 98.4740 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.9684 milliseconds
+********** Iteration 73 **********
+Rank 0: single_forward duration: 98.5477 milliseconds
+Rank 0: Total time for single_forward: 98.5477 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.0339 milliseconds
+********** Iteration 74 **********
+Rank 0: single_forward duration: 99.2963 milliseconds
+Rank 0: Total time for single_forward: 99.2963 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.8767 milliseconds
+********** Iteration 75 **********
+Rank 0: single_forward duration: 99.7478 milliseconds
+Rank 0: Total time for single_forward: 99.7478 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.3272 milliseconds
+********** Iteration 76 **********
+Rank 0: single_forward duration: 100.1872 milliseconds
+Rank 0: Total time for single_forward: 100.1872 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.7173 milliseconds
+********** Iteration 77 **********
+Rank 0: single_forward duration: 99.2573 milliseconds
+Rank 0: Total time for single_forward: 99.2573 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.7947 milliseconds
+********** Iteration 78 **********
+Rank 0: single_forward duration: 97.8022 milliseconds
+Rank 0: Total time for single_forward: 97.8022 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.3806 milliseconds
+********** Iteration 79 **********
+Rank 0: single_forward duration: 98.5170 milliseconds
+Rank 0: Total time for single_forward: 98.5170 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.0411 milliseconds
+********** Iteration 80 **********
+Rank 0: single_forward duration: 98.6440 milliseconds
+Rank 0: Total time for single_forward: 98.6440 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.1302 milliseconds
+********** Iteration 81 **********
+Rank 0: single_forward duration: 98.2211 milliseconds
+Rank 0: Total time for single_forward: 98.2211 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.7636 milliseconds
+********** Iteration 82 **********
+Rank 0: single_forward duration: 100.1668 milliseconds
+Rank 0: Total time for single_forward: 100.1668 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.7409 milliseconds
+********** Iteration 83 **********
+Rank 0: single_forward duration: 97.8627 milliseconds
+Rank 0: Total time for single_forward: 97.8627 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.4277 milliseconds
+********** Iteration 84 **********
+Rank 0: single_forward duration: 97.1704 milliseconds
+Rank 0: Total time for single_forward: 97.1704 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.6740 milliseconds
+********** Iteration 85 **********
+Rank 0: single_forward duration: 97.4827 milliseconds
+Rank 0: Total time for single_forward: 97.4827 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.0499 milliseconds
+********** Iteration 86 **********
+Rank 0: single_forward duration: 98.4177 milliseconds
+Rank 0: Total time for single_forward: 98.4177 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.9643 milliseconds
+********** Iteration 87 **********
+Rank 0: single_forward duration: 99.9158 milliseconds
+Rank 0: Total time for single_forward: 99.9158 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.4615 milliseconds
+********** Iteration 88 **********
+Rank 0: single_forward duration: 98.2467 milliseconds
+Rank 0: Total time for single_forward: 98.2467 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.7381 milliseconds
+********** Iteration 89 **********
+Rank 0: single_forward duration: 97.7981 milliseconds
+Rank 0: Total time for single_forward: 97.7981 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.2864 milliseconds
+********** Iteration 90 **********
+Rank 0: single_forward duration: 96.8950 milliseconds
+Rank 0: Total time for single_forward: 96.8950 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.4662 milliseconds
+********** Iteration 91 **********
+Rank 0: single_forward duration: 97.2309 milliseconds
+Rank 0: Total time for single_forward: 97.2309 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.7652 milliseconds
+********** Iteration 92 **********
+Rank 0: single_forward duration: 100.0499 milliseconds
+Rank 0: Total time for single_forward: 100.0499 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.5853 milliseconds
+********** Iteration 93 **********
+Rank 0: single_forward duration: 99.7530 milliseconds
+Rank 0: Total time for single_forward: 99.7530 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.3334 milliseconds
+********** Iteration 94 **********
+Rank 0: single_forward duration: 97.9057 milliseconds
+Rank 0: Total time for single_forward: 97.9057 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.4707 milliseconds
+********** Iteration 95 **********
+Rank 0: single_forward duration: 98.9778 milliseconds
+Rank 0: Total time for single_forward: 98.9778 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.4926 milliseconds
+********** Iteration 96 **********
+Rank 0: single_forward duration: 97.2114 milliseconds
+Rank 0: Total time for single_forward: 97.2114 milliseconds
+Rank 0: Time for tiled matrix multiplication: 140.7427 milliseconds
+********** Iteration 97 **********
+Rank 0: single_forward duration: 98.6327 milliseconds
+Rank 0: Total time for single_forward: 98.6327 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.1640 milliseconds
+********** Iteration 98 **********
+Rank 0: single_forward duration: 98.6461 milliseconds
+Rank 0: Total time for single_forward: 98.6461 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.2244 milliseconds
+********** Iteration 99 **********
+Rank 0: single_forward duration: 99.0874 milliseconds
+Rank 0: Total time for single_forward: 99.0874 milliseconds
+Rank 0: Time for tiled matrix multiplication: 142.6176 milliseconds
+********** Iteration 100 **********
+Rank 0: single_forward duration: 98.1893 milliseconds
+Rank 0: Total time for single_forward: 98.1893 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.6704 milliseconds
+********** Iteration 101 **********
+Rank 0: single_forward duration: 99.6250 milliseconds
+Rank 0: Total time for single_forward: 99.6250 milliseconds
+Rank 0: Time for tiled matrix multiplication: 143.1972 milliseconds
+********** Iteration 102 **********
+Rank 0: single_forward duration: 97.9548 milliseconds
+Rank 0: Total time for single_forward: 97.9548 milliseconds
+Rank 0: Time for tiled matrix multiplication: 141.4707 milliseconds
+
+********** Statistics **********
+Average time for tiled matrix multiplication: 141.9438 milliseconds
+Median time for tiled matrix multiplication: 141.8650 milliseconds
