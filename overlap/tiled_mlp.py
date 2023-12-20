@@ -8,7 +8,6 @@ import torch.multiprocessing as mp
 import utils
 
 NNODES = 1                 # Number of nodes
-MODEL_PARALLEL_SIZE = 2    # Number of GPUs per node
 RUN_WITH_CPU = False       # Run with CPU instead of GPU
 B, L, H = 24, 1024, 2560   # Batch size, sequence length, hidden size
 EXCLUDE_ITERATIONS = 3     # Number of iterations to exclude from statistics
@@ -16,7 +15,10 @@ EXCLUDE_ITERATIONS = 3     # Number of iterations to exclude from statistics
 parser = argparse.ArgumentParser(description='Tiled Matrix Multiplication')
 parser.add_argument('--num_tiles', type=int, default=1, help='Number of tiles to split the input into')
 parser.add_argument('--num_iterations', type=int, default=10, help='Number of iterations to run')
+parser.add_argument('--num_devices', type=int, default=torch.cuda.device_count(), help='Number of devices to use')
 args = parser.parse_args()
+
+MODEL_PARALLEL_SIZE = args.num_devices    # Number of GPUs per node
 
 class TwoLayerMLP(nn.Module):
     def __init__(self, input_size, hidden_size):

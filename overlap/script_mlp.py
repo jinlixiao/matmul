@@ -6,6 +6,7 @@ import numpy as np
 
 EXCLUDE_ITERATIONS = 5  # Number of initial iterations to exclude
 SAVE_FIG = True         # Save the figure to a file
+OVERWRITE = True        # Overwrite existing files
 
 EXTRA_DESCRIPTION = "2gpu"
 
@@ -32,14 +33,14 @@ for num_tiles in [1, 2, 3, 4, 6, 8, 12, 24]:
     file_path = f"output/{EXTRA_DESCRIPTION}/time_num_tiles_{num_tiles}.txt"
     
     # Check if the file already exists
-    if os.path.exists(file_path):
+    if not OVERWRITE and os.path.exists(file_path):
         print(f"Reading from file for tile size {num_tiles}")
         with open(file_path, "r") as file:
             stdout = file.read()
     else:
         print(f"Running for tile size {num_tiles}")
         # Run the command and capture its output
-        command = f"python tiled_mlp_allgather.py --num_tiles {num_tiles} --num_iter 100"
+        command = f"python tiled_mlp.py --num_tiles {num_tiles} --num_iter 100"
         process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, text=True)
         stdout, stderr = process.communicate()
 

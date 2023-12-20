@@ -6,6 +6,7 @@ import numpy as np
 
 EXCLUDE_ITERATIONS = 5  # Number of initial iterations to exclude
 SAVE_FIG = True         # Save the figure to a file
+OVERWRITE = True        # Overwrite existing files
 
 EXTRA_DESCRIPTION = "2gpu_nonoverlap"
 
@@ -35,10 +36,10 @@ compute_times_for_num_tiles = {}
 communication_times_for_num_tiles = {}
 
 for num_tile in [1, 2, 3, 4, 6, 8, 12, 24]:
-    file_path = f"output/time_for_num_tile_{num_tile}{EXTRA_DESCRIPTION}.txt"
+    file_path = f"output/{EXTRA_DESCRIPTION}/time_for_num_tile_{num_tile}.txt"
     
     # Check if the file already exists
-    if os.path.exists(file_path):
+    if not OVERWRITE and os.path.exists(file_path):
         print(f"Reading from file for tile size {num_tile}")
         with open(file_path, "r") as file:
             stdout = file.read()
