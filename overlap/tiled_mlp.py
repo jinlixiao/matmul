@@ -34,23 +34,12 @@ class TwoLayerMLP(nn.Module):
 
         total_duration = 0
 
-        # Create two CUDA streams with different priorities
-        high_priority = cuda.Stream(priority=-1)
-        low_priority = cuda.Stream(priority=0)
-
+        # Launch non-blocking all-reduce operations
         for i, input_part in enumerate(input_splits):
-            # Launch single_forward in the high priority stream
-            with cuda.stream(high_priority):
-                output_part, duration = self.single_forward(input_part)
-                total_duration += duration
-
-            # Make sure all_reduce waits for single_forward to complete
-            low_priority.wait_stream(high_priority)
-
-            # Launch all-reduce in the low priority stream
-            with cuda.stream(low_priority):
-                handle = dist.all_reduce(output_part, op=dist.ReduceOp.SUM, group=utils.get_model_parallel_group(), async_op=True)
-                handles.append((handle, output_part, i))
+            output_part, duration = self.single_forward(input_part)
+            handle = dist.all_reduce(output_part, op=dist.ReduceOp.SUM, group=utils.get_model_parallel_group(), async_op=True)
+            handles.append((handle, output_part, i))
+            total_duration += duration
 
         # Wait for all operations to complete and gather results
         for handle, output_part, i in handles:

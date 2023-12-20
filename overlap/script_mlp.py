@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 EXCLUDE_ITERATIONS = 5  # Number of initial iterations to exclude
-SAVE_FIG = False        # Save the figure to a file
+SAVE_FIG = True         # Save the figure to a file
 
-EXTRA_DESCRIPTION = "2gpu_priority"
+EXTRA_DESCRIPTION = "2gpu"
 
 def extract_times(output):
     """Extracts time values from the command output."""
@@ -74,7 +74,7 @@ plt.ylabel('Time (milliseconds)')
 plt.grid(True)
 plt.tight_layout()  # Adjust layout for better fit
 if SAVE_FIG:
-    plt.savefig(f'images/timing_analysis_combined_boxplot_iter100{EXTRA_DESCRIPTION}.png')
+    plt.savefig(f'output/{EXTRA_DESCRIPTION}/timing_analysis_combined_boxplot_iter100.png')
 plt.show()
 
 # Grouped bar chart
@@ -93,7 +93,7 @@ ax.set_xticks(x)
 ax.set_xticklabels(num_tiles)
 ax.legend()
 if SAVE_FIG:
-    plt.savefig(f'images/timing_analysis_combined_bar_chart_iter100{EXTRA_DESCRIPTION}.png')
+    plt.savefig(f'output/{EXTRA_DESCRIPTION}/timing_analysis_combined_bar_chart_iter100.png')
 plt.show()
 
 # Pretty-printing the times
