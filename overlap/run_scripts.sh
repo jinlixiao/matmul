@@ -12,5 +12,7 @@ source /scratch/jx2076/miniconda3/bin/activate pytorch
 nvidia-smi topo -m
 
 # Now run your Python scripts
-python mlp_script.py
-python comm_script.py
+python script_mlp.py
+python script_comm.py
+
+nsys profile python tiled_mlp.py --num_tiles 24

@@ -8,7 +8,7 @@ EXCLUDE_ITERATIONS = 5  # Number of initial iterations to exclude
 SAVE_FIG = True         # Save the figure to a file
 OVERWRITE = True        # Overwrite existing files
 
-EXTRA_DESCRIPTION = "2gpu"
+EXTRA_DESCRIPTION = "4gpu"
 
 def extract_times(output):
     """Extracts time values from the command output."""
