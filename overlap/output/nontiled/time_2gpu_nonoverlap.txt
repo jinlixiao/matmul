@@ -1,0 +1,520 @@
+Running on 2 GPUs per node
+********** Iteration 0 **********
+Rank 0: Total time for matrix multiplications: 405.3236 milliseconds
+Rank 0: Total time for reduce_scatter: 495.2791 milliseconds
+Rank 0: Total time for all_gather: 20.9551 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 922.7252 milliseconds
+********** Iteration 1 **********
+Rank 0: Total time for matrix multiplications: 97.3896 milliseconds
+Rank 0: Total time for reduce_scatter: 21.2060 milliseconds
+Rank 0: Total time for all_gather: 20.9408 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 140.4262 milliseconds
+********** Iteration 2 **********
+Rank 0: Total time for matrix multiplications: 95.9969 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4948 milliseconds
+Rank 0: Total time for all_gather: 20.9255 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3141 milliseconds
+********** Iteration 3 **********
+Rank 0: Total time for matrix multiplications: 96.0164 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5255 milliseconds
+Rank 0: Total time for all_gather: 20.9388 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.9429 milliseconds
+********** Iteration 4 **********
+Rank 0: Total time for matrix multiplications: 95.9857 milliseconds
+Rank 0: Total time for reduce_scatter: 21.1026 milliseconds
+Rank 0: Total time for all_gather: 20.9828 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 138.9537 milliseconds
+********** Iteration 5 **********
+Rank 0: Total time for matrix multiplications: 95.9150 milliseconds
+Rank 0: Total time for reduce_scatter: 21.7212 milliseconds
+Rank 0: Total time for all_gather: 20.9592 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4893 milliseconds
+********** Iteration 6 **********
+Rank 0: Total time for matrix multiplications: 96.0532 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4886 milliseconds
+Rank 0: Total time for all_gather: 20.9623 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3705 milliseconds
+********** Iteration 7 **********
+Rank 0: Total time for matrix multiplications: 95.8822 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5480 milliseconds
+Rank 0: Total time for all_gather: 20.9388 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.2445 milliseconds
+********** Iteration 8 **********
+Rank 0: Total time for matrix multiplications: 95.9724 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4456 milliseconds
+Rank 0: Total time for all_gather: 20.9234 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.2138 milliseconds
+********** Iteration 9 **********
+Rank 0: Total time for matrix multiplications: 95.9201 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6095 milliseconds
+Rank 0: Total time for all_gather: 20.9316 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3439 milliseconds
+********** Iteration 10 **********
+Rank 0: Total time for matrix multiplications: 96.1034 milliseconds
+Rank 0: Total time for reduce_scatter: 21.2285 milliseconds
+Rank 0: Total time for all_gather: 20.9531 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.1565 milliseconds
+********** Iteration 11 **********
+Rank 0: Total time for matrix multiplications: 95.9785 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5173 milliseconds
+Rank 0: Total time for all_gather: 20.9439 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3449 milliseconds
+********** Iteration 12 **********
+Rank 0: Total time for matrix multiplications: 96.0573 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5828 milliseconds
+Rank 0: Total time for all_gather: 20.9541 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4668 milliseconds
+********** Iteration 13 **********
+Rank 0: Total time for matrix multiplications: 96.0573 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5470 milliseconds
+Rank 0: Total time for all_gather: 20.9500 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4381 milliseconds
+********** Iteration 14 **********
+Rank 0: Total time for matrix multiplications: 96.1730 milliseconds
+Rank 0: Total time for reduce_scatter: 21.7651 milliseconds
+Rank 0: Total time for all_gather: 20.9449 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.7668 milliseconds
+********** Iteration 15 **********
+Rank 0: Total time for matrix multiplications: 95.9754 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5009 milliseconds
+Rank 0: Total time for all_gather: 20.9736 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3356 milliseconds
+********** Iteration 16 **********
+Rank 0: Total time for matrix multiplications: 96.0430 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5296 milliseconds
+Rank 0: Total time for all_gather: 20.9203 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3664 milliseconds
+********** Iteration 17 **********
+Rank 0: Total time for matrix multiplications: 95.9724 milliseconds
+Rank 0: Total time for reduce_scatter: 21.7631 milliseconds
+Rank 0: Total time for all_gather: 20.9624 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5743 milliseconds
+********** Iteration 18 **********
+Rank 0: Total time for matrix multiplications: 96.0829 milliseconds
+Rank 0: Total time for reduce_scatter: 21.7928 milliseconds
+Rank 0: Total time for all_gather: 20.9408 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.6931 milliseconds
+********** Iteration 19 **********
+Rank 0: Total time for matrix multiplications: 96.0072 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6044 milliseconds
+Rank 0: Total time for all_gather: 20.9797 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5057 milliseconds
+********** Iteration 20 **********
+Rank 0: Total time for matrix multiplications: 96.0901 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5020 milliseconds
+Rank 0: Total time for all_gather: 20.9377 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3961 milliseconds
+********** Iteration 21 **********
+Rank 0: Total time for matrix multiplications: 95.8925 milliseconds
+Rank 0: Total time for reduce_scatter: 22.0897 milliseconds
+Rank 0: Total time for all_gather: 20.9439 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.8108 milliseconds
+********** Iteration 22 **********
+Rank 0: Total time for matrix multiplications: 96.1178 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5593 milliseconds
+Rank 0: Total time for all_gather: 20.9572 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5098 milliseconds
+********** Iteration 23 **********
+Rank 0: Total time for matrix multiplications: 95.9734 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5808 milliseconds
+Rank 0: Total time for all_gather: 20.9562 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3858 milliseconds
+********** Iteration 24 **********
+Rank 0: Total time for matrix multiplications: 96.1700 milliseconds
+Rank 0: Total time for reduce_scatter: 21.3586 milliseconds
+Rank 0: Total time for all_gather: 20.9162 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3183 milliseconds
+********** Iteration 25 **********
+Rank 0: Total time for matrix multiplications: 96.0727 milliseconds
+Rank 0: Total time for reduce_scatter: 21.8102 milliseconds
+Rank 0: Total time for all_gather: 20.9961 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.7596 milliseconds
+********** Iteration 26 **********
+Rank 0: Total time for matrix multiplications: 96.2642 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6791 milliseconds
+Rank 0: Total time for all_gather: 20.9357 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.7883 milliseconds
+********** Iteration 27 **********
+Rank 0: Total time for matrix multiplications: 96.0389 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5316 milliseconds
+Rank 0: Total time for all_gather: 20.9490 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3961 milliseconds
+********** Iteration 28 **********
+Rank 0: Total time for matrix multiplications: 96.1915 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6474 milliseconds
+Rank 0: Total time for all_gather: 20.9644 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.6685 milliseconds
+********** Iteration 29 **********
+Rank 0: Total time for matrix multiplications: 96.0184 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5204 milliseconds
+Rank 0: Total time for all_gather: 20.9551 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3623 milliseconds
+********** Iteration 30 **********
+Rank 0: Total time for matrix multiplications: 96.2345 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4303 milliseconds
+Rank 0: Total time for all_gather: 20.9541 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4780 milliseconds
+********** Iteration 31 **********
+Rank 0: Total time for matrix multiplications: 96.0625 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4477 milliseconds
+Rank 0: Total time for all_gather: 21.0002 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3848 milliseconds
+********** Iteration 32 **********
+Rank 0: Total time for matrix multiplications: 96.1833 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4169 milliseconds
+Rank 0: Total time for all_gather: 20.9459 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4084 milliseconds
+********** Iteration 33 **********
+Rank 0: Total time for matrix multiplications: 96.0369 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4303 milliseconds
+Rank 0: Total time for all_gather: 20.9357 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.2681 milliseconds
+********** Iteration 34 **********
+Rank 0: Total time for matrix multiplications: 96.0809 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4835 milliseconds
+Rank 0: Total time for all_gather: 20.9459 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3961 milliseconds
+********** Iteration 35 **********
+Rank 0: Total time for matrix multiplications: 96.0256 milliseconds
+Rank 0: Total time for reduce_scatter: 23.4230 milliseconds
+Rank 0: Total time for all_gather: 20.9715 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 141.2957 milliseconds
+********** Iteration 36 **********
+Rank 0: Total time for matrix multiplications: 96.1946 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5111 milliseconds
+Rank 0: Total time for all_gather: 20.9439 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5098 milliseconds
+********** Iteration 37 **********
+Rank 0: Total time for matrix multiplications: 96.0195 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5511 milliseconds
+Rank 0: Total time for all_gather: 20.9326 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3725 milliseconds
+********** Iteration 38 **********
+Rank 0: Total time for matrix multiplications: 96.1280 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6137 milliseconds
+Rank 0: Total time for all_gather: 20.9469 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5517 milliseconds
+********** Iteration 39 **********
+Rank 0: Total time for matrix multiplications: 96.1342 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6576 milliseconds
+Rank 0: Total time for all_gather: 20.9828 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.6367 milliseconds
+********** Iteration 40 **********
+Rank 0: Total time for matrix multiplications: 96.1628 milliseconds
+Rank 0: Total time for reduce_scatter: 21.3924 milliseconds
+Rank 0: Total time for all_gather: 21.0063 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4227 milliseconds
+********** Iteration 41 **********
+Rank 0: Total time for matrix multiplications: 96.0573 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6115 milliseconds
+Rank 0: Total time for all_gather: 20.9889 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5159 milliseconds
+********** Iteration 42 **********
+Rank 0: Total time for matrix multiplications: 96.1516 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6914 milliseconds
+Rank 0: Total time for all_gather: 20.9961 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.7545 milliseconds
+********** Iteration 43 **********
+Rank 0: Total time for matrix multiplications: 96.1106 milliseconds
+Rank 0: Total time for reduce_scatter: 21.3862 milliseconds
+Rank 0: Total time for all_gather: 21.0074 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3858 milliseconds
+********** Iteration 44 **********
+Rank 0: Total time for matrix multiplications: 96.1382 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5828 milliseconds
+Rank 0: Total time for all_gather: 21.0196 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.6091 milliseconds
+********** Iteration 45 **********
+Rank 0: Total time for matrix multiplications: 96.0195 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4468 milliseconds
+Rank 0: Total time for all_gather: 21.0442 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3777 milliseconds
+********** Iteration 46 **********
+Rank 0: Total time for matrix multiplications: 96.1218 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4037 milliseconds
+Rank 0: Total time for all_gather: 21.0115 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4022 milliseconds
+********** Iteration 47 **********
+Rank 0: Total time for matrix multiplications: 95.9990 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5378 milliseconds
+Rank 0: Total time for all_gather: 20.9951 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4043 milliseconds
+********** Iteration 48 **********
+Rank 0: Total time for matrix multiplications: 96.1781 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4077 milliseconds
+Rank 0: Total time for all_gather: 20.9449 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3869 milliseconds
+********** Iteration 49 **********
+Rank 0: Total time for matrix multiplications: 96.0563 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4354 milliseconds
+Rank 0: Total time for all_gather: 20.9377 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3849 milliseconds
+********** Iteration 50 **********
+Rank 0: Total time for matrix multiplications: 96.1464 milliseconds
+Rank 0: Total time for reduce_scatter: 21.7733 milliseconds
+Rank 0: Total time for all_gather: 20.9654 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.7750 milliseconds
+********** Iteration 51 **********
+Rank 0: Total time for matrix multiplications: 96.0808 milliseconds
+Rank 0: Total time for reduce_scatter: 21.3432 milliseconds
+Rank 0: Total time for all_gather: 20.9695 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.2568 milliseconds
+********** Iteration 52 **********
+Rank 0: Total time for matrix multiplications: 96.1239 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6013 milliseconds
+Rank 0: Total time for all_gather: 20.9500 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5354 milliseconds
+********** Iteration 53 **********
+Rank 0: Total time for matrix multiplications: 96.0635 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4671 milliseconds
+Rank 0: Total time for all_gather: 20.9469 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3357 milliseconds
+********** Iteration 54 **********
+Rank 0: Total time for matrix multiplications: 96.1997 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5716 milliseconds
+Rank 0: Total time for all_gather: 20.9469 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5835 milliseconds
+********** Iteration 55 **********
+Rank 0: Total time for matrix multiplications: 96.0174 milliseconds
+Rank 0: Total time for reduce_scatter: 21.7416 milliseconds
+Rank 0: Total time for all_gather: 20.9940 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.6245 milliseconds
+********** Iteration 56 **********
+Rank 0: Total time for matrix multiplications: 96.0645 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4313 milliseconds
+Rank 0: Total time for all_gather: 20.9910 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3459 milliseconds
+********** Iteration 57 **********
+Rank 0: Total time for matrix multiplications: 96.0778 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6023 milliseconds
+Rank 0: Total time for all_gather: 20.9859 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5241 milliseconds
+********** Iteration 58 **********
+Rank 0: Total time for matrix multiplications: 96.1188 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4743 milliseconds
+Rank 0: Total time for all_gather: 21.0248 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4657 milliseconds
+********** Iteration 59 **********
+Rank 0: Total time for matrix multiplications: 96.0225 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6177 milliseconds
+Rank 0: Total time for all_gather: 21.0063 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4995 milliseconds
+********** Iteration 60 **********
+Rank 0: Total time for matrix multiplications: 96.1597 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5275 milliseconds
+Rank 0: Total time for all_gather: 21.0125 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5559 milliseconds
+********** Iteration 61 **********
+Rank 0: Total time for matrix multiplications: 96.0614 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4671 milliseconds
+Rank 0: Total time for all_gather: 21.0125 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3992 milliseconds
+********** Iteration 62 **********
+Rank 0: Total time for matrix multiplications: 96.1443 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5009 milliseconds
+Rank 0: Total time for all_gather: 20.9971 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4985 milliseconds
+********** Iteration 63 **********
+Rank 0: Total time for matrix multiplications: 96.0553 milliseconds
+Rank 0: Total time for reduce_scatter: 21.7580 milliseconds
+Rank 0: Total time for all_gather: 21.0484 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.7238 milliseconds
+********** Iteration 64 **********
+Rank 0: Total time for matrix multiplications: 96.2079 milliseconds
+Rank 0: Total time for reduce_scatter: 21.3760 milliseconds
+Rank 0: Total time for all_gather: 21.0391 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4729 milliseconds
+********** Iteration 65 **********
+Rank 0: Total time for matrix multiplications: 95.9846 milliseconds
+Rank 0: Total time for reduce_scatter: 21.3524 milliseconds
+Rank 0: Total time for all_gather: 21.0586 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.2640 milliseconds
+********** Iteration 66 **********
+Rank 0: Total time for matrix multiplications: 96.2550 milliseconds
+Rank 0: Total time for reduce_scatter: 21.1907 milliseconds
+Rank 0: Total time for all_gather: 21.0278 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3214 milliseconds
+********** Iteration 67 **********
+Rank 0: Total time for matrix multiplications: 96.0440 milliseconds
+Rank 0: Total time for reduce_scatter: 21.3944 milliseconds
+Rank 0: Total time for all_gather: 21.0657 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3562 milliseconds
+********** Iteration 68 **********
+Rank 0: Total time for matrix multiplications: 96.1106 milliseconds
+Rank 0: Total time for reduce_scatter: 21.3054 milliseconds
+Rank 0: Total time for all_gather: 20.9859 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3490 milliseconds
+********** Iteration 69 **********
+Rank 0: Total time for matrix multiplications: 95.9590 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5378 milliseconds
+Rank 0: Total time for all_gather: 21.0565 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4330 milliseconds
+********** Iteration 70 **********
+Rank 0: Total time for matrix multiplications: 96.1516 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4958 milliseconds
+Rank 0: Total time for all_gather: 21.0504 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5610 milliseconds
+********** Iteration 71 **********
+Rank 0: Total time for matrix multiplications: 95.9724 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4477 milliseconds
+Rank 0: Total time for all_gather: 21.0371 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3091 milliseconds
+********** Iteration 72 **********
+Rank 0: Total time for matrix multiplications: 96.0758 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4467 milliseconds
+Rank 0: Total time for all_gather: 21.0248 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3929 milliseconds
+********** Iteration 73 **********
+Rank 0: Total time for matrix multiplications: 96.0102 milliseconds
+Rank 0: Total time for reduce_scatter: 21.3596 milliseconds
+Rank 0: Total time for all_gather: 21.0258 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.2568 milliseconds
+********** Iteration 74 **********
+Rank 0: Total time for matrix multiplications: 96.1178 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6658 milliseconds
+Rank 0: Total time for all_gather: 21.0442 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.6808 milliseconds
+********** Iteration 75 **********
+Rank 0: Total time for matrix multiplications: 96.0840 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5532 milliseconds
+Rank 0: Total time for all_gather: 21.0606 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5671 milliseconds
+********** Iteration 76 **********
+Rank 0: Total time for matrix multiplications: 96.0512 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4497 milliseconds
+Rank 0: Total time for all_gather: 21.0524 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4033 milliseconds
+********** Iteration 77 **********
+Rank 0: Total time for matrix multiplications: 96.0420 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4579 milliseconds
+Rank 0: Total time for all_gather: 21.0791 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4176 milliseconds
+********** Iteration 78 **********
+Rank 0: Total time for matrix multiplications: 96.1065 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6782 milliseconds
+Rank 0: Total time for all_gather: 21.0452 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.7012 milliseconds
+********** Iteration 79 **********
+Rank 0: Total time for matrix multiplications: 95.9304 milliseconds
+Rank 0: Total time for reduce_scatter: 21.9750 milliseconds
+Rank 0: Total time for all_gather: 21.0852 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.8456 milliseconds
+********** Iteration 80 **********
+Rank 0: Total time for matrix multiplications: 96.1260 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5839 milliseconds
+Rank 0: Total time for all_gather: 21.0278 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5866 milliseconds
+********** Iteration 81 **********
+Rank 0: Total time for matrix multiplications: 96.0369 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4968 milliseconds
+Rank 0: Total time for all_gather: 21.0340 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4237 milliseconds
+********** Iteration 82 **********
+Rank 0: Total time for matrix multiplications: 96.1587 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4784 milliseconds
+Rank 0: Total time for all_gather: 21.0360 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5220 milliseconds
+********** Iteration 83 **********
+Rank 0: Total time for matrix multiplications: 95.9539 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6187 milliseconds
+Rank 0: Total time for all_gather: 21.0606 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4801 milliseconds
+********** Iteration 84 **********
+Rank 0: Total time for matrix multiplications: 96.2048 milliseconds
+Rank 0: Total time for reduce_scatter: 21.7313 milliseconds
+Rank 0: Total time for all_gather: 21.0207 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.8036 milliseconds
+********** Iteration 85 **********
+Rank 0: Total time for matrix multiplications: 96.0276 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5388 milliseconds
+Rank 0: Total time for all_gather: 21.0575 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4740 milliseconds
+********** Iteration 86 **********
+Rank 0: Total time for matrix multiplications: 96.1833 milliseconds
+Rank 0: Total time for reduce_scatter: 21.3729 milliseconds
+Rank 0: Total time for all_gather: 21.0391 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4534 milliseconds
+********** Iteration 87 **********
+Rank 0: Total time for matrix multiplications: 95.9037 milliseconds
+Rank 0: Total time for reduce_scatter: 21.8388 milliseconds
+Rank 0: Total time for all_gather: 21.0412 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.6715 milliseconds
+********** Iteration 88 **********
+Rank 0: Total time for matrix multiplications: 96.1106 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5398 milliseconds
+Rank 0: Total time for all_gather: 21.0176 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5220 milliseconds
+********** Iteration 89 **********
+Rank 0: Total time for matrix multiplications: 95.8945 milliseconds
+Rank 0: Total time for reduce_scatter: 21.7160 milliseconds
+Rank 0: Total time for all_gather: 21.0381 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5149 milliseconds
+********** Iteration 90 **********
+Rank 0: Total time for matrix multiplications: 95.9601 milliseconds
+Rank 0: Total time for reduce_scatter: 21.7139 milliseconds
+Rank 0: Total time for all_gather: 21.0504 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5835 milliseconds
+********** Iteration 91 **********
+Rank 0: Total time for matrix multiplications: 95.9406 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5245 milliseconds
+Rank 0: Total time for all_gather: 21.0534 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3685 milliseconds
+********** Iteration 92 **********
+Rank 0: Total time for matrix multiplications: 96.0042 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6095 milliseconds
+Rank 0: Total time for all_gather: 21.0637 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5200 milliseconds
+********** Iteration 93 **********
+Rank 0: Total time for matrix multiplications: 95.9089 milliseconds
+Rank 0: Total time for reduce_scatter: 21.8778 milliseconds
+Rank 0: Total time for all_gather: 21.0616 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.6951 milliseconds
+********** Iteration 94 **********
+Rank 0: Total time for matrix multiplications: 96.0707 milliseconds
+Rank 0: Total time for reduce_scatter: 21.7231 milliseconds
+Rank 0: Total time for all_gather: 21.0289 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.6695 milliseconds
+********** Iteration 95 **********
+Rank 0: Total time for matrix multiplications: 96.0604 milliseconds
+Rank 0: Total time for reduce_scatter: 21.4374 milliseconds
+Rank 0: Total time for all_gather: 20.9469 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3111 milliseconds
+********** Iteration 96 **********
+Rank 0: Total time for matrix multiplications: 96.0471 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5562 milliseconds
+Rank 0: Total time for all_gather: 20.9377 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4166 milliseconds
+********** Iteration 97 **********
+Rank 0: Total time for matrix multiplications: 95.9396 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5132 milliseconds
+Rank 0: Total time for all_gather: 20.9428 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.2497 milliseconds
+********** Iteration 98 **********
+Rank 0: Total time for matrix multiplications: 96.0430 milliseconds
+Rank 0: Total time for reduce_scatter: 21.7242 milliseconds
+Rank 0: Total time for all_gather: 20.9551 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.5744 milliseconds
+********** Iteration 99 **********
+Rank 0: Total time for matrix multiplications: 96.0122 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5910 milliseconds
+Rank 0: Total time for all_gather: 20.9398 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4074 milliseconds
+********** Iteration 100 **********
+Rank 0: Total time for matrix multiplications: 96.0317 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6443 milliseconds
+Rank 0: Total time for all_gather: 20.9551 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.4769 milliseconds
+********** Iteration 101 **********
+Rank 0: Total time for matrix multiplications: 95.9201 milliseconds
+Rank 0: Total time for reduce_scatter: 21.6084 milliseconds
+Rank 0: Total time for all_gather: 20.9572 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3418 milliseconds
+********** Iteration 102 **********
+Rank 0: Total time for matrix multiplications: 96.0952 milliseconds
+Rank 0: Total time for reduce_scatter: 21.5050 milliseconds
+Rank 0: Total time for all_gather: 20.9418 milliseconds
+Rank 0: Time for nontiled matrix multiplication: 139.3920 milliseconds
+
+********** Statistics **********
+Average time for tiled matrix multiplication: 139.4946 milliseconds
+Median time for tiled matrix multiplication: 139.4657 milliseconds
