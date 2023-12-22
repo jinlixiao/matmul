@@ -7,6 +7,8 @@ import numpy as np
 EXCLUDE_ITERATIONS = 5  # Number of initial iterations to exclude
 SAVE_FIG = True         # Save the figure to a file
 OVERWRITE = True        # Overwrite existing files
+NUM_ITER = 100          # Number of iterations to run
+MODEL_NAME = "NonOverlapTiledAllreduceMLP"
 
 EXTRA_DESCRIPTION = "4gpu_nonoverlap"
 
@@ -46,7 +48,7 @@ for num_tile in [1, 2, 3, 4, 6, 8, 12, 24]:
     else:
         print(f"Running for tile size {num_tile}")
         # Run the command and capture its output
-        command = f"python tiled_comm.py --num_tiles {num_tile} --num_iter 100"
+        command = f"python tiled_comm.py --num_tiles {num_tile} --num_iter {NUM_ITER} --model_name {MODEL_NAME}"
         process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, text=True)
         stdout, stderr = process.communicate()
 

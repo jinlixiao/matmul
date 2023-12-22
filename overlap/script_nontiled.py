@@ -7,6 +7,8 @@ import numpy as np
 EXCLUDE_ITERATIONS = 5  # Number of initial iterations to exclude
 SAVE_FIG = True         # Save the figure to a file
 OVERWRITE = True        # Overwrite existing files
+NUM_ITER = 100          # Number of iterations to run
+MODEL_NAME = "NonOverlapNontiledMLP"
 
 EXTRA_DESCRIPTION = "2gpu_nonoverlap"
 
@@ -47,7 +49,7 @@ if not OVERWRITE and os.path.exists(file_path):
 else:
     print(f"Running for {EXTRA_DESCRIPTION}")
     # Run the command and capture its output
-    command = f"python nontiled_mlp.py --num_iter 100"
+    command = f"python tiled_mlp.py --num_iter {NUM_ITER} --model_name {MODEL_NAME}"
     process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, text=True)
     stdout, stderr = process.communicate()
 

@@ -197,7 +197,7 @@ class OverlapTiledAllGatherMLP(nn.Module):
         return x, duration
     
 @register_model
-class NonoverlapNontiledMLP(nn.Module):
+class NonOverlapNontiledMLP(nn.Module):
     """
     Non-overlapped version of the two-layer MLP model.
 
@@ -205,7 +205,7 @@ class NonoverlapNontiledMLP(nn.Module):
     """
 
     def __init__(self, input_size, hidden_size):
-        super(NonoverlapNontiledMLP, self).__init__()
+        super(NonOverlapNontiledMLP, self).__init__()
         self.fc1_weight = nn.Parameter(torch.randn(hidden_size, input_size))
         self.fc1_bias = nn.Parameter(torch.randn(hidden_size))
         self.fc2_weight = nn.Parameter(torch.randn(input_size, hidden_size))
