@@ -264,3 +264,44 @@ class NonOverlapNontiledMLP(nn.Module):
         utils.print_rank_0(f"Rank {dist.get_rank()}: Total time for reduce_scatter: {reduce_scatter_duration:.04f} milliseconds")
         utils.print_rank_0(f"Rank {dist.get_rank()}: Total time for all_gather: {all_gather_duration:.04f} milliseconds")
         return output
+
+
+@register_model
+class OverlapNontiledMLP(nn.Module):
+    """
+    Overlapped version of the two-layer MLP model.
+
+    GEMM + ReLU + GEMM + Reduce-scatter + All-gather
+
+    The second GEMM overlaps with Reduce-scatter
+    """
+
+    def __init__(self, input_size, hidden_size):
+        super(OverlapNontiledMLP, self).__init__()
+        self.fc1_weight = nn.Parameter(torch.randn(hidden_size, input_size))
+        self.fc1_bias = nn.Parameter(torch.randn(hidden_size))
+        self.fc2_weight = nn.Parameter(torch.randn(input_size, hidden_size))
+        self.fc2_bias = nn.Parameter(torch.randn(input_size))
+
+    def forward(self, x):
+        world_size = dist.get_world_size()
+
+        # First GEMM
+        x = torch.matmul(x, self.fc1_weight.t()) + self.fc1_bias
+        x = F.relu(x)
+
+        # Second GEMM
+        x = torch.matmul(x, self.fc2_weight.t()) + self.fc2_bias
+
+        # Reduce Scatter
+        split_size = x.size(1) // world_size
+        assert x.size(1) % world_size == 0
+        outputs_split = [tensor.contiguous() for tensor in torch.split(x, split_size, dim=1)]
+        scatter_output = torch.zeros_like(outputs_split[dist.get_rank()])
+        dist.reduce_scatter(scatter_output, outputs_split, group=utils.get_model_parallel_group())
+
+        # All Gather
+        gather_list = [torch.zeros_like(scatter_output) for _ in range(world_size)]
+        dist.all_gather(gather_list, scatter_output, group=utils.get_model_parallel_group())
+        output = torch.cat(gather_list, dim=1)
+        return output
