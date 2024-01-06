@@ -296,8 +296,8 @@ class OverlapNontiledMLP(nn.Module):
         assert self.fc2_weight.size(0) % world_size == 0
         B_chunks = torch.chunk(self.fc2_weight, world_size, dim=0)
 
-        send_result = torch.zeros(x.size(0), x.size(1), split_size).to(rank)
-        recv_result = torch.zeros(x.size(0), x.size(1), split_size).to(rank)
+        send_result = torch.zeros(x.size(0), x.size(1), split_size, device=rank)
+        recv_result = torch.zeros(x.size(0), x.size(1), split_size, device=rank)
 
         # Overlapping second GEMM with ReduceScatter
         for i in range(world_size):
@@ -310,12 +310,12 @@ class OverlapNontiledMLP(nn.Module):
             recv_op = dist.P2POp(dist.irecv, recv_result, recv_rank)
             reqs = dist.batch_isend_irecv([send_op, recv_op])
 
-            for req in reqs:
-                req.wait()
-
             # Compute A * Bi
             chunk_index = (rank + i + 1) % world_size
             chunk_result = torch.matmul(x, B_chunks[chunk_index].t())
+
+            for req in reqs:
+                req.wait()
             send_result = recv_result + chunk_result
 
         # All Gather
