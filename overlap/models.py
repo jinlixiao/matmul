@@ -285,23 +285,41 @@ class OverlapNontiledMLP(nn.Module):
 
     def forward(self, x):
         world_size = dist.get_world_size()
+        rank = dist.get_rank()
 
         # First GEMM
         x = torch.matmul(x, self.fc1_weight.t()) + self.fc1_bias
         x = F.relu(x)
 
-        # Second GEMM
-        x = torch.matmul(x, self.fc2_weight.t()) + self.fc2_bias
+        # Prepare for second GEMM with overlap
+        split_size = self.fc2_weight.size(0) // world_size
+        assert self.fc2_weight.size(0) % world_size == 0
+        B_chunks = torch.chunk(self.fc2_weight, world_size, dim=0)
 
-        # Reduce Scatter
-        split_size = x.size(1) // world_size
-        assert x.size(1) % world_size == 0
-        outputs_split = [tensor.contiguous() for tensor in torch.split(x, split_size, dim=1)]
-        scatter_output = torch.zeros_like(outputs_split[dist.get_rank()])
-        dist.reduce_scatter(scatter_output, outputs_split, group=utils.get_model_parallel_group())
+        send_result = torch.zeros(x.size(0), x.size(1), split_size).to(rank)
+        recv_result = torch.zeros(x.size(0), x.size(1), split_size).to(rank)
+
+        # Overlapping second GEMM with ReduceScatter
+        for i in range(world_size):
+
+            # Non-blocking send and receive
+            send_rank = (rank - 1 + world_size) % world_size
+            recv_rank = (rank + 1) % world_size
+
+            send_op = dist.P2POp(dist.isend, send_result, send_rank)
+            recv_op = dist.P2POp(dist.irecv, recv_result, recv_rank)
+            reqs = dist.batch_isend_irecv([send_op, recv_op])
+
+            for req in reqs:
+                req.wait()
+
+            # Compute A * Bi
+            chunk_index = (rank + i + 1) % world_size
+            chunk_result = torch.matmul(x, B_chunks[chunk_index].t())
+            send_result = recv_result + chunk_result
 
         # All Gather
-        gather_list = [torch.zeros_like(scatter_output) for _ in range(world_size)]
-        dist.all_gather(gather_list, scatter_output, group=utils.get_model_parallel_group())
-        output = torch.cat(gather_list, dim=1)
+        gather_list = [torch.zeros_like(send_result) for _ in range(world_size)]
+        dist.all_gather(gather_list, send_result, group=utils.get_model_parallel_group())
+        output = torch.cat(gather_list, dim=2)
         return output
